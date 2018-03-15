@@ -1,0 +1,75 @@
+{
+    "steps":{
+        "first":"1 Signing an agreement",
+        "second":"2 Submission of information",
+        "third":"3 Checking in",
+        "agreement":"I have read and agree to the agreement",
+        "next":"Next"
+    },
+    "business":{
+        "title":"Business Information",
+        "tips":"The business information is displayed on the page for the students to read the information, please fill in carefully.",
+        "name":"Brand Name",
+        "introduce":"Introduction in a word",
+        "logo":"logo",
+        "logo_tips":"The size is 134 * 134",
+        "category":"Main class",
+        "intro":"Introduction",
+        "rules":["Please fill in the brand name","Brand name need to be within 20 letters","Please fill in the introduction","Please upload the logo image","Please choose the main class","Please fill in the agency introduction"]
+    },
+    "institution":{
+        "title":"Agency information",
+        "tips":"The agency information is for the platform to audit your qualifications authenticity, please fill in truthfully",
+        "name":"Agrncy name",
+        "name_tips":"注：公司名称必须与营业执照上的名称一致",
+        "nature":"机构性质",
+        "nature_options":["我有营业执照","我没有营业执照"],
+        "country":"country",
+        "license":"营业执照",
+        "license_tips":"请上传营业执照副本扫描件，保证各项内容清晰可见，且申请时间在有限期范围内 ",
+        "code":"统一社会信用代码",
+        "certificate":"教育资质证书",
+        "certificate_tips":"请上传营业执照副本扫描件，保证各项内容清晰可见，且申请时间在有限期范围内",
+        "certificate_id":"教育资质证书编号",
+        "rules":["Please fill in the agency name","机构名称需在50字以内","请选择机构性质","请上传营业执照","请输入统一信用代码","请上传教育资质证书","请输入教育资质证书编号","Please selete your country"]
+    },
+    "proposer":{
+        "title":"Applicant information",
+        "name":"Full name",
+        "name_tips":"注：公司名称必须与营业执照上的名称一致",
+        "idcard_front":"身份证正面照",
+        "idcard_contrary":"身份证背面照",
+        "front_tips":"请保证身份证姓名，身份证号码清晰可见",
+        "contrary_tips":"请保证签发机关、有效期限清晰可见",
+        "mobile":"Phone-number",
+        "mobile_modify":"Modify your phone-number",
+        "email_modify":"Modify your email",
+        "send_code":"send verification code",
+        "send_time":"{time}seconds re-sent",
+        "email":"email",
+        "email_tips":"Verification code has been sent to your mailbox.Please check it.",
+        "promise":"承诺书",
+        "promise_tips":"请填写完本页信息后，点击下载 <a href='//17dayup-protocol.bj.bcebos.com/机构入驻承诺书.doc'>承诺书</a>，上传加盖公章的扫描件",
+        "rules":["Please fill in your full name","请上传身份证正面照","请上传身份证背面照","请填写手机号","Please fill in the verification code","Please fill in the email","请上传承诺书图片"]
+    },
+    "btn":{
+        "submit":"Submit"
+    },
+    "placeholder":{
+        "business_name":"The name displayed for the students within 20 letters",
+        "business_introduce":"Introduce your strengths and features in 100 letters",
+        "business_category":"please choose",
+        "business_intro":"Please fill in the introduction with in 200 letters",
+        "institute_name":"Please fill in the introduction within 80 letters",
+        "institute_category":"Please choose your country",
+        "proposer_mobile":"Please choose your phone-number",
+        "proposer_code":"Please fill in the verification code",
+        "proposer_email":"Please fill in the email",
+        "proposer_email_code":"Please fill in the email verification code"
+    },
+    "rules":{
+        "code_error":"Verification code",
+        "mobile_error":"please verify phone-number firstly",
+        "email_error":"please verify email firstly"
+    }
+}

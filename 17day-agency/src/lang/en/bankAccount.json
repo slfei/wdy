@@ -1,0 +1,35 @@
+{
+"alreadyRead":"I have read and agree to this agreement.",
+"steps":["1 Fill in the agreement","2 Fill in the Account Info","3 Account review"],
+"prev":"Back",
+"next":"Next",
+"promiseImg":"Bank Account Opening Permit",
+"promiseTip":"Public accounts need to upload a scanned copy of the bank account",
+"accountName":"Account Name",
+"accountName_PH":"Please fill in the red box in the Bank Account Opening Permit strictly",
+"bank":"Bank",
+"bank_PH":"Choose the bank",
+"openingBank":"Opening Bank",
+"province":"Province",
+"city":"City",
+"outlet":"Banking Outlet",
+"outlet_PH":"E.g. Huangzhuang Subranch, Beijing Branch, China Merchants Bank",
+"outletTip":"Please fill as per the bank information in the Bank Account Opening Permit strictly ",
+"bankAccount":"Bank account number",
+"bankAccount_PH":"Fill in the bank account number",
+"submit":"Submit",
+"submitTip":"Note: The account name of public bank account need to be consistent with that in the business license",
+"status":["We have received your account application, and will review it within 1-2 working days. Please be patient. ","Sorry, your account review fails to pass for the following reason:"],
+"backToCourse":"Back to Home",
+"backToModify":"Back to the previous step to modify.",
+"error":["Upload a copy of the account opening certificate","Fill in the account name","Choose the bank","Choose the opening bank","Fill in the bank account number","Fill in the correct bank outlet","Enter the correct bank account"],
+"pleaseConfirm":"Confirm",
+
+"download":"Click to download",
+"letter":"Letter of Commitment",
+"letterTip":[", Upload the autographed scanned copy","Supports JPG, GIF, PNG, or BMP  images"],
+"letterExample":"Sample for Letter of Commitment",
+"letterWA":"Please upload an image of Letter of Commitment"
+
+}
+

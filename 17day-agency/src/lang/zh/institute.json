@@ -1,0 +1,76 @@
+{
+    "steps":{
+        "first":"1 签订入驻协议",
+        "second":"2 提交资料",
+        "third":"3 入驻审核",
+        "agreement":"我已阅读并同意此协议",
+        "next":"下一步"
+    },
+    "business":{
+        "title":"经营信息",
+        "tips":"经营信息是展示在页面上给学员看的信息，请认真填写",
+        "name":"经营名称",
+        "introduce":"一句话介绍",
+        "logo":"logo",
+        "logo_tips":"尺寸大小为134 × 134",
+        "category":"主营类目",
+        "intro":"简介",
+        "rules":["请输入经营名称","经营名称需在20字以内","请输入介绍文字","请上传 logo 图片","请选择主营类目","请输入机构简介"]
+    },
+    "institution":{
+        "title":"机构信息",
+        "tips":"机构信息是用于平台审核您的资质真实性，请如实填写",
+        "name":"机构公司名称",
+        "name_tips":"注：公司名称必须与营业执照上的名称一致",
+        "nature":"机构性质",
+        "nature_options":["我有营业执照","我没有营业执照"],
+        "country":"国家",
+        "license":"营业执照",
+        "license_tips":"请上传营业执照副本扫描件，保证各项内容清晰可见，且申请时间在有限期范围内 ",
+        "code":"统一社会信用代码",
+        "certificate":"教育资质证书",
+        "certificate_tips":"请上传营业执照副本扫描件，保证各项内容清晰可见，且申请时间在有限期范围内",
+        "certificate_id":"教育资质证书编号",
+        "rules":["请输入机构名称","机构名称需在50字以内","请选择机构性质","请上传营业执照","请输入统一信用代码","请上传教育资质证书","请输入教育资质证书编号","请选择国家"]
+    },
+    "proposer":{
+        "title":"申请人信息",
+        "name":"申请人",
+        "name_tips":"注：公司名称必须与营业执照上的名称一致",
+        "idcard_front":"身份证正面照",
+        "idcard_contrary":"身份证背面照",
+        "front_tips":"请保证身份证姓名，身份证号码清晰可见",
+        "contrary_tips":"请保证签发机关、有效期限清晰可见",
+        "mobile":"手机号",
+        "mobile_modify":"修改手机",
+        "email_modify":"修改邮箱",
+        "send_code":"发送验证码",
+        "send_time":"{time}秒后重发",
+        "email":"邮箱",
+        "email_tips":"验证码已发送到您的邮箱，请查收",
+        "promise":"承诺书",
+        "promise_tips":"请填写完本页信息后，点击下载 <a href='//17dayup-protocol.bj.bcebos.com/机构入驻承诺书.doc'>承诺书</a>，上传加盖公章的扫描件",
+        "rules":["请输入申请人姓名","请上传身份证正面照","请上传身份证背面照","请填写手机号","请输入验证码","请填写邮箱","请上传承诺书图片"]
+    },
+    "btn":{
+        "submit":"提交资料"
+    },
+    "placeholder":{
+        "business_name":"用于平台上展示的名称，20字以内",
+        "business_introduce":"一句话介绍你的优势、特色，100字以内",
+        "business_category":"请选择",
+        "business_intro":"请填写简介，200字以内",
+        "institute_name":"请填写机构公司名称，50字以内",
+        "institute_category":"请选择国家",
+        "proposer_mobile":"请填写手机号码",
+        "proposer_code":"请填写验证码",
+        "proposer_email":"请填写邮箱",
+        "proposer_email_code":"请填写邮箱验证码"
+
+    },
+    "rules":{
+        "code_error":"验证码错误",
+        "mobile_error":"请先验证手机号",
+        "email_error":"请先验证邮箱"
+    }
+}

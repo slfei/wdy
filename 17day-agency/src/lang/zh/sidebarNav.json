@@ -1,0 +1,42 @@
+{
+    "teachingManagement": {
+        "content": {
+            "title": "内容管理",
+            "field": {
+                "courseManage": "课程管理",
+                "videoManage": "视频管理",
+                "dataManage": "资料管理"
+            }
+        },
+        "teach": {
+            "title": "教学辅助",
+            "field": {
+                "liveList": "周直播列表",
+                "evaluationManage": "评价管理"
+            }
+        }
+    },
+    "finacial": {
+        "field": {
+            "orderCheck": "订单查询",
+            "finacialManage": "资金管理",
+            "refundManage": "退款管理"
+        }
+    },
+    "accountManagement": {
+        "account": {
+            "title": "账户管理",
+            "field": {
+                "dataModify": "资料修改",
+                "memberManage": "成员管理",
+                "permissionsManage": "成员权限设置"
+            }
+        },
+        "personalInformation": {
+            "title": "个人信息",
+            "field": {
+                "personnaInfo": "个人信息"
+            }
+        }
+    }
+}

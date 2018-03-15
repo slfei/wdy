@@ -1,0 +1,186 @@
+.mask
+    display none
+    position fixed
+    top 0
+    bottom 0
+    left 0
+    right 0
+    z-index 9999
+    background-color rgba(0,0,0,0.6)
+    .dialog
+        width 400px
+        height 150px
+        background #fff
+        position absolute
+        left 50%
+        top 50%
+        margin-left -200px
+        margin-top -75px
+        .dialog_bd
+            padding 20px
+            text-align center
+            font-size 18px
+            height 100px
+            line-height 1.5
+        .dialog_ft
+            display flex
+            height 50px
+            button
+                flex 1
+                color #268fff
+                outline none
+                background rgba(0,0,0,0.06)
+                border-left 1px solid #D5D5D6
+                border-top 1px solid #D5D5D6
+                -webkit-appearance none
+.buyertrade_area
+    width 100%
+    height 590px
+    background #fff
+    .buyertrade_main
+        width 1180px
+        margin 0 auto
+        .buyertrade_title
+            padding 30px 0
+            margin-left 30px
+            color #333
+            font-size 18px
+        .buyertrade_info
+            width 100%
+            table
+                 width 100%
+                 thead
+                    background #f5f5f5
+                    height 60px
+                    tr
+                        th
+                            font-size 16px
+                            height 60px
+                            text-align center
+                            color #333
+                 tbody
+                    tr
+                        td
+                            font-size 14px
+                            color #333
+                            text-align center
+                            input
+                                float left
+                                width 110px
+                                padding-left 10px
+                                border none 
+                                height 28px
+                            .coupon_area
+                                height 30px
+                                width 140px
+                                border 1px solid #999
+                                margin 0 auto
+                                position relative
+                                cursor pointer
+                                .ion-android-arrow-dropup
+                                    font-size 20px
+                                    transform rotate(-180deg)
+                                    float left
+                                    margin-left 8px
+                                    transition all 0.5s
+                                .active
+                                    transform rotate(0deg)
+                                .select_coupon
+                                    left -1px
+                                    position absolute
+                                    top 28px
+                                    width 140px
+                                    background #fff
+                                    max-height 80px
+                                    overflow scroll
+                                    overflow-x hidden
+                                    border 1px solid #999
+                                    display none
+                                    .selected_active
+                                        background #268fff
+                                        color #ffffff
+                                    li
+                                        padding-left 10px
+                                        text-align left
+                                        height 26px
+                                        line-height 26px
+                                        display block
+                                        overflow hidden
+                                        text-overflow ellipsis
+                                        white-space nowrap
+                                        &:hover
+                                            background #268fff
+                                            color #fff
+                            .left
+                                padding 30px 0
+                                float left
+                                margin-left 30px
+                                width 160px
+                                height 150px
+                                line-height 90px
+                                img
+                                   max-width 160px
+                                   max-height 90px
+                            .right
+                                color #333
+                                font-size 14px
+                                text-align left
+                                margin-left 15px
+                                flex 1
+                                display flex
+                                align-items center
+                                height 150px
+                        .flex
+                            display flex
+                 tfoot
+                    background #f5f5f5
+                    tr
+                        td
+                            height 100px
+                            .total
+                                width 100%
+                                height 100px
+                                color #333
+                                .left
+                                    font-size 14px
+                                    height 100px
+                                    line-height 100px
+                                    .price
+                                        font-size 18px
+                                        color #ff0101
+                                        font-weight bold
+                                .right
+                                    text-align right
+                                    height 100px
+                                    font-size 14px
+                                    margin 0 30px
+                                    span
+                                        text-align right
+                                        display inline-block
+                                        height 14px
+                                    .now_price
+                                        margin-top 29px
+                                        padding-left 14px
+                                    .reduce_price
+                                        margin-top 5px
+                                .butn
+                                    margin-right 30px
+                                    padding 0
+                                    height 100px
+                                    line-height 100px
+                                    button
+                                        height 40px
+                                        width 100px
+                                        color #ffffff
+                                        text-align center
+                                        background #268fff
+                                        border none
+                                        border-radius 4px
+                                        -webkit-appearance none
+                                        outline none
+                                    .disable
+                                        background #ccc
+                                .left,.right,.butn
+                                    float right
+                               
+

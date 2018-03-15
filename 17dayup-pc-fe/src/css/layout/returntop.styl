@@ -1,0 +1,71 @@
+.returnTop
+    position fixed
+    right 40px
+    bottom 50px
+    width 40px
+    z-index 10
+    ul
+        width 100%
+        li
+            background-color #eee !important
+            height 40px
+            width 100%
+            position relative
+            border-radius 4px
+        .return_consulting
+            height 40px
+            background url('/build/img/returntop/consulting.png') no-repeat
+            background-position center
+            &:hover
+                background url('/build/img/returntop/consultingactive.png') no-repeat
+                background-position center
+                background-color $color_primary !important
+                border-radius 4px
+                cursor pointer
+            a
+                display block
+                width 100%
+                height 100%
+        .return_sweep
+            width 40px
+            height 40px
+            background url('/build/img/returntop/sweep.png') no-repeat
+            background-position center
+            cursor pointer
+            .return_sweep_code
+                display none
+                width 100px
+                padding 10px
+                position absolute
+                left -120px
+                top -66px
+                background-color #fff
+                text-align center
+                box-shadow 0 0 15px 0 rgba(0,0,0,0.1)
+                border-radius 4px
+                .return_sweep_text
+                    display block
+                    width 100%
+                    margin-top 10px
+                .return_sweep_text ~ .return_sweep_text
+                    margin-top 1px
+            &:hover
+                background url('/build/img/returntop/sweepactive.png') no-repeat
+                background-position center
+                border-radius 4px
+                background-color $color_primary !important
+                .return_sweep_code
+                    display block
+        .return_top
+            display none
+            cursor pointer
+            background url('/build/img/returntop/top.png') no-repeat
+            background-position center
+            &:hover
+                background url('/build/img/returntop/topactive.png') no-repeat
+                background-position center
+                background-color $color_primary !important
+                border-radius 4px
+                cursor pointer
+        li ~ li
+            margin-top 5px

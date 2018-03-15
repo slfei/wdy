@@ -1,0 +1,98 @@
+@import "./header_search.styl"
+
+
+.navbar
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05)
+
+    .navbar-text
+        background: #ffffff
+        text-align: center
+        font-size: 18px
+        color #333
+
+        .nav-title
+            height: 50px
+            line-height: 50px
+
+        .nav-icon-left
+            line-height: 50px
+            margin-left: 0
+            .go-back
+                background url('/static/img/icon/back.png')
+                width 10px
+                height 17px
+                background-size 10px 17px
+
+        .nav-icon-right
+            line-height: 50px
+            height: 50px
+            width: 40px    
+
+            font-size: 14px
+            text-align: left
+    .weui-search-bar
+        .go-back
+                background url('/static/img/icon/back.png') center no-repeat
+                width 10px
+                height 34px
+                background-size 10px 17px
+                
+.weui-search-bar
+    height 100%
+
+.weui-search-bar__box,
+.weui-search-bar__box .weui-icon-search,
+.weui-search-bar__box .weui-icon-clear,
+.weui-search-bar__cancel-btn
+    height: 30px
+    line-height: 30px
+
+.weui-search-bar__box .weui-search-bar__input
+    padding: 0
+    height: 30px
+    line-height: 30px
+
+.weui-search-bar__box
+    border-radius: 5px
+
+.weui-search-bar__box,
+.weui-search-bar__label
+    line-height: 26px  
+    background: #f5f5f5  
+
+.weui-search-bar, 
+.weui-search-bar__form
+    background: #fff
+
+.weui-search-bar__form
+    height: 30px
+    margin-top: 2px
+
+.weui-search-bar__label span
+    font-size: 12px
+
+
+.fixed-header
+    position: fixed
+    height 50px
+    top: 0
+    width: 100%
+    z-index 100
+
+.navbar 
+    // padding: 10px
+    height 50px
+    
+    input
+        width: 100%
+        height 30px
+        text-align: center
+
+    .nav-icon-left
+        width: 40px
+        text-align: center
+        margin-left: -10px
+
+    .ion
+        font-size: 20px
+        color $color-text-secondary

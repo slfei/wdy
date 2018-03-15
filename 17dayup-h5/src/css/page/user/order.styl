@@ -1,0 +1,70 @@
+@import "./header.styl"
+@import "./cancel_modal.styl"
+@import "../components/loading.styl"
+.my-order
+
+    &.has-header
+        margin-top: 106px
+        padding-top: 0px
+
+    .status_nav
+        border-bottom 1px solid #f5f5f5
+        padding 15px 10px
+        text-align center
+        margin 0 auto
+        position: fixed
+        top: 50px
+        width: 100%
+
+        a
+            padding 17px 18px
+            font-size 14px
+            color #3C3C3C
+        .active
+            border-bottom 2px solid #268FFF
+            color #268FFF
+    .order-table
+        li
+            margin-bottom 12px
+            .order_no
+                padding 10px
+                font-size 12px
+                color #797979
+                .redcolor
+                    color #FF1818 !important
+            .order_detail
+                padding 10px
+                .order_img
+                    width 100px
+                    height 67px
+                    background  url(/static/img/icon/default.png)
+                    background-size 100px 67px
+                    img
+                        display block
+                        width 100px
+                        height 67px
+                .order_desc
+                    margin-left 10px
+                    color #797979
+                    font-size 14px
+                    line-height 21px
+                    width 66%
+                    display block
+                    word-break break-all
+                    word-wrap break-word
+                    .total_price
+                        color #333
+                        margin-top 25px
+                        margin-right 28px
+                        max-width 175px
+                        overflow hidden
+                        height 16px
+            .operate_order
+                padding  20px 15px
+                font-size 12px
+                color #797979
+                a
+                    margin-left 10px
+
+
+                    

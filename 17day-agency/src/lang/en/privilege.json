@@ -1,0 +1,65 @@
+{
+    "btn":{
+        "add":"Add a role",
+        "add_manage":"Add members",
+        "modify":"Modify permissions",
+        "manage":"Manage members"
+    },
+    "title":"Default role permission description",
+    "tips":{
+        "only":"One member can only belong to one role",
+        "permission":"The system sets 5 following default permissions. Permissions of the newly added role may be freely configured",
+        "success":"Save successfully",
+        "fail":"Save failed"
+    },
+    "data_list":{
+        "role_list":["Roles","Descriptions","No. of members","Operation"],
+        "role_explain":["Permissions","Super Administrator","Administrator","Lecturer","Operations","Finance"],
+        "course_manage":{
+            "title":"Teaching management",
+            "list":["Course management","Video management","Material management","Weekly Live List","Evaluation Management"]
+        },
+        "marketing_manage":{
+            "title":"Marketing management",
+            "list":["Home Settings","About Us","Special Offer","Student Inquiry"]
+        },
+        "finacial_manage":{
+            "title":"Financial management",
+            "list":["Refund Management","Order Tracking","Account Info"]
+        },
+        "account_manage":{
+            "title":"Account management",
+            "list":["Material modification","Member management","Member permission settings","Personal data"]
+        }
+    },
+    "modify":{
+        "role_name":"Role name:",
+        "role_desc":"Role description:",
+        "role_permission":"Permissions of Admin site:"
+    },
+    "filter":{
+        "name":["Please enter the role name","Please enter no more than 20 words"],
+        "desc":["Please enter descriptions","Please enter no more than 200 words"],
+        "permission":["Choose at least one"]
+    },
+    "confirm":{
+        "title":"Tip",
+        "cont":{
+            "cancel":"Data not saved, sure to cancel?"
+        }
+    },
+    "layer":{
+        "title":"Add members",
+        "leftName":"Optional members",
+        "rightName":"Selected members",
+        "placeholder":"Please enter key words",
+        "add_btn":"Add",
+        "delete_btn":"Delete"
+    },
+    "manage":{
+        "name":"Name",
+        "edit":"Operation",
+        "tips":"Each organization has only one super administrator"
+    }
+}
+

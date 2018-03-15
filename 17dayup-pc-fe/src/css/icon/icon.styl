@@ -1,0 +1,82 @@
+
+categoryIcon(name, w = 55px, h = 55px)
+
+    .icon-category-{name}
+        width w
+        height h
+        background 'url(/build/img/category-%s.png) no-repeat' % name
+        //imerge i_blue
+        /*background-position center*/
+        background-size 100%
+    .icon-category-1
+        width 55px
+    .category-item:hover .icon-category-{name}, .active .icon-category-{name}
+        background 'url(/build/img/category-%s-hover.png) no-repeat' % name
+        background-size 100%
+//imerge i_white
+.icon
+    display inline-block
+    vertical-align middle
+/* index main category list icon */
+
+categoryIcon(0)
+categoryIcon(1)
+categoryIcon(2)
+categoryIcon(3)
+categoryIcon(4)
+categoryIcon(5)
+categoryIcon(6)
+
+.icon-category-0
+    width 55px
+    height 55px
+    background url(/build/img/category-0.png) no-repeat
+    //imerge i_blue
+    /*background-position center*/
+    background-size 100%
+.category-item:hover .icon-category-0, .active .icon-category-0
+    background url(/build/img/category-0-hover.png) no-repeat
+    background-size 100%
+
+.icon-search
+    width 20px
+    height 20px
+    background url(/build/img/search.png) 0 0 no-repeat
+
+.icon-course-block-0,
+.icon-course-block-1,
+.icon-course-block-2,
+.icon-news-block,
+.icon-topic-block
+    position relative
+    top -2px
+    width 35px
+    height 30px
+.icon-course-block-0
+    background url(/build/img/course-block-0.png) 0 0 no-repeat
+    imerge i_blue
+    background-size 31px 29px
+.icon-course-block-1
+    background url(/build/img/course-block-1.png) 0 0 no-repeat
+    imerge i_blue
+    background-size 31px 29px
+.icon-course-block-2
+    background url(/build/img/course-block-2.png) 0 0 no-repeat
+    imerge i_blue
+    background-size 31px 29px
+.icon-news-block
+    background url(/build/img/news-block.png) no-repeat 0 0
+    imerge i_blue
+    background-size 31px 29px
+.icon-topic-block
+    background url(/build/img/topic-block.png) no-repeat 1px 0
+    imerge i_blue
+    background-size 31px 29px
+
+.icon-share
+    background url(/build/img/share.png) 0 0 no-repeat
+    imerge i_blue
+    width 13px
+    height 16px
+    background-size 13px 13px
+    background-repeat no-repeat 

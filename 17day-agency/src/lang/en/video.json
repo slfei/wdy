@@ -1,0 +1,68 @@
+{
+    "btn": {
+        "paneUploadVideo": "Upload a video",
+        "search": "Search",
+        "confirmUpload": "Sure to upload",
+        "cancel": "Cancel",
+        "ok": "Confirm",
+        "moveToAlbum": "Move to other categories",
+        "delete": "Delete",
+        "checkOpinion": "Check the review opinions",
+        "addClassify": "Add new category"
+    },
+    "text": {
+        "myUpload": "My videos uploaded",
+        "videoTime": "Video length:",
+        "bindCourse": "Binding class hours:",
+        "belongTo": "Category：",
+        "tipError": "Please delete and re-upload",
+        "noData": "No data",
+        "defaultCategory": "Default category"
+    },
+    "placeholder": {
+        "inputSearch": "Please enter key words",
+        "select": "Please select",
+        "inputAdd": "Please enter contents"
+    },
+    "tabs": {
+        "titleRecord": "Record video",
+        "titleLive": "Live playback"
+    },
+    "table": {
+        "fileInfo": "File information",
+        "count": "Number of videos",
+        "author": "Source",
+        "status": "Status",
+        "operation": "Operation",
+        "belongTo": "Category"
+    },
+    "tips": {
+        "titleUpload": "Upload video",
+        "titleMove": "Move to other categories",
+        "title": "Tip",
+        "checkOpinion": "Review opinions",
+        "message": {
+            "warnUpload": "Video uploading not completed, sure to upload?",
+            "warnCloseUpload": "Video uploading not completed, sure to close?",
+            "warnDelete": "This operation will permanently delete the file, continue?",
+            "warnClose": "Sure to close?",
+            "warnCancelUpload": "Video uploading not completed, sure to cancel?",
+            "successDelete": "Deleted",
+            "successOperation": "Operation done",
+            "successUpload": "Uploaded"
+        }
+    },
+    "rules": {
+        "tipClassfyNull": "File name cannot be empty"
+    },
+    "msg": {
+        "textUpload": "Upload",
+        "textFulfill": "Completed",
+        "textFail": "Failed",
+        "size": "Size:",
+        "timelong": "More than a day",
+        "hours": "hour",
+        "minute": "minute",
+        "second": "second"
+    }
+}

@@ -1,0 +1,37 @@
+
+@import "../config.styl"
+@import "../normalize.css"
+@import "../layout/header.styl"
+@import "../layout/footer.styl"
+
+*,*::after,*::before
+    box-sizing border-box
+html, body
+    color #333
+    font-family "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif
+    font-size 14px
+ul, li
+    margin 0
+    padding 0
+.main-container
+    width 1180px
+    margin 0 auto
+.clearfix::after
+    display block
+    clear both
+    content ""
+.pull-left
+    float left
+.pull-right
+    float right
+.white-bg
+    background #fff
+.nowrap
+    overflow hidden
+    white-space nowrap
+    text-overflow ellipsis
+li
+    list-style none
+a
+    text-decoration none
+    color #666

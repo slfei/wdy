@@ -1,0 +1,105 @@
+@import '../../base.styl'
+@import '../../layout/header_mobile.styl' 
+
+html,body
+   height 100%
+   border-bottom 1px solid #ff1818
+
+.pay
+    margin-top 1px
+    .rows
+        margin-bottom 10px
+        font-size 14px
+        color #333
+        overflow hidden
+    .pull_left
+        float left
+    .pay_info
+        .pay_order_info
+            background #fff
+            padding 20px 16px 10px 16px
+            .detail 
+                color #444444e6
+        .pay_money_info
+            color #333
+            padding-left 16px
+            background #fff
+            margin-top 12px
+            font-size 14px
+            height 60px
+            line-height 60px
+            border-bottom 1px solid #dedede
+            .money
+                font-weight bold
+                color #ff1818
+                font-size 16px
+        .pay_tab_info
+            background #fff
+            .pay_tab_weixin
+                padding 20px 15px 10px
+            .pay_tab_alipay
+                padding 10px 15px 20px
+            .pay_tab_paypal
+                padding 10px 15px 20px
+            .pay_tab_left
+                width 80%
+                float left
+                overflow hidden
+                .pay_desc
+                    margin-left 8px
+                    p
+                        padding-top 3px
+                        padding-bottom 2px
+                    .intro
+                        font-size 12px
+                        color #999
+                .pay_desc_no
+                    margin-left 8px
+                    .intro
+                        line-height 40px
+                        height 40px
+                        font-size 16px
+                        color #999
+            .pay_tab_right
+                float right
+                margin-top 4px
+                input
+                  height 0
+                i
+                  font-size 24px
+                .ion-ios-circle-outline
+                    color #c9c9c9
+            .icon_weixin
+                width 40px
+                height 40px
+                background-image url(/build/img/pay/weixin.png)
+                background-size 40px 40px
+            .icon_weixin_no
+                width 40px
+                height 40px
+                background-image url(/build/img/pay/weixin_no.png)
+                background-size 40px 40px
+            .icon_alipay
+                width 40px
+                height 40px
+                background-image url(/build/img/pay/alipay.png)
+                background-size 40px 40px
+            .icon_paypal
+                width 40px
+                height 40px
+                background-image url(/build/img/pay/paypal.png)
+                background-size 40px 40px
+            .ion-checkmark-circled
+                color #09BB07
+    .pay_btn
+        background #ff1818
+        color #fff
+        font-size 16px
+        padding 12px 0
+        position fixed
+        bottom 0
+        z-index 999
+        width 100%
+        text-align center
+    .prohibit
+        background-color #999

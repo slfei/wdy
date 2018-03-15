@@ -1,0 +1,79 @@
+<div class="login-modal-wrap">
+    <div class="m-header">
+        <div class="tab-header">
+            <a class="tab-header-item active" data-tab="account-login">密码登录</a>
+            <a class="tab-header-item" data-tab="mobile-login">手机动态登录</a>
+        </div>
+        <a class="close-btn"></a>
+    </div>
+    <div class="m-body">
+        <div class="account-login">
+            <form>
+                <div class="error-tip"></div>
+                <div class="row">
+                    <input type="text" class="form-input phone" placeholder="手机号"
+                           data-validator='[{"type": "empty", "text": "请输入手机号"}, "phone"]'
+                    >
+                </div>
+                <div>
+                    <input type="password" class="form-input password" placeholder="密码"
+                           data-validator='[{"type":"empty","text":"请输入密码"}]'>
+                </div>
+                <div class="m-v-15 clearfix">
+                    <!--<label>
+                        <input type="checkbox"/>
+                        十天内自动登录
+                    </label>-->
+                    <a class="fr link go-to-resetPwd" href="javascript:;">忘记密码</a>
+                </div>
+                <div class="m-b-15">
+                    <button type="submit" class="btn login-btn">登录</button>
+                </div>
+                <div class="row">
+                    还没伟东云账号? <a class="go-to-register link_register" href="javascript:;">马上注册</a>
+                </div>
+            </form>
+        </div>
+        <div class="mobile-login hide">
+            <form>
+                <div class="error-tip"></div>
+                <div class="row">
+                    <input type="text" class="form-input phone" placeholder="手机号"
+                           data-validator='[{"type": "empty", "text": "请输入手机号"}, "phone"]'
+                    >
+                </div>
+                <div class="row row-pic-code">
+                    <div class="pic-code-wrap">
+                        <input type="text" class="pic-code-input" placeholder="请输入验证码" maxlength="4"
+                               data-validator='[{"type": "empty", "text": "请输入验证码"}]'
+                        >
+                        <img class="pic-code"  alt="图片验证码" width="128" height="44" style="vertical-align: middle"/>
+                    </div>
+                </div>
+                <div class="row row-mobile-code hide">
+                    <div class="mobile-code-wrap">
+                        <input type="text" class="mobile-code-input" placeholder="动态码"
+                               data-validator='[{"type": "empty", "text": "请输入动态码"}]'
+                        >
+                        <div class="mobile-code">
+                            获取动态码
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn login-btn">登录</button>
+                </div>
+            </form>
+            <p>
+                提示：未注册伟东云账号则手机号自动生成新帐号,且代表您已同意<a href="/help/agreement" class="service">《服务条款》</a>
+            </p>
+        </div>
+    </div>
+    <div class="m-footer">
+        <h5>第三方账号登录伟东云</h5>
+        <div class="third-login-types">
+            <a class="login-type weixin" title="微信登录"></a>
+            <a class="login-type qq" title="QQ登录"></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,115 @@
+{
+    "step": {
+        "step1": "1 签订入驻协议",
+        "step2": "2 提交资料",
+        "step3": "3 入驻审核"
+    },
+    "infoBusiness": {
+        "title": "经营信息",
+        "shortDes": "经营信息是展示在页面上给学员看的信息，请认真填写",
+        "field": {
+            "businessName": "经营名称",
+            "description": "一句话介绍",
+            "avatar": "头像",
+            "mainBusiness": "主营类目",
+            "introduction": "简介"
+        }
+    },
+    "identityProve": {
+        "title": "身份证明",
+        "field": {
+            "realName": "真实姓名",
+            "country": "国家",
+            "email": "邮箱",
+            "identity": "身份证明",
+            "passport": "护照",
+            "identityFront": "身份证明正面照",
+            "identityBack": "身份证明背面照",
+            "identityNum": "身份证号码",
+            "qualificationCertificate": "资格证书",
+            "phone": "手机",
+            "commitment": "承诺书"
+        }
+    },
+    "placeholder": {
+        "businessName": "用于平台上展示的名称，20字以内",
+        "shortDes": "一句话介绍你的优势、特色，100字以内",
+        "select": "请选择",
+        "introduction": "请填写简介，200字以内",
+        "idName": "请填写身份证上的姓名",
+        "idNumber": "请填写身份证号码",
+        "passportNumber": "请填写护照号码",
+        "emailInput": "请填写邮箱",
+        "emailCodeInput": "请输入邮箱验证码",
+        "certificateInput": "请选择资格证书",
+        "certificateNameInput": "请输入证书名称",
+        "emailCode": "请输入邮箱验证码"
+    },
+    "rules": {
+        "businessNameEmpty": "请输入经营名称",
+        "introductionEmpty": "请输入介绍文字",
+        "imgEmpty": "请上传头像",
+        "mainBusinessEmpty": "请选择主营类目",
+        "desEmpty": "请输入简介",
+        "realNameEmpty": "请填写身份证上的姓名",
+        "idProofEmpty": "请上传身份证正面照",
+        "idBackEmpty": "请上传身份证背面照",
+        "idNumberEmpty": "请输入身份证号码",
+        "passportImgEmpty": "请上传护照照片",
+        "passportNumberEmpty": "请输入护照号码",
+        "imgUploadEmpty": "请上传照片",
+        "nameEmpty": "请输入名称",
+        "certificateEmpty": "请选择资格证书",
+        "emailEmpty": "请填写邮箱",
+        "commitmentEmpty": "请上传承诺书图片"
+    },
+    "btn": {
+        "uploadImg": "点击上传图片",
+        "reUpload": "重新上传",
+        "sendCode": "发送验证码",
+        "submitFile": "提交资料",
+        "commitment": "承诺书",
+        "hrefGo": "进入管理后台",
+        "sendEmailCode": "发送邮箱验证码",
+        "reSend": "秒后重发",
+        "editEmail": "修改邮箱"
+
+    },
+    "status": {
+        "auditPassed": "恭喜，您已通过平台审核。",
+        "auditing": "您好，我们已经收到您的入驻申请，将在1-2个工作日内完成审核。",
+        "auditNotPassed": "很遗憾，经过综合考量您未达到本平台入驻标准，审核不通过。"
+    },
+    "text": {
+        "checkboxLabel": "我已阅读并同意此协议",
+        "identity": "身份证",
+        "passport": "护照",
+        "limitSize": "文件小于2M",
+        "limitType": "支持jpg,gif,png或bmp格式的图片",
+        "limitImg": "请上传本人真实清晰头像",
+        "limitIdentify": "请保证身份证姓名，身份证号码清晰可见",
+        "limitOrgin": "请保证签发机关、有效期限清晰可见",
+        "limitPassport": "请保证护照姓名，护照号码清晰可见",
+        "tipDownload": "请填写完本页信息后，点击下载",
+        "uploadScanning": "上传亲笔签名后的扫描件",
+        "teacherCertificateLimit": "请提交有效期内的教师资格证照片，需确保头像和文字清晰",
+        "academicLimit": "请提交大学本科以上学历水平证件照片，如学生证、毕业证等（需包含照片、姓名、专业、官方印章等有效信息）",
+        "professionCertificateLimit": "请提交教学能力或专业能力证明，如职称证书、考级证书等（需包含官方印章等有效信息）",
+        "otherCertificate": "请提交其他证明您教学水平的证明"
+    },
+
+    "certificate": {
+        "teacherCertificate": "教师资格证",
+        "highAcademicCertificate": "高学历证",
+        "professionCertificate": "专业证书",
+        "others": "其他"
+    },
+    "tip": {
+        "certificate": "如：音乐教师资格证。(10字以内，会标注在老师主页)",
+        "diploma": "如：绘画艺术硕士学位。（10字内，会标注在老师主页）",
+        "professionalCertificate": "如：民乐琵琶演奏十级。（10字内，会标注在老师主页）",
+        "others": "如：专职讲师聘书。（10字内，会标注在老师主页）",
+        "backEdit": "建议您返回上一步修改资料"
+    }
+
+}

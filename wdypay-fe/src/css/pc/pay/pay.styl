@@ -1,0 +1,127 @@
+@import '../../config.styl'
+@import '../../base.styl'
+@import '../../layout/header_pc.styl'
+@import '../../layout/footer_pc.styl'
+$color_warning = #FB883F
+
+
+.pay
+    width 1180px
+    margin 0 auto
+    &
+        font-size $font_normal
+        background #fff
+        margin-top 28px
+        margin-bottom 28px
+        padding-top 20px
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .content-block
+        padding 15px 0
+    .div-padding
+        margin-bottom 20px
+    .section-order
+        &
+            padding 0 40px 20px 40px
+            border-bottom 1px solid #dddddd
+        .title
+            font-size $font_large
+            font-weight bold
+        .price
+            color $color_red
+        .pay-way
+            &
+                display: flex;
+                align-items: center;
+            a
+                display inline-block
+                margin-left 25px
+                width 160px
+                height 60px
+                background-size 100%
+            .alipay
+                background url(/build/img/pay/pay-alipay.png) no-repeat
+            .wx
+                background url(/build/img/pay/pay-wx.png) no-repeat
+            .paypal
+                background url(/build/img/pay/pay_paypal.jpg) no-repeat
+            .alipayActive
+                background-image url(/build/img/pay/pay-alipay-hover.png)
+            .wxActive
+                background-image url(/build/img/pay/pay-wx-hover.png)
+            .paypalActive
+                background-image url(/build/img/pay/pay_paypal_hover.jpg)
+    .section-warning
+        padding 20px 40px 20px 40px
+        .left
+            color $color_warning
+        .right
+            .price
+                color $color_red
+                font-size $font_large
+
+            a.buy
+                color #fff
+                background $color_primary
+                border-radius 3px
+                padding 15px 50px
+                display inline-block
+                margin-top 45px
+                font-size $font_large
+    .modal
+        .modal-width
+            margin-top 100px
+            width 440px
+            text-align center
+            .modal-content
+                padding 15px
+                .ico
+                    font-size 40px
+    #modal-code
+            .warning
+                color $color_warning
+            .price
+                color $color_red
+                font-size $font_large
+            .code
+                padding 15px
+                border 1px solid #ddd
+                width 232px
+                margin 0 auto 45px auto
+                iframe
+                    width 200px
+                    height 204px
+                    display none
+                .hint
+                    padding-left 37px
+                    background url(/build/img/pay/code.png) 0 0 no-repeat
+                    font-size 10px
+                    margin 0 17px
+                    text-align left
+            .en
+                width 370px
+    #modal-pay-fail
+        .description
+            font-size $font_large
+        .fail
+            color $color_red
+            margin-top 15px
+        .action
+            &
+                margin-top 43px
+                margin-bottom 35px
+            a
+                display inline-block
+                border 1px solid $color_primary
+                border-radius 2px
+            .back
+                padding 10px 13px
+                margin-right 50px
+                color $color_primary
+            .pay-result
+                padding 13px 41px
+                background $color_primary
+                color #fff

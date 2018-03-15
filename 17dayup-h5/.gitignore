@@ -1,0 +1,9 @@
+node_modules/
+weui/node_modules/
+.idea/
+.DS_Store
+.DS_Store
+static
+rev
+dist
+.env_conf.js

@@ -1,0 +1,49 @@
+$color_primary = #268fff
+.login-modal-wrap
+    ::-webkit-input-placeholder
+        color #999
+    .tab-header
+        font-size 16px
+        line-height 20px
+        border-bottom 1px solid #ccc
+        .tab-header-item
+            position relative
+            top 1px
+            display inline-block
+            padding 0 10px 20px
+            cursor pointer
+            &:first-child
+                margin-right 25px
+            &.active
+                color $color_primary
+                border-bottom 2px solid $color_primary
+
+    .m-footer
+        margin-top 34px
+        h5
+            font-size 14px
+            text-align center
+            margin 0
+            font-weight normal
+        .third-login-types
+            margin-top 20px
+            text-align center
+        .login-type
+            list-style none
+            margin 0
+            display inline-block
+            width 48px
+            height 48px
+            background-size 100%
+            background-repeat no-repeat
+            cursor pointer
+            &:not(:last-child)
+                margin-right 60px
+            &.weixin
+                background-image url(../img/wechat.png)
+                &:hover
+                    background-image url(../img/wechat-hover.png)
+            &.qq
+                background-image url(../img/qq.png)
+                &:hover
+                    background-image url(../img/qq-hover.png)

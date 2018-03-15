@@ -1,0 +1,26 @@
+{
+  "btn":{
+    "ok":"确定",
+    "cancel":"取消",
+    "search":"搜索",
+    "nextStep":"下一步",
+    "noData":"暂无数据",
+    "save":"保存",
+    "close":"关闭",
+    "preview":"保存及预览",
+    "query":"查询",
+    "delete":"删除",
+    "modify":"修改",
+    "submit":"确认提交",
+    "issue":"发布",
+    "return":"返回",
+    "more":"查看更多"
+  },
+  "img_tips":"文件小于2M<br/>支持jpg,gif,png或bmp格式",
+  "rules":{
+    "email":"请输入正确的邮箱地址",
+    "phone":"请输入正确的手机号",
+    "idCard":"请输入正确的身份证号码"
+  }
+
+}

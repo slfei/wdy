@@ -1,0 +1,442 @@
+@import '../config.styl'
+@import '../ads/guoxuechunwan.styl'
+html, body
+    color #333
+    font-family "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif
+.header-active-index
+    border-bottom 4px solid $color_primary
+    color $color_primary !important
+ul, li
+    padding 0
+    margin 0
+    list-style none
+a, a:hover, a:focus
+    color #333
+    text-decoration none
+.right
+    a:hover
+        text-decoration underline
+.section-banner
+    .main-container
+        position relative
+    .banner-nav
+        position absolute
+        width 200px
+        top 0
+        line-height 48.5px
+        list-style none
+        background #fff
+        z-index 11
+        height 292px
+        font-size 16px
+        li
+            cursor pointer
+            padding 0 12px 0 24px
+            &:hover
+                background $color_primary
+                a
+                    color #fff
+
+
+    .banner-slider
+        height 292px
+        width 100%
+        overflow hidden
+        a
+            display block
+            width 1180px
+            margin 0 auto
+        img
+            width 980px
+            height 292px
+            margin-left 200px
+
+.section-course-block
+    .bd
+        margin-right -13px
+    .gg-item
+        float left
+        width 285px
+        height 595px
+        padding 0
+        margin-right 13px
+        overflow hidden
+        a
+            img
+                width 100%
+                height 100%
+    .gg-item-horizontal
+        width 584px
+        height 289px
+    .col-xs-3
+        padding 0
+        width 285px
+        margin-right 13px
+    .hd
+        .left
+            font-size 24px
+            padding $div_padding_top_normal 0
+            .cate-name
+                display inline-block
+                font-weight 600
+                cursor pointer
+                &:hover
+                    color $color_primary
+            .active
+                color $color_primary
+        .vertical-line
+            display inline-block
+            text-indent -999em
+            width 1px
+            height 24px
+            background #cccccc
+            position relative
+            top 8px
+            margin 0 16px
+        .right
+            &
+                margin-top 25px
+            .hot-cate, .more
+                display inline-block
+                margin-left 25px
+    .bd
+        .ad-item
+            img
+                height  100%
+        .ad-item-horizontal
+            img
+                width 100%
+
+.banner-nav-child
+    position absolute
+    left 200px
+    top 0
+    z-index 12
+    background #fff
+
+    .sub-category-list
+        min-height 293px
+        width 770px
+        padding-left 30px
+        display none
+        box-shadow 0 3px 10px rgba(0,0,0,.2)
+
+    .sub-category-item
+        overflow hidden
+        padding 15px 0 12px
+        a
+            &:hover
+                text-decoration underline
+        div
+            float right
+            width 644px
+    .title
+        font-size 14px
+        font-weight bold
+        min-width 96px
+        display inline-block
+    .node
+        font-size 12px
+        margin-right 20px
+
+.main-category-list
+    margin 35px -27px 20px 0
+    .active
+        background $color_primary
+        transform scale(1.05)
+        transition transform 0.2s ease-in-out
+        box-shadow 0px 4px 12px rgba(0,0,0,0.3) !important
+        .name
+            color #fff
+            text-decoration none
+    .category-item
+        width 175px
+        height 100px
+        box-shadow 0 3px 10px rgba(0,0,0,.1)
+        float left
+        margin-right 26px
+        text-align center
+        cursor pointer
+        a
+            color $color_primary
+            &:hover
+                text-decoration none
+        &:hover
+            background $color_primary
+            /*transform translateY(-10px)*/
+            transform scale(1.05)
+            transition transform .2s ease-in-out
+            box-shadow 0px 4px 12px rgba(0,0,0,0.3) !important
+            a
+                color #fff
+        .icon
+            margin 15px auto 0
+
+
+.main-category-content
+    &
+        margin-left -7.5px
+        margin-right -7.5px
+        margin-bottom 20px
+    .col-xs-padding
+        &
+            padding-left 7.5px
+            padding-right 7.5px
+            position relative
+        .img-bg
+            width 383px
+            height 215px
+        .shade-container
+            padding 0 7.5px
+            position absolute
+            top 0
+            left 0
+            width 100%
+            height 100%
+        .shade
+            width 100%
+            height 100%
+            background rgba(0,0,0,.2)
+            a
+                display block
+                width 100%
+                height 100%
+        .goto
+            position absolute
+            top 68px
+            left 173.5px
+            width 47px
+            height 47px
+            background url('/build/img/play.png') no-repeat
+            imerge i_grey
+        .live-will-icon
+            background url('/build/img/live-will.png') no-repeat
+            background-size 47px 47px
+        .liveing-icon
+            background url('/build/img/liveing.gif') no-repeat
+            background-size 47px 47px
+        .live-time, .live-state
+            position absolute
+            color #fff
+        .live-time
+            top 5px
+            left 8px
+            width 220px
+            height 34px
+            line-height 34px
+            background url(/build/img/live-time-bg.png) no-repeat
+            background-size 220px 34px
+            font-size 10px
+            padding-left 8px
+        .live-state
+            top 133px
+            left 0
+            width 383px
+            text-align center
+        .description
+            &
+                position absolute
+                bottom 0
+                left 0
+                width 100%
+                height 40px
+                padding 0 7.5px
+            div
+                &
+                    width 100%
+                    height 40px
+                    background rgba(0,0,0,.6)
+                span
+                    height 40px
+                    line-height 40px
+                    color #fff
+                :first-child
+                    padding-left 11px
+                :last-child
+                    padding-right 11px
+.content-block
+    padding 50px 0
+    &:nth-child(odd)
+        background $color_lightgray
+    &:nth-child(even)
+        background #fff
+.section-news, .section-topics
+    .right
+        li
+            height 40px
+            line-height 40px
+            padding 0 10px
+            .ico
+                padding-left 5px
+        :last-child
+            padding-right 0
+.section-news
+    .title
+        font-size 24px
+        font-weight 600
+        margin-bottom 20px
+    .row-news-block
+        color #999
+        .description
+            height 70px
+            color #999
+            &:hover
+                text-decoration underline
+.section-topics
+    margin 50px 0
+    .title
+        font-size 24px
+        margin-bottom 20px
+        font-weight 600
+    .content
+        margin-right -20px
+.section-relative-products
+    position relative
+    padding 20px 0
+    overflow hidden
+
+    .text
+        position absolute
+        left 50%
+        top 0
+        margin-left -76px
+        background $color_lightgray
+        padding 0 20px
+        font-size 28px
+        line-height 40px
+    .line
+        height 1px
+        background #e5e5e5
+    .product-list
+        position relative
+    .prev
+    .next
+        width 20px
+        height 62px
+        line-height 62px
+        position absolute
+        top 32px
+        cursor pointer
+    .prev
+        left 0
+        border-radius 0 8px 8px 0
+        background rgba(0,0,0,.3) url(/build/img/rela-product-prev.png) 3px 20px no-repeat
+        imerge i_grey
+    .next
+        right 0
+        border-radius 8px 0 0 8px
+        background rgba(0,0,0,.3) url(/build/img/rela-product-next.png) 3px 20px no-repeat
+        imerge i_grey
+
+    .scroller
+        width 100%
+        margin-top 40px
+        overflow hidden
+    .wrapper
+        width 1626px
+    .product-item
+        float left
+        margin-right 24px
+        &:last-child
+            margin-right 0
+        img
+            background #fff
+        .name
+            text-align center
+            margin 15px 0 0
+            font-size 12px
+            &:hover
+                color #268fff
+                course pointer
+        .productHover
+            img
+                cursor default
+            .name
+                &:hover
+                    color #333
+                    cursor default
+
+.section-news
+    .row-news-block,
+    .row-news-inline
+        margin-right -20px
+    .row-news-block .col-xs-4
+        width 380px
+        margin-right 20px
+        padding 20px
+        background #fff
+
+    .row-news-inline
+        margin-top 24px
+    .news-inline
+        line-height 20px
+        margin-bottom 15px
+        padding 0 20px 0
+        width 380px
+        margin-right 20px
+        a
+            float left
+
+
+        .update-at
+            color #999
+            font-size 12px
+            padding-top 1px
+        .content-title
+            &
+                color #333
+                font-size 14px
+                font-weight bold
+                max-width 270px
+            &:hover
+                color $color_primary
+                
+.omit_area1
+    display block
+    width 215px
+    a
+        width 215px
+        height 100%
+        overflow hidden
+        -webkit-line-clamp 1
+        -webkit-box-orient vertical
+        display -webkit-box
+        text-overflow ellipsis
+        color #fff
+        overflow hidden
+        white-space normal
+
+.omit_area2
+    display block
+    max-width 10em
+    a
+     color #fff
+.has-live .main-category-list
+    .category-item
+        width 150px
+        height 85.71px
+        margin-right 22px
+        .icon
+            width 48px
+            height 48px
+
+html,body
+    background #fff !important
+
+/*国际化*/
+.locale-en
+    .en_banner-nav-child
+        .en_sub-category-item
+            padding 20px 0 16px
+            div
+                float right
+                width 528px
+        .en_sub-category-item ~ .en_sub-category-item
+            padding 0 0 16px
+        .en_title
+            width 172px
+            white-space normal
+        .en_node
+            display inline-block
+            margin-right 30px
+            margin-bottom 6px

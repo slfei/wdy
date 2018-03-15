@@ -1,0 +1,82 @@
+@import '../../config.styl'
+
+.institute
+    font-size $font_normal
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .content-block
+        padding 15px 0
+    .section-nav
+        &
+            font-size $font_large
+            padding 30px 24px
+
+        .keyword
+            color $color_primary
+            padding 0 30px
+    .section-filter
+        &
+            padding 30px 24px
+            background #fff
+            border-radius 4px
+            margin-bottom 30px
+
+        .left
+            &
+                margin-left -30px
+                margin-right -30px
+            li
+                padding 0 30px
+                .ion-arrow-down
+                    background url('/build/img/icon/down.png') no-repeat 5px 0
+                    imerge i_grey
+                    width 13px
+                    height 13px
+                    float right
+                    /*background-size 100%*/
+                    margin-top 4px
+                    padding-left 5px
+                    background-size 8px 13px
+            .active
+                color $color_primary
+                .ion-arrow-downactive
+                    background url('/build/img/icon/downactive.png') no-repeat 5px 0
+                    imerge i_grey
+                    background-size 8px 13px
+
+    .section-list
+        padding-bottom 0
+        .row-list
+            &
+                margin-bottom 30px
+                border-radius 4px
+                padding 30px 24px
+                background #fff
+            &:hover
+                box-shadow  0px 2px 30px #ddd
+            .right
+                &
+                    text-align right
+                a
+                    font-size $font_large
+                    line-height 1em
+                    border-radius 4px
+                    padding 15px 24px 17px
+                    display inline-block
+                    margin-top 44px
+                    border 1px solid $color_primary
+                .consult
+                    color #fff
+                    background $color_primary
+                .consult-disabled
+                    color #ccc
+                    border-color #ccc
+                    pointer-events none
+        &>:last-child
+            margin-bottom 0
+    .section-pagination
+        text-align center
+

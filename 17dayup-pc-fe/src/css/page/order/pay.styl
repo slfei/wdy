@@ -1,0 +1,115 @@
+@import '../../config.styl'
+$color_warning = #FB883F
+
+.pay
+    &
+        font-size $font_normal
+        background #fff
+        margin-top 28px
+        margin-bottom 28px
+        padding-top 46px
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .content-block
+        padding 15px 0
+    .div-padding
+        margin-bottom 28px
+    .section-order
+        &
+            padding 0 40px 40px 40px
+            border-bottom 1px solid #dddddd
+        .title
+            font-size $font_large
+            font-weight bold
+        .price
+            color $color_red
+        .pay-way
+            &
+                display: flex;
+                align-items: center;
+            a
+                display inline-block
+                margin-left 25px
+                width 160px
+                height 60px
+                background-size 100%
+            .alipay
+                background url(/build/img/order/pay-alipay.png?merge=order-index) no-repeat
+            .wx
+                background url(/build/img/order/pay-wx.png?merge=order-index) no-repeat
+            .alipayActive
+                background-image url(/build/img/order/pay-alipay-hover.png?merge=order-index)
+            .wxActive
+                background-image url(/build/img/order/pay-wx-hover.png?merge=order-index)
+    .section-warning
+        padding 35px 40px 40px 40px
+        .left
+            color $color_warning
+        .right
+            .price
+                color $color_red
+                font-size $font_large
+
+            a.buy
+                color #fff
+                background $color_primary
+                border-radius 3px
+                padding 15px 50px
+                display inline-block
+                margin-top 45px
+                font-size $font_large
+    .modal
+        .modal-width
+            margin-top 100px
+            width 400px
+            text-align center
+            .modal-content
+                padding 15px
+                .ico
+                    font-size 40px
+    #modal-code
+            .warning
+                color $color_warning
+            .price
+                color $color_red
+                font-size $font_large
+            .code
+                padding 15px
+                border 1px solid #ddd
+                width 232px
+                margin 0 auto 45px auto
+                iframe
+                    width 200px
+                    height 204px
+                    display none
+                .hint
+                    padding-left 37px
+                    background url(/build/img/order/code.png) 0 0 no-repeat
+                    font-size 10px
+                    margin 0 17px
+                    text-align left
+    #modal-pay-fail
+        .description
+            font-size $font_large
+        .fail
+            color $color_red
+            margin-top 15px
+        .action
+            &
+                margin-top 43px
+                margin-bottom 35px
+            a
+                display inline-block
+                border 1px solid $color_primary
+                border-radius 2px
+            .back
+                padding 10px 13px
+                margin-right 50px
+                color $color_primary
+            .pay-result
+                padding 13px 41px
+                background $color_primary
+                color #fff

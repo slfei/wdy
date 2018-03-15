@@ -1,0 +1,68 @@
+{
+  "btn":{
+    "paneUploadVideo":"上传视频",
+    "search":"搜索",
+    "confirmUpload":"确定上传",
+    "cancel":"取消",
+    "ok":"确定",
+    "moveToAlbum":"移到其他分类",
+    "delete":"删除",
+    "checkOpinion":"查看审核意见",
+    "addClassify":"新增分类"
+  },
+  "text":{
+    "myUpload":"我上传的视频",
+    "videoTime":"视频时长：",
+    "bindCourse":"绑定课时：",
+    "belongTo":"所属分类：",
+    "tipError":"请删除后重新上传",
+    "noData":"暂无数据",
+    "defaultCategory":"默认分类"
+  },
+  "placeholder":{
+    "inputSearch":"请输入关键词",
+    "select":"请选择",
+    "inputAdd":"请输入内容"
+  },
+  "tabs":{
+    "titleRecord":"录播视频",
+    "titleLive":"直播回放"
+  },
+  "table":{
+    "fileInfo":"文件信息",
+    "count":"视频数",
+    "author":"来源",
+    "status":"状态",
+    "operation":"操作",
+    "belongTo":"所属分类"
+  },
+  "tips":{
+    "titleUpload":"视频上传",
+    "titleMove":"移至其他分类",
+    "title":"提示",
+    "checkOpinion":"审核意见",
+    "message":{
+      "warnUpload":"有视频未上传完成，是否确认上传？",
+      "warnCloseUpload":"有视频未上传完成，是否确认关闭？",
+      "warnDelete":"此操作将永久删除该文件, 是否继续？",
+      "warnClose":"确定关闭？",
+      "warnCancelUpload":"有视频未上传完成，是否确认取消？",
+      "successDelete":"删除成功",
+      "successOperation":"操作成功",
+      "successUpload":"上传成功"
+    }
+  },
+  "rules":{
+    "tipClassfyNull":"文件名不能为空!"
+  },
+  "msg":{
+    "textUpload":"上传",
+    "textFulfill":"完成",
+    "textFail":"失败",
+    "size":"大小：",
+    "timelong": "大于一天",
+    "hours": "时",
+    "minute": "分钟",
+    "second": "秒"
+  }
+}

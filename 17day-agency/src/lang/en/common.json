@@ -1,0 +1,27 @@
+{
+  "btn":{
+    "ok":"Confirm",
+    "cancel":"Cancel",
+    "search":"Search",
+    "nextStep":"Next",
+    "noData":"No Data",
+    "save":"Save",
+    "close":"Close",
+    "preview":"Save and preview",
+    "query":"query",
+    "delete":"delete",
+    "modify":"modify",
+    "submit":"Submit",
+    "issue":"Issue",
+    "return":"Return",
+    "more":"More"
+  },
+    "img_tips":"File less than 2M<br/>Supports JPG, GIF, PNG, or BMP  images",
+    "rules":{
+      "email":"Please enter the correct email address.",
+      "phone":"Please enter the correct phone number.",
+      "idCard":"Please enter the correct id number."
+    }
+
+}
+

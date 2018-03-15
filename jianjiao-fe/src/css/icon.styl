@@ -1,0 +1,220 @@
+.icon
+    display inline-block
+    vertical-align middle
+    background-position center
+    background-repeat no-repeat
+
+
+icon(w, h, name)
+    .icon-{name}
+        width w
+        height h
+        background-image 'url("../img/icon/%s@3x.png")' % name
+        background-size w h
+
+icon-bgi(name)
+    .icon-{name}
+        background-image 'url("../img/icon/%s@3x.png")' % name
+
+
+
+icon(44px, 44px, homepage)
+icon(44px, 44px, category)
+icon(44px, 44px, discovery)
+icon(44px, 44px, user)
+icon(81px, 66px, sina)
+icon(80px, 76px, qzone)
+icon(60px, 60px, close)
+icon(168px, 176px, pepper)
+icon(134px, 164px, logo)
+icon(154px, 189px, logo-lg)
+icon(100px, 100px, wechat)
+icon(32px, 32px, pure-close)
+icon(38px, 36px, home)
+icon(80px, 80px, j_app)
+
+
+.active
+    .icon-homepage
+        background-image url("../img/icon/homepage_ac@3x.png")
+    .icon-category
+        background-image url("../img/icon/category_ac@3x.png")
+    .icon-discovery
+        background-image url("../img/icon/discovery_ac@3x.png")
+    .icon-user
+        background-image url("../img/icon/user_ac@3x.png")
+
+
+
+icon(48px, 48px, tag)
+icon(48px, 48px, star)
+icon(48px, 48px, comment)
+icon(48px, 48px, test)
+icon(48px, 62px, app_download)
+icon(48px, 48px, smile)
+icon(48px, 40px, mail)
+icon(42px, 40px, msg)
+icon(44px, 44px, pentagram)
+icon(44px, 44px, pentagram_ac)
+icon(42px, 40px, share)
+icon(279px, 344px, no-result)
+icon(48px, 48px, logout)
+icon(94px, 112px, complete)
+
+.icon-pentagram, .pentagram_ac
+    background-size: 100%;
+    
+
+.icon-thumb
+    vertical-align text-bottom
+
+
+.icon-thumb:before
+    content ''
+    display inline-block
+    width 26px
+    height 26px
+    vertical-align top
+    background #000
+    -webkit-mask-image url("../img/icon/thumb-up.svg");
+    mask-image url("../img/icon/thumb-up.svg");
+
+.icon-thumb-down:before
+    content ''
+    display inline-block
+    width 1.1em
+    height 1.1em
+    vertical-align top
+    background #000
+    -webkit-mask-image url("../img/icon/thumb-down.svg");
+    mask-image url("../img/icon/thumb-down.svg");
+
+.icon-shield:before
+    content ''
+    display inline-block
+    width 1.2em
+    height 1.2em
+    vertical-align top
+    background-size 1em
+    background-position center
+    background-repeat no-repeat
+    background-image url("../img/icon/shield.svg");
+
+
+.wechat-share-guide
+    display block
+    width 576px
+    height 207px
+    background url('../img/bg/wechat-share-guide.png')
+    background-size 576px 207px
+    margin auto
+    margin-top 30px
+
+
+.mask-guide-text
+    width 246px
+    height 196px
+    background-size 246px 196px
+    background-image url("../img/bg/guide-text@3x.png")
+
+.mask-confirm-button
+    width 182px
+    height 84px
+    background-size 182px 84px
+    background-image url("../img/bg/confirm-button@3x.png")
+
+.not-found-image
+    width 334px
+    height 470px
+    background-size 334px 470px
+    background-image:url('../img/status/404@3x.png')
+    background-repeat:no-repeat
+    margin 50px auto
+
+.server-error-image
+    width 432px
+    height 396px
+    background-size 432px 396px
+    background-image:url('../img/status/500@3x.png')
+    background-repeat:no-repeat
+    margin 50px auto
+
+.test-subject-image
+    width 100%
+    height 120px
+    background-size 100% 120px
+    background-image:url('../img/icon/bg@2x.png')
+    background-repeat:repeat-x
+.hot_head
+    width 100%
+    height 664px
+    background-size 100% 664px
+    background-image:url('../img/icon/bg2@2x.png')
+    background-repeat:no-repeat
+.is_like
+    position relative 
+    top 3px
+    display inline-block
+    width 32px
+    height 32px
+    background-size 32px 32px
+    background-repeat:no-repeat 
+.has_like
+    background-image:url('../img/icon/icon_thumbup_press@2x.png')
+.no_like
+    background-image:url('../img/icon/icon_thumbup_nor@2x.png')
+.is_col
+    position relative 
+    top 4px
+    display inline-block
+    width 34px
+    height 32px
+    background-size 34px 32px
+    background-repeat:no-repeat 
+.has_col
+    background-image:url('../img/icon/icon_like_press@2x.png')
+.no_col
+    background-image:url('../img/icon/icon_like_nor@2x.png')
+.expose_bg
+    display inline-block
+    width 308px
+    height 80px
+    line-height 80px
+    background-size 308px 80px
+    background-repeat:no-repeat 
+    background-image:url('../img/icon/bottun@2x.png')
+.foot-banner
+    position absolute
+    bottom 120px
+    left 0
+    right 0
+    width 100%
+    height 240px
+    background-size 100% 240px
+    background-repeat:no-repeat 
+    background-image:url('../img/icon/goIndex.png')
+.get_score
+    position fixed
+    right 0
+    bottom 400px
+    width 144px
+    height 166px
+    background-size 144px 166px
+    background-repeat no-repeat
+.share
+    background-image url('../img/icon/tabbar1@2x.png')
+.make_money
+    background-image url('../img/icon/tabbar2@2x.png')
+
+    
+.test_result_img
+    width 356px
+    height 240px
+    background-size 356px 240px
+    background-image:url('../img/icon/test_result@2x.png')
+    background-repeat:no-repeat
+    margin 150px auto 0
+
+.is-react-native
+    .test_result_img
+        margin-top 90px

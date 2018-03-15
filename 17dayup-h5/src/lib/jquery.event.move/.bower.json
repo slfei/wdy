@@ -1,0 +1,35 @@
+{
+  "name": "jquery.event.move",
+  "version": "2.0.1",
+  "author": {
+    "name": "Stephen Band",
+    "url": "http://stephband.info",
+    "twitter": "stephband"
+  },
+  "dependencies": {},
+  "licenses": [
+    {
+      "url": "http://www.wtfpl.net/txt/copying/"
+    }
+  ],
+  "main": "js/jquery.event.move.js",
+  "description": "DOM events movestart, move and moveend for tracking touch and mouse moves, throttled to browser animation frames, and exposing information about distance and velocity of fingers.",
+  "keywords": [
+    "touch",
+    "special",
+    "finger",
+    "move"
+  ],
+  "homepage": "http://github.com/stephband/jquery.event.move",
+  "docs": "http://stephband.info/jquery.event.move",
+  "_release": "2.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.1",
+    "commit": "feacda5c6efb3f39567f6b77b0831d29fa8dafc5"
+  },
+  "_source": "https://github.com/stephband/jquery.event.move.git",
+  "_target": "^2.0.1",
+  "_originalSource": "jquery.event.move",
+  "_direct": true
+}

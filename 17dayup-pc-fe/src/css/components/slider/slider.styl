@@ -1,0 +1,42 @@
+
+@import '../../../lib/unslider/dist/css/unslider.css'
+@import '../../../lib/unslider/dist/css/unslider-dots.css'
+
+.section-banner
+    transition background .6s ease
+    width 100%
+.unslider
+    position relative
+    overflow inherit
+    .unslider-arrow
+        text-indent -999em
+        width 40px
+        height 40px
+        z-index 11
+        top 50%
+        left 50%
+        margin-top -20px
+        margin-left -370px
+        background url(/build/img/slider-prev.png) 0 0 no-repeat
+        imerge i_grey
+        &.next
+            margin-left 530px
+            background url(/build/img/slider-next.png) 0 0 no-repeat
+            imerge i_grey
+    .unslider-nav
+        position absolute
+        bottom 10px
+        z-index 11
+        left 50%
+        transform translate(-50%)
+        li
+            width 10px
+            height 10px
+            background rgba(0,0,0,.2)
+            border none
+            &.unslider-active
+                background #fff
+.slider-wrap
+    list-style none
+    margin 0
+    padding 0

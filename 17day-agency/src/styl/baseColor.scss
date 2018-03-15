@@ -1,0 +1,194 @@
+/* 
+* @Author: chenzhaoyang
+* @Date:   2017-11-09 14:55:09
+* @Last Modified by:   chenzhaoyang
+* @Last Modified time: 2017-11-09 14:55:09
+*/
+$border-color: #d9d9d9;
+$font-color: #333333;
+$background-hover-color: #f5f5f5;
+
+%border-base {
+    border: 1px solid $border-color;
+}
+/* formItem label
+  --------------------------*/
+.w-demo-form {
+    .el-form-item.is-required .el-form-item__label:before {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .el-form-item__label {
+        color: $font-color;
+        padding: 0 15px 0 0;
+        line-height: 34px;
+    }
+}
+/* input
+  --------------------------*/
+.w-input .el-input__inner {
+    @extend %border-base;
+    color: $font-color;
+}
+/* select
+  --------------------------*/
+.w-select {
+    @extend .w-input;
+
+    &:hover .el-input__inner {
+        border-color: $border-color;
+    }
+
+    .el-input .el-input__icon {
+        color: $border-color;
+    }
+}
+
+.el-select-dropdown {
+    @extend %border-base;
+}
+
+.el-select-dropdown__item.hover {
+    background-color: $background-hover-color;
+}
+
+.el-select-dropdown__item.selected:hover {
+    background-color: rgb(33, 126, 224);
+}
+/* timePicker
+  --------------------------*/
+.w-time-picker {
+    @extend .w-select;
+
+    .el-input__icon {
+        color: $border-color;
+    }
+}
+
+.el-time-panel {
+    @extend %border-base;
+
+    .el-time-spinner__item:hover:not(.disabled):not(.active) {
+        background: $background-hover-color;
+    }
+
+    .el-time-panel__btn {
+        color: #666;
+
+        &.confirm {
+            color: #268fff;
+        }
+    }
+}
+/* checkbox
+  --------------------------*/
+.w-checkbox-group {
+    .el-checkbox {
+        color: $font-color;
+    }
+
+    .el-checkbox__inner {
+        @extend %border-base;
+    }
+}
+
+.w-checkbox {
+    @extend .w-checkbox-group;
+
+    .el-checkbox__label {
+        color: $font-color;
+    }
+}
+/* radio
+  --------------------------*/
+.w-radio-group {
+    .el-radio__inner {
+        @extend %border-base;
+    }
+}
+/* textarea
+  --------------------------*/
+.w-textarea {
+    .el-textarea__inner {
+        @extend %border-base;
+    }
+}
+/* switch
+  --------------------------*/
+.w-switch {
+    .el-switch__core {
+        @extend %border-base;
+        background-color: $border-color;
+    }
+}
+/* placeholder
+  --------------------------*/
+.el-input__inner::-webkit-input-placeholder {
+    color: #bbbbbb;
+}
+
+.el-input__inner:-moz-placeholder {
+    color: #bbbbbb;
+}
+
+.el-input__inner::-moz-placeholder {
+    color: #bbbbbb;
+}
+
+.el-input__inner:-ms-input-placeholder {
+    color: #bbbbbb;
+}
+
+.el-textarea__inner::-webkit-input-placeholder {
+    color: #bbbbbb;
+}
+
+.el-textarea__inner:-moz-placeholder {
+    color: #bbbbbb;
+}
+
+.el-textarea__inner::-moz-placeholder {
+    color: #bbbbbb;
+}
+
+.el-textarea__inner:-ms-input-placeholder {
+    color: #bbbbbb;
+}
+/* Tabs 标签页
+  --------------------------*/
+.w-tabs {
+    .el-tabs__item {
+        color: #333333;
+
+        &:hover {
+            color: #268fff;
+        }
+
+        &.is-active {
+            color: #268fff;
+        }
+    }
+
+    .el-tabs__header {
+        border-bottom: 1px solid $border-color;
+    }
+
+    .el-tabs__active-bar {
+        height: 1px;
+        background-color: #268fff;
+    }
+}
+/* ionicons
+  --------------------------*/
+.iconfont {
+    font-size: 16px;
+
+    &.bigicon {
+        font-size: 17px;
+    }
+
+    &.biggericon {
+        font-size: 20px;
+    }
+}

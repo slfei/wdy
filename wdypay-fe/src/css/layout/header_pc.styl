@@ -1,0 +1,91 @@
+header
+   height 80px
+   background #fff
+   box-shadow 0 2px 16px rgba(0,0,0,0.06)
+   .header_top
+       height 30px
+       background #f8f8f8
+       .header_center
+            width 1180px
+            margin 0 auto
+            .cn:before,.en:before
+                position absolute
+                content ''
+                width 16px
+                height 10px
+                top 4px
+                left 5px
+                background-size 100% !important
+            .cn:after,.en:after
+                position absolute
+                left 27px
+            .cn:before
+                background url('/build/img/lang/cn.png')
+            .cn:after
+                content '简体中文'
+            .en:before
+                background url('/build/img/lang/en.png')
+            .en:after
+                content 'English'
+            .selectLan
+                float right
+                width 120px
+                height 20px
+                padding-top 6px
+                margin-left 15px
+                position relative
+                display inline-block
+                &:hover
+                    .lan_info
+                        border-bottom none
+                    .lan_list
+                        display block
+                i
+                    float right
+                    margin-right 5px
+                .lan_info
+                    cursor pointer
+                    height 20px
+                    position relative
+                    padding-left 25px
+                    border 1px solid #ccc
+                    line-height 20px
+                    border-radius 2px
+                    background #fff
+                .lan_list
+                    display none
+                    height 42px
+                    width 100%
+                    background #fff
+                    position absolute
+                    z-index 999
+                    border 1px solid #ccc
+                    border-top none
+                    border-radius 2px
+                    li
+                        position relative
+                        height 20px
+                        line-height 20px
+                        cursor pointer
+                        &:hover
+                            background #f8f8f8
+   .header-area
+       width 1180px
+       margin 0 auto
+       height 100%
+       .header-logo
+            height 51px
+            float left
+            margin-top 13px
+            img
+                height 100%
+       .header-title
+           float left
+           height 30px
+           border-left 2px solid #dedede
+           font-size 24px
+           margin-left 20px
+           padding-left 20px
+           margin-top 24px
+           line-height 30px
+           color #333

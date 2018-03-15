@@ -1,0 +1,100 @@
+@import "./teacher.styl"
+.teacher-comment
+    margin-bottom 20px
+    .comment-header
+        background #fcfcfc
+        padding 20px
+        span
+            padding-left 21px
+            margin-left 39px
+        .good-percent
+            position relative
+            width 90px
+            display inline-block
+            .praise
+                position absolute
+                bottom 5px
+                left -11px
+                font-size 19px
+                color #FF1818
+            i
+                position absolute
+                bottom -14px
+                left 40px
+        .all-comment
+            border-left 1px solid #ccc
+        .sort_type
+            position relative
+            margin-right 26px
+            input[type="radio"]
+                position absolute
+                width 17px
+                top 5px
+                left 20px
+                opacity 0
+                cursor pointer
+                padding-bottom 3px
+            i.select_radio
+                font-style normal
+                display inline-block
+                text-align center
+                width 16px
+                height 16px
+                line-height 14px
+                color #fff
+                vertical-align middle
+                margin-top -3.51px
+                border #238fff 1px solid
+            input[type="radio"] + i
+                border-radius 50%
+                margin-right 8px
+            input[type="radio"]:checked + i
+                color #238fff
+                border 1px solid #238fff
+                b
+                    display inline-block
+                    width  10px
+                    height 10px
+                    background #238fff
+                    border-radius 50%
+    .comment-list
+        padding 0px 30px 20px
+        .each-comment
+            padding 8px 45px
+            margin-top 10px
+            border-bottom 1px solid #ccc
+            .each-left
+                margin-top 3px
+                .user-img
+                    img
+                        width 40px
+                        height 42px
+                        border-radius 100%
+                .user-name
+                    width 40px
+                    color #333
+                    font-size 12px
+                    text-align center
+                    word-break break-all
+                    word-wrap break-word
+                    margin-top 5px
+            .comment-content
+                margin-left 20px
+                font-size 14px
+                color #ccc
+                .ion-android-star
+                    color #FFB040
+                    font-size 17px
+                .comment-text
+                    color #333
+                    width 625px
+                    word-break break-all
+                    word-wrap break-word
+                    line-height 20px
+                .resource
+                    margin-top 7px
+                    margin-bottom 15px
+                    .course-name
+                        color #238FFF
+                    .date
+                        margin-left 40px

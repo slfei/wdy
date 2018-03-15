@@ -1,0 +1,179 @@
+@import "./center.styl"
+@import "../../components/tab/tab-switch.styl"
+@import "../../components/modal/avator-modal.styl"
+.w-btn-primary
+    cursor pointer
+.tab-content
+    width 100%
+    .form-group
+        padding 0px
+        margin 20px 0px
+        label
+            color #333
+            font-size 16px
+            width 130px
+            float left
+            text-align right
+            margin-top 8px
+            margin-right 10px
+        input
+            float left
+            height 33px
+            color #666
+            font-size 14px
+            line-hieght 40px
+            padding 7px 12px
+            border 1px solid $color_lightgray
+            border-radius 4px
+            margin-left 10px
+        input:focus
+            border 1px solid #098bf3
+    .edit-userinfo
+        width 67%
+        text-align center
+        margin 20px auto
+        .user-avator
+            img
+                width 120px
+                height 120px
+                border-radius 100%
+                border 1px solid #f5f5f5
+        .update-avator
+            margin-top 25px
+            a
+                cursor pointer
+        .user-input
+            padding-top 10px
+            .form-group
+                input
+                    width 340px
+                .select-left
+                    float left
+                    margin-left 11px
+                .mobile-disable
+                    color #999
+                .mobile-disable:disabled
+                    background #f5f5f5
+                    border none
+                .gender-cat
+                    display inline-block
+                    float left
+                    margin-top 6px
+                    margin-left 14px
+                    .select_gendar
+                        position relative
+                        margin-right 26px
+                        input[type="radio"]
+                            position absolute
+                            width 40px
+                            top -14px
+                            left -12px
+                            opacity 0
+                            cursor pointer
+                            padding-bottom 3px
+                        i.select_radio
+                            font-style normal
+                            display inline-block
+                            text-align center
+                            width 16px
+                            height 16px
+                            line-height 12px
+                            color #fff
+                            vertical-align middle
+                            margin-top -3.51px
+                            border #098bf3 1px solid
+                        input[type="radio"] + i
+                            border-radius 50%
+                            margin-right 8px
+                        input[type="radio"]:checked + i
+                            color #098bf3
+                            border 1px solid #098bf3
+                            b
+                                display inline-block
+                                width  10px
+                                height 10px
+                                background #098bf3
+                                border-radius 50%
+                                margin-top 2px
+                .input_select
+                    position relative
+                    select
+                        font-size 15px
+                        appearance none
+                        -moz-appearance none
+                        -webkit-appearance none
+                        background #f5f5f5
+                        border none
+                        width 107px
+                        padding 8px 13px
+                        margin-right 9px
+                        border-radius 4px
+                        option
+                            text-align center
+                    i
+                        position absolute
+                        top 8px
+                        right 19px
+                    .industry
+                        width 340px
+                .save_info
+                    cursor pointer
+            .action
+                margin 30px 0 60px
+    .bind_account
+        .wei_login
+            background  url(/build/img/weichat.png)
+        .qq_login
+            background url(/build/img/qq.png)
+        .base_login
+            display inline-block
+            width 90px
+            height 90px
+            background-size 90px 90px
+            background-repeat no-repeat
+        .other_social
+            width 50%
+            margin 0px auto
+            padding 40px 0px 40px 38px
+            p
+                text-align center
+            .bind_arrow
+                font-size 54px
+                margin 16px 65px
+                color #999
+            .bind_account_name
+                margin 24px 0px
+                float left
+                .bind_user
+                    cursor pointer
+                .margin_top
+                    display inline-block
+                    padding 9px 0px
+                    color #999
+                    font-size 16px
+                    margin-top 4px
+                    word-wrap break-word
+                .nickname
+                    color #333
+    .setpassword
+        width 31%
+        text-align center
+        margin 66px auto
+        .form-group
+            input
+                width 300px !important
+        .pwdrule
+            font-size 14px
+            color #fe9700
+        .sure-pwd
+            margin-left 10px
+            margin-top 55px
+            .w-pwd-primary
+                display block
+                background #098bf3
+                width 300px
+                color #fff
+                padding 10px 0px
+                border-radius 4px
+                cursor pointer
+

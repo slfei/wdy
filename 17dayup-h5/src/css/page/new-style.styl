@@ -1,0 +1,194 @@
+//why 21071124 样式覆盖
+
+//课程详情start
+.update-wrap.discovery_center
+    //列表样式
+    .discovery_scroll_area
+        li
+            margin:0 12px 
+            a
+                .discovery_list_img
+                    padding-left:0;
+                    margin-left:0;
+    //筛选部分
+    .discovery_filter
+        .discovery_filter_area
+            .discovery_filter_area_list
+                .discovery_filter_area_list_item
+                    &:nth-of-type(1)
+                        -webkit-box-pack:start;
+                    &:nth-of-type(2)
+                        -webkit-box-pack:center;
+                    &:nth-of-type(3)
+                        -webkit-box-pack:end;
+                    display:-webkit-box;
+                    padding:0 20px;
+                    span,.text_omit
+                        float:inherit;
+                        width:auto;
+                        margin-right:5px;
+                        margin-left:0;
+                    i
+                        display:block;
+        .js-sort
+            .cur
+                color #268fff
+        .discovery_filter_screen_area
+            height 253px
+            .area1
+                padding-bottom 0;
+    .discovery_scroll
+        .discovery_scroll_area
+            li
+                a
+                    .discovery_list_img
+                        height:80px;
+                    .discovery_list_info
+                        height:80px;
+                        .discovery_list_info_title
+                            margin-bottom:2px
+                            position relative;
+                            top -2px 
+                        .discovery_list_info_name
+                            margin-bottom:1px 
+//课程详情end    
+
+//个人中心
+.update-wrap.my-profile
+    .cell-li
+        li
+            &.first:first-child
+                padding: 17px 0!important;
+            padding:17px 0;
+            margin:0 20px;
+            &:last-child
+                border-bottom:0 none;
+        .avator_desc
+            margin-top:20px;
+//个人中end
+
+//意见反馈start
+.update-wrap.my-feedback
+    .feedback-main 
+        .problem_type
+            padding:10px 15px 0px;
+            margin-bottom 0;
+            &:first-child
+                border-bottom 10px #f5f5f5 solid
+            a
+                margin-bottom 5px
+            .title
+                font-size:12px;
+            .title,.select_type
+                padding:5px 0;
+            .feedback_text 
+                textarea
+                    padding:15px;
+                    resize:none;
+                    &::placeholder
+                        color:#ccc
+            .select_type
+                a
+                    float:left;
+//意见反馈end
+
+//订单支付start
+.update-wrap.my-pay
+    .pay-main 
+        .order_detail
+            padding:20px 16px;
+            .cell
+                .label
+                    font-weight:bold;
+    .pay_money
+        .border
+            .money
+                font-size:16px;
+            .label
+                font-weight:bold;
+        .sp-hd
+            padding-left:16px;
+        .pay_method
+            padding:0;
+            .payment
+                padding 20px 15px 10px
+                &:last-child
+                    padding-top 10px 
+                    padding-bottom 20px
+                .weui-cell__bd
+                    .pay_desc
+                        margin-left:8px;
+                        p
+                            font-size:14px;
+                            padding-top:3px;
+                            padding-bottom:2px;
+                        .intro
+                            font-size:12px;
+        
+//订单支付end
+//收藏start
+.update-wrap.my-collection
+    .collect-main
+        .course_item
+            position: relative;
+            transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+            padding 0;
+            margin 0;
+            border-bottom:0 none
+            &:after
+                content:" ";
+                height:1px;
+                background-color:#ececec;
+                position:absolute;
+                left:10px;
+                right:10px;
+                bottom:0px;
+                z-index: 10
+                
+            .cont
+                position: relative;
+                background-color:#fff;
+                z-index: 10;
+                display:flex;
+                padding 20px 10px;
+                &.animated
+                    -webkit-transition: -webkit-transform .2s ease-out;
+                    transition: transform .2s ease-out;
+                .course_img
+                    width:133px;
+                .course_desc
+                    flex:1;
+                    p
+                        height: 40px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        font-size: 16px;
+                        color: #3c3c3c;
+                        line-height: 20px;
+                    .price
+                        margin-top:29px;
+                        font-size:14px;
+                        height:14px;
+                        line-height:14px;
+            .sl-opts
+                display: -webkit-box;
+                -webkit-box-pack: center;
+                -webkit-box-align: center;
+                position: absolute;
+                top: 0;
+                bottom:2px;
+                right: 0;
+                z-index: 0;
+                background-color:#FF1818;
+                background-image:url('/static/img/icon/delete.png');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:20px 29px;
+                width: 60px
+                
+                
+//收藏end

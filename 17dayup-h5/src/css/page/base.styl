@@ -1,0 +1,87 @@
+@import "../../lib/normalize-css/normalize.css"
+@import "../../lib/weui/dist/style/weui.css"
+@import "./weui_custom.styl"
+@import "../config.styl"
+@import "./_layout/flex.styl"
+@import "./_layout/footer.styl"
+@import "./_layout/header.styl"
+@import "./_layout/icon.styl"
+@import "./_layout/common.styl"
+
+
+body
+    background: #fff
+       
+.clearfix::after
+    display block
+    clear both
+    content ""
+    
+.gray_bg
+    background #f5f5f5
+.white_bg
+    background #fff
+    
+.pull-left
+    float left
+.pull-right
+    float right
+.btn-base
+    padding 6px 10px
+    background #fff
+    font-size 12px
+    border-radius 5px
+.w-btn-primary
+    color #797979
+    border 1px solid #ccc
+.w-btn-begin
+    color #268FFF
+    border 1px solid #268FFF  
+.w-btn-danger
+    color #FF1818
+    border 1px solid #FF1818 
+.w-btn-pay
+    background-color:  #268fff
+    border:1px solid #268fff
+    color:#fff    
+.btn-footer
+    position fixed
+    bottom 0px
+    width 100%
+    color #fff
+    font-size 14px
+    padding 10px 
+    text-align center
+.color_red
+   background #FF1818
+.color_blue
+    background #268FFF 
+li
+    list-style none
+a
+    text-decoration none
+    color #666
+.hide
+    display: none
+    
+*:focus 
+    outline none
+*
+    box-sizing: border-box
+
+a
+    color inherit
+
+.ion
+    font-size: 12px    
+    line-height: inherit
+// 底部按钮样式修改
+.btn-footer.btn-footer-big
+    font-size 16px
+    padding 12px 10px
+.bar-tab.footer
+    padding-top 0;
+    .row 
+        a
+            padding-top 6px
+            height 50px

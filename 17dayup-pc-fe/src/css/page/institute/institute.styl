@@ -1,0 +1,96 @@
+@import "../../components/pagination/pagination.styl"
+@import "../../config.styl"
+
+*
+    padding 0px
+    margin 0px
+.course_active
+    color #238FFF
+.course_listen
+    padding-left 21px
+    label
+        left 0
+        position absolute
+        width 16px
+        height 16px
+        background url(/build/img/icon/check.png) no-repeat
+        background-size 100%
+.course_listen_active
+    background url(/build/img/icon/checked.png) no-repeat !important
+    background-size 100% !important
+.institute-main-center
+    background #f5f5f5
+    .institute-center
+        width 1170px
+        padding 20px 0px
+        margin 0px auto
+        .padding
+            padding 20px
+        .institute-active
+            border-bottom 3px solid #098bf3
+        .institute-header
+            padding 25px
+            .institute-left
+                .insti-logo
+                    img
+                        width 134px
+                        height 134px
+                .insti-desc
+                    font-size 18px
+                    margin-left 15px
+                    h3
+                        padding 0
+                        margin 0
+                        margin-bottom 10px
+                        color #333
+
+                    .desc-content
+                        height 72px
+                        line-height 24px
+                        overflow hidden
+                        .inner
+                            position relative
+                            top 50%
+                            transform translateY(-50%)
+                            word-break break-all
+                            max-hegiht 72px
+
+                    .insti-label
+                        margin-top 10px
+                        color #999
+                        span
+                            margin-right 60px
+                        
+            .online-ask
+                margin-top 44px
+                a
+                    font-size $font_large
+                    border-radius 4px
+                    padding 13px 24px 14px
+                    display inline-block
+                    /*margin-top 44px*/
+                    border 1px solid $color_primary
+                .consult
+                    color #fff
+                    background $color_primary
+                .consult-disabled
+                    color #ccc
+                    border-color #ccc
+                    pointer-events none
+
+        .main-institute
+            margin-top 30px
+            .institute-navbar
+                padding 20px 0px 44px
+                .nav-a
+                    font-size 18px
+                    font-weight 500
+                    width 865px
+                    text-align center
+                    margin 0 auto
+                    a
+                        color #333
+                        padding 20px
+                        margin-right 99px
+                    .about-us
+                        margin-right 0px

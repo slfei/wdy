@@ -1,0 +1,74 @@
+@import "./bos/header_footer.styl"
+@import './icon/icon.styl'
+@import "./layout/returntop.styl"
+
+a
+    text-decoration none
+    color #666
+/*修改聚焦时input的边框*/
+*:focus 
+    outline none
+.hide
+    display none
+.w-btn-primary
+    background #098bf3
+    color #fff
+    font-size 16px
+    display inline-block
+    padding 7px 16px
+    border-radius 4px
+.w-btn-danger
+    background #ff1818
+    color #fff
+    font-size 16px
+    padding 8px 16px
+    border-radius 4px
+.no-data-type
+    width 60%
+    text-align center
+    padding 20px 0px
+    margin 20px auto
+    .no-course
+        background url(/build/img/course-null.png)
+        imerge: no_data;
+    .no-order
+        background url(/build/img/order-null.png)
+        imerge: no_data;
+    .no-coupon
+        background url(/build/img/coupon-null.png)
+        imerge: no_data;
+    .no-collection
+        background url(/build/img/collection-null.png)
+        imerge: no_data;
+    .no-notice
+        background url(/build/img/no-notice.png)
+        imerge: no_data;
+
+    .no-data
+        background url(/build/img/no-data.png)
+        imerge: no_data;
+    .no-data-bg
+        display inline-block
+        width 180px
+        height 180px
+        background-repeat no-repeat
+        margin-bottom 20px
+.jq-icon-success
+    background-color $color_primary !important
+    border-color $color_primary !important
+.top-20
+    margin-top 20px
+.rich-text
+    word-break break-all
+    img
+        max-width 100%
+.single-row
+    height 1.3em
+    overflow hidden
+    text-overflow: ellipsis;
+    white-space: nowrap
+
+/*国际化*/
+.locale-en
+    .en-hide
+        display none !important

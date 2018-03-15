@@ -1,0 +1,76 @@
+@import '../../config.styl'
+.feedback a
+    color $color_primary !important
+.help-feedback
+    padding 30px 0 60px 0
+    font-size $font_large
+    a:hover,a:focus
+        text-decoration none
+    .left
+        width 180px
+        background #fff
+        margin-right 30px
+        ul
+            li
+                padding 10px 0 10px 20px
+                margin-bottom 0
+                a
+                    color #333
+                    font-size 16px
+                dl
+                    margin 0
+                    dt
+                        color #333
+                        font-weight normal
+                    dd
+                        margin-top 10px
+                        padding-left 16px
+                        a
+                            color #666
+                            font-size 14px
+            li ~ li
+                border-top 1px solid #eee
+    .right
+        &
+            width 970px
+            background #fff
+            padding-top 30px
+            padding-bottom 30px
+            min-height $min_height_normal
+        .title
+            font-weight bold
+            border-bottom 1px solid #dedede
+            padding 0 32px 27px 32px
+        .content
+            padding 0 32px
+            .row
+                .col-xs-1
+                    width 80px
+            .type
+                padding 30px 0 27px 0
+                a
+                    display inline-block
+                    margin-right 30px
+                    span
+                        float left
+                    .ico
+                        margin-right 10px
+                        width: 18px;
+                        height: 18px;
+                        background: url(/build/img/icon/noactive.png) no-repeat
+                        //imerge: i_blue;
+                    .active
+                        background: url(/build/img/icon/active.png) no-repeat
+                        //imerge: i_blue;
+
+            .div-block
+                padding-bottom 27px
+            .submit
+                font-size $font_large
+                color #fff
+                background $color_primary
+                border-radius 5px
+                padding 12px 34px
+                display inline-block
+            .submit:hover, .submit:focus, .submit:active
+                color #fff

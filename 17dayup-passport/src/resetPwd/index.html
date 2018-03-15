@@ -1,0 +1,51 @@
+<div class="reset-password-modal-wrap modal-wrap">
+    <div class="m-header">
+        <div class="title">
+            <i class="icon-exclam"></i>
+            <br/>
+            忘记密码通过手机号重设密码
+        </div>
+        <a class="close-btn"></a>
+    </div>
+    <div class="m-body">
+        <form>
+            <div class="error-tip"></div>
+            <div class="row">
+                <input type="text" class="form-input phone" placeholder="请输入您的手机号"
+                       data-validator='[{"type": "empty", "text": "请输入手机号"}, "phone"]'
+                >
+            </div>
+            <div class="row row-pic-code">
+                <input type="text" class="pic-code-input" placeholder="请输入验证码" maxlength="4"
+                       data-validator='[{"type": "empty", "text": "请输入验证码"}]'
+                >
+                <img class="pic-code" width="128" alt="图片验证码" height="44" style="vertical-align: middle"/>
+            </div>
+            <div class="row row-mobile-code hide">
+                <input type="text" class="mobile-code-input" placeholder="动态码"
+                       data-validator='[{"type": "empty", "text": "请输入动态码"}]'
+                >
+                <a class="mobile-code">获取动态码</a>
+            </div>
+            <div class="row row-password">
+                <input type="password" class="form-input password" placeholder="请输入密码" id="reset-pwd-password"
+                       data-validator='[{"type":"empty","text":"请输入密码"}, "password"]'
+                />
+            </div>
+            <div class="row row-password">
+                <input type="password" class="form-input confirm-password" placeholder="请输入确认密码"
+                       data-validator='[{"type":"empty","text":"请输入确认密码"},
+                        { "type": "equalTo", "args": "#reset-pwd-password", "text": "两次密码不一致"}]'
+                />
+            </div>
+            <div>
+                <button type="submit" class="btn register-btn">提交</button>
+            </div>
+        </form>
+    </div>
+    <div class="m-footer">
+        返回
+        <a class="go-to-login link_register" href="javascript:;">登录</a>
+        <a class="backward link" href="javascript:;">修改手机号</a>
+    </div>
+</div>

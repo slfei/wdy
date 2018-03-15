@@ -1,0 +1,43 @@
+{
+    "teachingManagement": {
+        "content": {
+            "title":"Content",
+            "field": {
+                "courseManage":"Course management",
+                "videoManage":"Video management",
+                "dataManage":"Material management"
+            }
+        },
+        "teach": {
+            "title":"Auxiliary teaching",
+            "field": {
+                "liveList":"Weekly Live List",
+                "evaluationManage":"Evaluation Management"
+            }
+        }
+    },
+    "finacial": {
+        "field": {
+            "orderCheck":"Order Tracking",
+            "finacialManage":"Fund Management",
+            "refundManage":"Refund Management"
+        }
+    },
+    "accountManagement": {
+        "account": {
+            "title":"Account",
+            "field": {
+                "dataModify":"Material modification",
+                "memberManage":"Member management",
+                "permissionsManage":"Member permission settings"
+            }
+        },
+        "personalInformation": {
+            "title":"Personal data",
+            "field": {
+                "personnaInfo":"Personal data"
+            }
+        }
+    }
+}
+

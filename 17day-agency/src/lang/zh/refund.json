@@ -1,0 +1,39 @@
+{
+    "text":{
+      "refund-title":"退款说明流程",
+      "refund-description-step1":"退款待确认：学员提交退款申请后，需要机构确认退款，机构也可以在三天内说服学员取消退款。",
+      "refund-description-step2":"退款处理中：正在退款流程中的订单 ",
+      "refund-description-step3":"退款完成：完成退款的订单"
+    },
+    "tabs":{
+      "el-noconfirm":"退款待确认",
+      "el-processing":"退款处理中",
+      "el-completed":"退款完成"
+    },
+    "table":{
+      "title":{
+        "refund-number":"退款编号",
+        "course-name":"课程名称",
+        "memberID":"学员ID",
+        "refund-amount":"退款金额（元）",
+        "transaction-amount":"交易金额（元）",
+        "apply-time":"申请时间",
+        "confirm-time":"确认时间",
+        "reason":"退款原因",
+        "description":"退款说明",
+        "operation":"操作"
+      }
+    },
+    "tips":{
+      "no-data":"没有数据"
+    },
+    "reasonList":{
+      "name1":"买错课了",
+      "name2":"没时间学",
+      "name3":"想换一个别的课程",
+      "name4":"其他"
+    },
+    "btn":{
+      "confirm-refund":"确认退款"
+    }
+}

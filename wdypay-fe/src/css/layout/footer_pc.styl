@@ -1,0 +1,34 @@
+footer
+    height 200px
+    background #333
+    position fixed
+    bottom 0
+    width 100%
+    .footer-area
+        padding-top 70px
+        width 300px
+        margin 0 auto
+        .footer-info
+            margin-bottom 3px
+            width 100%
+            text-align center
+            color #666
+            font-size 12px
+            .batb
+                padding-left 20px
+                position relative
+                color #666
+            .batb:before
+                content ''
+                position absolute
+                background url('/build/img/batb.png') no-repeat
+                width 16px
+                height 17px
+                left 0px
+                background-size 100%
+                top -2px
+
+@media screen and (max-height:780px)
+    footer
+        position relative
+        margin-top 20px

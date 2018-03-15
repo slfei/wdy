@@ -1,0 +1,200 @@
+@import '../config.styl'
+@import "../components/pagination/pagination.styl"
+@import '../icon/icon.styl'
+@import '../components/course/share.styl'
+a.ahre
+    color #333
+a.ahre:hover
+    color #238fff
+a.resourse-name:hover
+    text-decoration underline
+.hot-more 
+    a:hover
+        text-decoration underline
+.header-active-news
+    border-bottom 4px solid $color_primary
+    color $color_primary !important
+.wt_news
+    width 100%
+    background #f5f5f5
+    padding-bottom 60px
+    .text-center
+        text-align center
+    .news_cantainer
+        width 1180px
+        padding-top 30px
+        margin 0px auto
+    .news_content
+        width 817px
+        float left
+        padding 20px
+        margin-right 30px
+        .w-pagination
+            margin-bottom 40px
+        .news_top
+            position relative
+            font-size 16px
+            color #666
+            background #f5f5f5 
+            padding 10px 15px
+            border-radius 4px
+            .ion-ios-arrow-right
+                margin 0 6px
+            a:hover
+                cursor pointer
+                color #238fff
+            .triangle-down
+                width 0    
+                height 0   
+                border-left 4.5px solid transparent
+                border-right 4.5px solid transparent
+                border-top 7px solid #999
+                display inline-block
+                margin-bottom 1px
+            .triangle-down:hover
+                border-top-color #238fff
+            .show_none
+                display none
+            .news_category
+                position absolute
+                background #fff
+                font-size 14px
+                top 40px
+                left 100px
+                box-shadow 0px 0px 10px #999
+                padding 5px 0px
+                .each_cat
+                    text-align center
+                    a
+                        display inline-block
+                        padding 5px 10px
+                        color #666
+                    a:hover
+                        color #238fff
+                .cat_active
+                    background #fff
+                    a
+                        color #238fff
+        .news_list
+            .each_li
+                padding 10px 10px 20px 10px
+                margin-top 10px
+                border-bottom 1px solid #f5f5f5
+                .news_title
+                    font-size 20px
+                    margin-bottom 20px
+                    font-weight 500
+                    a
+                        color #333
+                    a:hover
+                        color #238fff
+                .news_desc
+                    font-size 14px
+                    color #999
+                    letter-spacing 1px
+                    line-height 25px
+                    a
+                        color #999!important
+                    a:hover
+                        text-decoration underline
+                .hide_desc
+                    display none
+                .count_one_desc
+                    margin-bottom 80px
+                .news_img
+                    .each_img ~ .each_img
+                        margin-left 18px
+                    img
+                        width 240px
+                        height 168px
+                .desc_right
+                    margin-left 252px
+        .detail_content
+            margin-top 28px
+            padding 2px
+            .detail_title
+                font-size 18px
+                color #333
+                font-weight bold
+            .detail_text
+                line-height 25px
+                color #333
+                font-size 14px
+                margin-top 10px
+                p
+                    margin 0
+                .news_tags
+                    margin-top 12px
+                    a
+                        padding 5px 10px
+                        color #fff
+                        background $color_primary
+                        font-size 12px
+                        margin-right 15px
+                .page_info
+                    font-size 13px
+                    margin-top 20px
+                    padding 9px 11px
+                    background #f5f5f5
+                    section
+                        span
+                            color #999
+                            a
+                                color $color_primary
+        .time-source
+            font-size 12px
+            color #999
+            margin-top 12px
+            span
+                margin-right 50px
+    .right_recommend
+        width 333px
+        float left
+        .hot-course
+            padding 24px
+            .hot-head
+                .hot-title
+                    font-size 16px
+                    color #333
+                    font-weight 500
+                .hot-more
+                    font-size 14px
+                    color #666
+            .course_li
+                margin-top 20px
+                .each_course
+                    margin-top 20px
+                    padding 0px
+                    .img_size
+                        font-size 0
+                    img
+                        width 100%
+                        height 160px
+                    .course_desc
+                        font-size 14px
+                        color #333 
+                        line-height 20px 
+                        padding 5px 10px
+                        display -webkit-box
+                        text-overflow ellipsis
+                        -webkit-box-orient vertical
+                        -webkit-line-clamp 2
+                        overflow hidden
+                    .course_item
+                        margin-top 4px
+                        padding 5px 10px 10px
+                        .price
+                            font-size 16px
+                            color #FF1818
+                        .free
+                            color #238FFF
+                        .institute_name
+                            font-size 12px
+                            color #999
+                .each_course:hover
+                    cursor pointer
+                    box-shadow 0px 3px 11px #ddd
+                .li-course:hover
+                    cursor auto!important
+
+

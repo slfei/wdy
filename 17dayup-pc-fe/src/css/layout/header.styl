@@ -1,0 +1,383 @@
+@import "../config.styl"
+$shadow = 0 3px 10px rgba(0,0,0,.2)
+@charset "utf-8"
+
+.hide
+    display none
+.g-header
+    height 107px
+    line-height 73px
+    font-size 16px
+    position relative
+    background #fff
+    z-index 12
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    a:hover
+        text-decoration none
+    .hide
+        display none !important
+    .header_top
+        height 30px
+        line-height 30px
+        background #f8f8f8
+        .header_topArea
+            width 1180px
+            margin 0 auto
+            font-size 12px
+            height 30px
+            .header_line
+                color #ccc
+            .header_left
+                float left
+                .header_loginFalse
+                    .header_login
+                        color #268fff
+                        cursor pointer
+                    .header_register
+                        color #666
+                        cursor pointer
+                .header_loginTrue
+                    .header_nickname
+                        color #666
+                    .header_logout
+                        color #666
+                        cursor pointer
+            .header_right
+                float right
+                color #666
+                a
+                    color #666
+                    white-space nowrap
+                .header_space
+                    padding 0 15px
+                .cn:before,.en:before
+                    position absolute
+                    content ''
+                    width 16px
+                    height 10px
+                    top 4px
+                    left 5px
+                    background-size 100% !important
+                .cn:after,.en:after
+                    position absolute
+                    left 27px
+                .cn:before
+                    background url('/build/img/icon/cn.png')
+                .cn:after
+                    content '\7B80\4F53\4E2D\6587'
+                .en:before
+                    background url('/build/img/icon/en.png')
+                .en:after
+                    content 'English'
+                .selectLan
+                    width 120px
+                    height 20px
+                    padding-top 6px
+                    margin-left 15px
+                    position relative
+                    display inline-block
+                    &:hover
+                        .lan_info
+                            border-bottom none
+                        .lan_list
+                            display block
+                    i
+                        float right
+                        margin-right 5px
+                    .lan_info
+                        cursor pointer
+                        height 20px
+                        position relative
+                        padding-left 25px
+                        border 1px solid #ccc
+                        line-height 20px
+                        border-radius 2px
+                        background #fff
+                    .lan_list
+                        display none
+                        height 41px
+                        width 100%
+                        background #fff
+                        position absolute
+                        z-index 999
+                        border 1px solid #ccc
+                        border-top none
+                        li
+                            position relative
+                            height 20px
+                            line-height 20px
+                            cursor pointer
+                            &:hover
+                                background #f8f8f8
+                .header_center
+                    position relative
+                    cursor pointer
+                    height 30px
+                    display inline-block
+                    i
+                        margin-left 5px
+                    &:hover
+                        .dropdown_menu
+                            display block
+                    .dropdown_menu
+                        display none
+                        position absolute
+                        min-width 100%
+                        z-index 999
+                        background #fff
+                        box-shadow 0 3px 10px rgba(0,0,0,0.2)
+                        left 0
+                        li
+                            padding 0 16px
+                            &:hover
+                                background #268fff
+                                a
+                                    color #fff
+    .user-info .dropdown-menu a:hover
+        background #268fff
+        color #fff
+    .header-nav
+        display inline-block
+        .header-nav-item
+            display inline-block
+            color #333333
+            text-decoration none
+            text-align center
+            width 90px
+            &:nth-child(2)
+                width 60px
+    .logo
+        height 51px
+        width 180px
+        display inline-block
+        vertical-align middle
+        background url(/build/img/logo@2x.png) 0 0 no-repeat
+        background-size 100%
+        margin-right  25px
+    
+    .header-login
+        width 50px
+    .c-search
+        position relative
+        height 40px
+        width 360px
+        font-size $font_normal
+        line-height 40px
+        margin-top 17px
+        z-index 0
+        .search-box
+            border 1px solid $color_primary
+            border-radius 4px
+        .left
+            position absolute
+            left 0
+            width 90px
+            text-align center
+            /*background $color_primary*/
+            /*color #fff*/
+            cursor pointer
+            z-index 100
+            /*border 1px solid $color_primary*/
+            /*border-top none*/
+            &>:first-child
+                border-right 1px solid $color_primary
+            &>:last-child
+                background #fff
+                border-top 1px solid $color_primary
+                box-shadow 0 2px 4px rgba(0,0,0,0.2);
+            .ion-ios-arrow-down
+                opacity 0
+                transition transform .2s ease
+            .selected .ion-ios-arrow-down
+                opacity 1
+            &.hover .selected .ion-ios-arrow-down
+                transform rotate(180deg)
+            .selected,
+            &.hover .search-type
+                display block
+        .search-type
+            width 100%
+            display none
+        .search-type ~ .search-type
+            i
+                display none
+        .right
+            float right
+            width 36px
+            text-align center
+            background $color_primary
+            color #fff
+            font-size 22px
+            cursor pointer
+            .ico
+                vertical-align baseline
+        .search-wrap
+            margin 0 36px 0 88px
+        .search-input
+            border none
+            width 100%
+            padding 0 6px
+            line-height 20px
+            &:focus
+                outline none
+    .nav-with-dropdown
+        position relative
+        cursor pointer
+        .ion-ios-arrow-down
+            display inline-block
+            transition transform .2s ease
+        &:hover
+            .ion-ios-arrow-down
+                transform rotate(180deg)
+            .dropdown-menu
+                display block
+                top 75px
+    .dropdown-menu
+        position absolute
+        display none
+        top 100%
+        left 0
+        text-align center
+        box-shadow $shadow
+        list-style none
+        min-width 0
+        background #fff
+        border-radius 0
+        z-index 20
+        border none
+        li
+            a
+                height 32px
+                line-height 26px
+    .agency-dropdown-menu
+        width 100px
+        line-height 32px
+        margin 0
+        padding 10px 0
+        a
+            color #333333
+            text-decoration none
+    .sug-dropdown-menu
+        position absolute
+        width 100%
+        border-radius 0
+        text-align left
+        margin 0
+        border none
+        z-index -999
+        &.show
+            display block
+        .title
+            color #999
+            border-bottom 1px solid #e5e5e5
+            height 44px
+            line-height 44px
+            margin 0 22px
+        .clear-search-history
+            color $color_gray
+            i
+                display inline-block
+                transform scale(1.3)
+                margin-right 5px
+        .word-item
+            display block
+            line-height 30px
+            padding 0 22px
+            cursor pointer
+            &:hover
+                background $color_primary
+                color #fff
+    .user-info
+        position relative
+        height 76px
+        text-align right
+        .padding
+            padding 0 5px
+            color #ccc
+            font-size $font_small
+            position: relative
+            top: -1px
+        .ucenter-dropdown-menu li
+            height 32px
+            line-height 32px
+            text-align left
+            margin 0
+            padding 0
+            a
+                padding 3px 20px
+                font-size 14px
+                display block
+        .user-center
+            margin-left 30px
+            height 100%
+            img
+                vertical-align middle
+        .user-center:hover .ucenter-dropdown-menu
+            display block
+            right 0
+            top 75px
+            left auto
+            padding 0
+            margin 0
+    .notice
+        position relative
+        font-size 30px
+        margin-left 30px
+        color $color_primary
+        display inline-block
+        .num
+            position absolute
+            top 14px
+            right -8px
+            min-width 16px
+            height 16px
+            padding 0 3px
+            text-align center
+            line-height 16px
+            background $color_red
+            color #fff
+            font-size 12px
+            border-radius 50%
+            display none
+    .avatar
+        display inline-block
+        font-size 24px
+        margin 12px 0 0 0
+        background #d6d6d6
+        color #fff
+        line-height 32px
+        text-align center
+        border-radius 50%
+        img
+            width 40px
+            height 40px
+            border-radius 100%
+            border 1px solid #f5f5f5
+    .user-center
+        float right
+    .shadow
+        position absolute
+        width 100%
+        bottom 0
+        left 0
+        height 1px
+        box-shadow 0 4px 7px rgba(0,0,0,.2)
+        z-index 14
+        background #fff
+        pointer-events none
+        &:after
+            content ' '
+            position absolute
+            width 100%
+            height 4px
+            background #fff
+            bottom 1px
+form .dropdown-menu
+    padding 0 0 10px 0
+    .history-word a:hover
+        color #268fff
+        cursor pointer
+
+.locale-en
+    .g-header .logo
+        background-image url('/build/img/logo_en@2x.png')

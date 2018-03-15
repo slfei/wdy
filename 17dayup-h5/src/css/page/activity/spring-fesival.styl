@@ -1,0 +1,278 @@
+
+
+
+/*/public/*/
+.clearfix:before, .clearfix:after
+    display table
+    content " "
+.clearfix:after
+    clear both
+.pull-left
+    float left
+.pull-right
+    float right
+img
+    max-width 100%
+h1, h2, h3, h4, h5, h6
+    margin 0
+
+/*commom*/
+.list
+    margin-left: 7px;
+    margin-right: 7px;
+    img
+        height 188px
+        width 100%
+    .col-3
+        padding-left: 7px;
+        padding-right: 7px;
+        width: 50%;
+        float: left;
+        margin-bottom 30px
+        font-size 24px
+        a
+            display block
+            .course-title
+                font-weight bold
+                margin 20px 0 30px 0
+            .course-bottom
+                display flex
+                .price
+                    flex 1
+                    width 228px
+                    color #ff1818
+                .price-free
+                    color: #268fff
+                .nowprice
+                    color #999
+                    text-decoration line-through
+
+.course-list
+    .title
+        margin 0px 0 15px 0
+        h3
+            width 318px
+            height 37px
+            margin-left 219px
+            display inline-block
+        .more
+            color #fff
+            font-size: 22px;
+            text-align center
+            margin-right 30px
+            background #e31b2e
+            border-radius 18px
+            width 131px
+            height 38px
+            line-height 38px
+            i
+                padding-left 8px
+.border-top
+    background url('/static/img/activity/spring-festival/border-top.png') no-repeat
+    height 38px
+    background-size 100%
+.border-bottom
+    background url('/static/img/activity/spring-festival/border-bottom.png') no-repeat
+    height 42px
+    background-size 100%
+    position: relative;
+    top: -20px;
+.border-left
+    background url('/static/img/activity/spring-festival/border-left.png') no-repeat
+    background-size  750px  100%
+    padding 0 25px
+    position: relative;
+    top: -15px;
+.g-header
+    height 80px
+    line-height 80px
+    background #fff
+    .header-nav
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+    .logo
+        display: inline-block;
+        width 180px
+        height 50px
+        margin-left 15px
+        background url('/static/img/logo@2x.png') no-repeat 0 0
+        background-size 100%
+    .order
+        color: #268fff;
+        font-size: 28px;
+        margin-right:40px;
+        display:inline-block;
+    .lottery
+        color:#ff1818;
+        font-size:28px;
+        margin-right:28px;
+        display:inline-block;
+.foot
+    //margin-top 25px
+    //height 145px
+    padding-top 75px
+    padding-bottom 75px
+    text-align center
+    background #333333
+    .logo
+        display inline-block
+        width 240px
+        height 64px
+        background url('/static/img/logo@2x.png') no-repeat
+        background-size 100%
+        margin-bottom 10px
+    .text
+        font-size 22px
+        line-height 1.5em
+        color #666
+        a
+            position relative
+            padding-left: 20px
+        a:before
+            content  ''
+            position absolute
+            background url("/static/img/batb.png") no-repeat
+            width 16px
+            height 17px
+            left 0px
+            background-size 100%
+            top 7px
+.spring
+    background #faecc5
+    .single-row
+        overflow hidden
+        text-overflow ellipsis
+        white-space nowrap
+    .section-head-bg
+        background url('/static/img/activity/spring-festival/head-bg-app-2.jpg') no-repeat 0 -32px
+        height 400px
+        text-align center
+        img
+            display inline-block
+            margin-top  190px
+            width 120px
+            border-radius 3px
+    .section-discount
+        margin 30px 30px 10px
+        .discount-main
+            padding 0 10px
+            margin-bottom 20px
+            float left
+            width 50%
+        .discount
+            display flex
+            align-items center
+            justify-content: flex-start;
+            height 111px
+            background url('/static/img/activity/spring-festival/discount-bg.png') no-repeat
+            color #fff
+            .discount-money
+                width 94px
+                padding-left 7px
+                font-style: italic;
+                color #fcd670
+                font-size: 0;
+                .unit
+                    font-size 20px
+                .text
+                    font-size 40px
+            .discount-rule
+                text-align center
+                width 124px
+                font-size 28px
+                letter-spacing: 5px;
+            .discount-action
+                flex 1
+                font-size 42px
+                .discount-get
+                    display block
+                    height 111px
+                    font-size 36px
+                    color #f01b32
+                    text-align: center;
+                    letter-spacing: 8px;
+                    line-height: 42px;
+                    padding-top: 10px;
+        .discount-100, .discount-200
+            .discount-money
+                padding-left 0
+                .unit
+                    font-size: 16px;
+                .text
+                    font-size 38px
+
+        .active
+            background url('/static/img/activity/spring-festival/discount-prevent.png') no-repeat
+            .discount-money .unit,.discount-money  .text, .discount-rule,.discount-action .discount-get
+                color #fff
+            .discount-get
+                pointer-events none
+
+    .section-hot-course
+        .title
+            margin 0 12px
+            background url('/static/img/activity/spring-festival/hot-title-bg.png') no-repeat
+            height 66px
+            line-height 62px
+            color #fff
+            .text
+                font-size 24px
+                padding-left: 18px;
+                display inline-block
+            .more
+                color #fff
+                font-size 22px
+                margin-right 20px
+                i
+                    padding-left 8px
+
+        .hot-top
+            background url('/static/img/activity/spring-festival/hot-top-bg.png') no-repeat
+            height 48px
+            background-size 100%
+        .hot-bottom
+            background url('/static/img/activity/spring-festival/hot-bottom-bg.png') no-repeat
+            height 48px
+            background-size 100%
+            //position: relative;
+            //top: -20px;
+            margin-bottom 20px
+        .hot-left
+            background url('/static/img/activity/spring-festival/hot-left-bg.png') no-repeat
+            background-size  750px 100%
+            padding 0 25px
+    .course-20
+          h3
+              background url('/static/img/activity/spring-festival/20-title-bg.png') no-repeat
+    .course-50
+          h3
+              background url('/static/img/activity/spring-festival/50-title-bg.png') no-repeat
+    .course-100
+          h3
+              background url('/static/img/activity/spring-festival/100-title-bg.png') no-repeat
+              margin-left 195px
+              width 364px
+    .course-200
+          h3
+              background url('/static/img/activity/spring-festival/200-title-bg.png') no-repeat
+              //background-size 100%
+              margin-left 195px
+              width 364px
+
+    .rules
+        color: #f1202e
+        .title
+            text-align center
+            h3
+                background url('/static/img/activity/spring-festival/rules-title-bg.png') no-repeat
+                margin-left 0
+                width 224px
+                line-height 38px
+                letter-spacing 3px
+                font-size 24px
+        .text
+            line-height 1.5em
+            font-size 22px
+            padding-left: 35px;

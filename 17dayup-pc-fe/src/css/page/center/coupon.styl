@@ -1,0 +1,53 @@
+@import "./center.styl"
+@import "../../components/pagination/pagination.styl"
+.clearfix:before, .clearfix:after
+    display table
+    content ""
+.clearfix:after
+    clear both
+.user-coupon
+    .coupon-title
+        padding 10px 30px
+        border-bottom 1px solid #dedede
+        h3
+            font-size 14px
+    .coupon-main
+        padding 30px
+        margin 0 auto
+        .item-bg
+            float left
+            margin 0px 5px 20px 5px
+            background url(/build/img/center/coupon.png)
+            display inline-block
+            width 300px
+            height 115px
+            background-size 300px 115px
+            background-repeat no-repeat
+            .coupon_head
+                color #FF6D00
+                width 125px
+                height 115px
+                line-height 115px
+                font-size 48px
+                background url("/build/img/center/money-unit.png") no-repeat 20px center
+                padding-left 35px
+            .rule_content
+                width 175px
+                padding-top 25px
+                font-size 12px
+                color #999
+                padding-right 9px
+                .coupon_date
+                    margin 5px 0 2px 0
+                .userarea
+                    display -webkit-box
+                    overflow hidden
+                    /*white-space nowrap*/
+                    /*text-overflow ellipsis*/
+                    padding-right 10px
+                    height 35px
+                    text-overflow ellipsis
+                    -webkit-line-clamp 2
+                    -webkit-box-orient vertical
+                    line-height 1.5
+

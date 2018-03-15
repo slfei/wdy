@@ -1,0 +1,139 @@
+@import "./center.styl"
+@import "../../components/pagination/pagination.styl"
+@import "../../components/tab/tab-switch.styl"
+@import "./cancel-modal.styl"
+.my-course
+    .course-tab
+        margin 0 30px
+        border-bottom 1px solid #dedede
+        a
+            display inline-block
+            margin-right 22px
+            padding 20px
+        .free-course
+            margin-right 0px
+            padding-right 0px
+        .course-tab-left
+            .border-active
+                border-bottom 3px solid #238FFF
+    .tutorial
+        width 100%
+        margin-top 20px
+        margin-left 30px
+        .course_li
+            float left
+            width 220px
+            margin-right 18px
+            margin-bottom 15px
+            .hover_course
+                position relative
+                &:hover
+                    box-shadow 0 3px 12px rgba(0,0,0,.2)
+                img
+                    display block
+                    width 100%
+                    height 122px
+                .course_label
+                    padding 8px
+                    p
+                        font-size 14px
+                        color #333
+                        line-height 19px
+                        margin 0 0 10px
+                        height 38px
+                        overflow hidden
+                        text-overflow ellipsis
+                        -webkit-line-clamp 2
+                        display -webkit-box
+                        -webkit-box-orient vertical
+                        a
+                            &:hover
+                                color #268fff
+                    .free_price
+                        color #238FFF
+                    .not_free
+                        color #ff4b4a
+                    .end_time
+                        width 100%
+                        font-size 12px
+                        color #999
+                        padding-bottom 10px
+                        border-bottom 1px solid #dedede
+                .study-process
+                    font-size 14px
+                    color #333
+                    padding 10px
+                    margin-top 9px
+                    p
+                        margin 10px 0
+                        line-hegiht 1
+                        .active
+                            color #238FFF
+                            padding-left 7px
+                        .init 
+                            font-size 14px
+                            color #333
+                            padding-left 7px
+                    .progress-container
+                        width 204px
+                        height 6px
+                        background #dedede
+                        border-radius 100px
+                        .progress-rate
+                            max-width 100%
+                            background #238FFF
+                            height 100%
+                            border-radius 100px
+                .hover-mask
+                    position absolute
+                    top 0px
+                    bottom 0px
+                    width 100%
+                    height 122px
+                    padding 10px
+                    text-align center
+                    .clearfix
+                        a
+                            position absolute
+                            display block
+                            height 122px
+                            width 100%
+                    .course_mask
+                        background rgba(0,0,0,0.35)
+                        position absolute
+                        width 220px
+                        height 122px
+                        left 0
+                        top 0
+                        z-index 990
+                        a
+                            height 100%
+                            width 100%
+                            display block
+                    i.close-avator
+                        position absolute
+                        top 5px
+                        right 5px
+                        background url(/build/img/center/close-icon.png)
+                        imerge i_grey
+                        width 30px
+                        height 30px
+                        line-height 30px
+                        text-align center
+                        border-radius 50%
+                        font-size 28px
+                        color #fff
+                        cursor pointer
+                        z-index 999
+                    .began-study
+                        position absolute
+                        font-size 16px
+                        margin-top 17%
+                        left 0 
+                        right 0
+                        z-index 991
+                        .w-btn-primary
+                            padding 8px 15px
+                            border-radius 100px
+
+

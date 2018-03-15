@@ -1,0 +1,46 @@
+{
+    "title": {
+        "listTitle":"Weekly Live List",
+        "liveType":"Live type"
+    },
+    "btn": {
+        "liveTitle":"Weidong Cloud Live",
+        "setPassword":"Set password",
+        "all":"All",
+        "free":"Free Live",
+        "pay":"Paid live",
+        "enterCourse":"Join the classroom",
+        "edit":"Modify"
+    },
+    "checkbox": {
+        "myCourse":"My lectures"
+    },
+    "table": {
+        "liveCourse":"Live courses",
+        "teacher":"Teacher",
+        "time":"Time",
+        "type":"Type",
+        "status":"Status",
+        "operation":"Operation"
+    },
+    "tips": {
+        "noData":"No data"
+    },
+    "status": {
+        "noStart":"Not started",
+        "toStar":"Starting soon",
+        "living":"Live",
+        "end":"Over"
+    },
+    "typeList": ["All", "Free", "Charge"],
+    "text": {
+        "download":"Download",
+        "client":"Teaching via the APP!",
+        "tips":"(APP login requires phone number and password. Have not set a password? go first to do it ",
+        "ba":" !",
+        "free":"Free",
+        "pay":"Pay"
+    }
+
+}
+

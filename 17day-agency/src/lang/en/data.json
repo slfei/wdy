@@ -1,0 +1,46 @@
+{
+    "title":{
+      "dialog":"Upload data"
+    },
+    "btn": {
+      "upload-data":"Upload data",
+      "search":"Search",
+      "select-file":"Select a file",
+      "upload-confirm":"Confirm to upload",
+      "cancel":"Cancel",
+      "file-delete":"Delete"
+    },
+    "upload-tip":"Files to be uploaded can be of less than 2G Word, PPT, PDF, EXCEL and other types. Please ensure the originality of uploading contents. In case of copyright complaints, the platform will directly delete the file.",
+    "checkbox":{
+      "myupload":"My materials uploaded"
+    },
+    "placeholder":{
+      "input-search":"Please enter key words"
+    },
+    "table":{
+      "tilte-file-info":"File information",
+      "tilte-file-size":"Size",
+      "tilte-file-author":"Uploader",
+      "tilte-file-operation":"Operation",
+      "tip-nodata":"No data"
+    },
+    "layer":{
+      "toggle":"Delete this uploaded material?",
+      "tips":"Tip",
+      "btn":{
+        "ok":"Confirm",
+        "cancel":"Cancel"
+      }
+    },
+    "tips":{
+      "success-delete":"Deleted!",
+      "prompt-filename-null":"File name cannot be empty",
+      "prompt-filesize-overflow":"File is too large to upload!",
+      "success-upload":"Uploaded",
+      "prompt-filetype-error":"File format error!",
+      "error-upload":"File upload failed!"
+    }
+
+
+}
+

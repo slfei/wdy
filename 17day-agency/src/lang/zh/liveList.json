@@ -1,0 +1,45 @@
+{
+    "title": {
+        "listTitle": "周直播列表",
+        "liveType": "直播类型"
+    },
+    "btn": {
+        "liveTitle": "《伟东云直播》",
+        "setPassword": "设置密码",
+        "all": "全部",
+        "free": "免费直播",
+        "pay": "付费直播",
+        "enterCourse": "进入课堂",
+        "edit": "修改"
+    },
+    "checkbox": {
+        "myCourse": "我的授课"
+    },
+    "table": {
+        "liveCourse": "直播课程",
+        "teacher": "授课老师",
+        "time": "时间",
+        "type": "类型",
+        "status": "状态",
+        "operation": "操作"
+    },
+    "tips": {
+        "noData": "暂无数据"
+    },
+    "status": {
+        "noStart": "未开始",
+        "toStar": "即将开始",
+        "living": "直播中",
+        "end": "已结束"
+    },
+    "typeList": ["全部", "免费直播", "付费直播"],
+    "text": {
+        "download": "下载",
+        "client": "客户端授课哦！",
+        "tips": "(登录客户端需要手机号、密码，如果您还没有设置密码，先去 ",
+        "ba": " 吧！",
+        "free": "免费",
+        "pay": "付费"
+    }
+
+}

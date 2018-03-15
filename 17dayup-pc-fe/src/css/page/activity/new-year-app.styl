@@ -1,0 +1,236 @@
+
+
+*
+    outline 0
+    -webkit-tap-highlight-color rgba(0,0,0,0)
+    -webkit-text-size-adjust none
+//color #333
+
+.pull-left
+    float: left
+
+.pull-right
+    float: right
+
+.clearfix
+    zoom 1
+    &:after
+    &:before
+        content ""
+        display table
+    &:after
+        clear both
+.single-row
+    overflow hidden
+    text-overflow: ellipsis;
+    white-space: nowrap
+
+.new-year
+    .g-header
+        height 50px
+        line-height 50px
+        background #fff
+        .logo
+            width 90px
+            height 25px
+            margin-left 15px
+            background url('/build/img/logo@2x.png') no-repeat 0 0
+            background-size 100%
+    .head
+        .head-bg
+            height 197px
+            background url('/build/img/activity/new-year-app/head-bg@2px.png') no-repeat 0 -2px
+            background-size 100% 219px
+    .data-start, .data-book
+        margin 0 5px
+        .data-title
+            display flex
+            align-items center
+            height 26px
+            border 1px solid #bfbfbf
+            background #dcdcdc
+            padding-left 7px
+            padding-right 10px
+            .title-icon
+                width 27px
+                height 22px
+                background url('/build/img/activity/new-year-app/icon-book.png') no-repeat
+                background-size 27px 22px
+            .title-text
+                font-size 10px
+                flex 1
+                padding-left 4px
+            .more
+                font-size 9px
+                i
+                    padding-left 8px
+        .list
+            margin-left: -2px;
+            margin-right: -2px;
+            img
+                width 100%
+            .col-3
+                padding-left: 2px;
+                padding-right: 2px;
+                width: 50%;
+                float: left;
+                margin-bottom 20px
+            a
+                display block
+                img
+                    height 80px
+                .title
+                    font-size: 10px
+                    color #333333
+                    margin 10px 0 20px 0
+                    height 1.5em
+                    line-height 1.5em
+                .bottom
+                    display flex
+                    font-size: 9px
+                    .price
+                        color #FF1818
+                        flex 1
+                        .price-free
+                            color: #3f90f7
+                    .institute
+                        padding-right 12px
+                        padding-left 12px
+                        max-width 50%
+                        color #999999
+    .data-start
+        //background url('/build/img/activity/new-year-app/data-start-bg.png') no-repeat
+        //background-size 100% 112px
+        //padding 0 10px
+        .list
+            padding 0 10px
+        .data-title
+            margin 10px 0
+            .title-icon
+                background url('/build/img/activity/new-year-app/icon-start-1.png') no-repeat 0 2px
+                background-size 63%
+            .title-text
+                margin-left -8px
+    .data-book
+        .list
+            padding 0 10px
+
+        .free-bg
+            background url('/build/img/activity/new-year-app/free-bg.png') no-repeat -5px 0
+            height 29px
+            margin-top 9px
+            background-size 100%
+        .pay-bg
+            background url('/build/img/activity/new-year-app/pay-bg.png') no-repeat -5px 0
+            height 29px
+            margin-top 9px
+            background-size 100%
+    .notice
+        margin 13px 15px 0 15px
+        //.title
+        //    background url('/build/img/activity/new-year-app/notice-title-bg.png') no-repeat
+        //    background-size 59px 19px
+        //    height 19px
+        //    line-height 19px
+        //    font-size 10px
+        //    color #fff
+        //    letter-spacing: 1.5px;
+        //    padding-left: 3px;
+        //    margin-bottom 7.5px
+        .title
+            margin-bottom 7.5px
+            font-size 0
+            span
+                position relative
+                height: 22px;
+                width: 22px;
+                line-height: 21px;
+                border-radius 50%
+                background #c51212
+                color #fff
+                font-size 10px
+                display: inline-block;
+                text-align: center;
+            .two
+                left -4px
+            .there
+                left -8px
+            .four
+                left -12px
+
+
+        .single
+            color #fff
+            text-align center
+            font-size 9px
+        .one
+            background url('/build/img/activity/new-year-app/notice-0-bg.png') no-repeat
+            height 122px
+            background-size 100% 122px
+            .one-bottom
+                margin-top 90px
+                padding 0 16px
+                text-align left
+                line-height 30px
+                display flex
+                color #fff
+                .china
+                    flex 1
+
+        .two
+            background url('/build/img/activity/new-year-app/notice-1-bg.png') no-repeat
+            height 122px
+            background-size 100% 122px
+            margin-top 12px
+            margin-bottom 12px
+            .two-bottom
+                margin-top 90px
+                line-height 30px
+        .there
+            background url('/build/img/activity/new-year-app/notice-2-bg.png') no-repeat
+            height 122px
+            background-size 100% 122px
+            //padding-top 15px
+            position relative
+            img
+                width 74px
+                margin 6px 0 8px 60%
+                display block
+            .there-bottom
+                //margin-top 10px
+                color #fff
+                line-height 30px
+    .foot
+        margin-top 25px
+        //height 145px
+        padding-top 20px
+        padding-bottom 20px
+        text-align center
+        background #333333
+        .logo
+            display inline-block
+            width 120px
+            height 34px
+            background url('/build/img/logo@2x.png') no-repeat
+            background-size 100%
+            margin-bottom 10px
+        .text
+            font-size 9px
+            line-height 19px
+            color #666
+            a
+                position relative
+                padding-left: 20px
+            a:before
+                content  ''
+                position absolute
+                background url("/build/img/batb.png") no-repeat
+                width 16px
+                height 17px
+                left 0px
+                background-size 100%
+                top -2px
+
+
+
+

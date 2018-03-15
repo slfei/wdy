@@ -1,0 +1,45 @@
+.icon
+    display inline-block
+    vertical-align middle
+    background-position center
+    background-repeat no-repeat
+
+icon(w, h, name)
+    .icon-{name}
+        width w
+        height h
+        background-image 'url("/static/img/icon/%s.png")' % name
+        background-size w h
+
+icon-bgi(name)
+    .icon-{name}
+        background-image 'url("/static/img/icon/%s.png")' % name
+
+icon-bgi-ac(name)
+    .icon-{name}
+        background-image 'url("/static/img/icon/%s-ac.png")' % name
+
+icon(22px, 22px, home)
+icon(22px, 22px, square)        
+icon(20px, 22px, user)
+icon(24px, 22px, book)
+icon(23px, 23px, order)
+icon(23px, 23px, feedback)
+icon(23px, 23px, about)
+icon(23px, 23px, download)
+icon(23px, 23px, collection)
+icon(23px, 23px, discount)
+icon(20px, 20px, arrow-right)
+icon(40px, 40px, weixin)
+icon(40px, 40px, alipay)
+icon(28px, 30px, logo)
+icon(112px, 124px, empty)
+icon(16px, 16px, search)
+
+.active
+    icon-bgi-ac(home)
+    icon-bgi-ac(square)
+    icon-bgi-ac(user)
+    icon-bgi-ac(book)
+
+icon(34px, 34px, play)

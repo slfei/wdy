@@ -1,0 +1,66 @@
+{
+  "btn":{
+    "addMember":"Add members",
+    "edit":"Modify",
+    "delete":"Delete",
+    "confirm":"Confirm",
+    "save":"Save",
+    "cancel":"Cancel"
+  },
+  "table":{
+    "name":"Name",
+    "character":"Roles",
+    "phone":"Phone number",
+    "email":"Email",
+    "operation":"Operation"
+  },
+  "props":{
+    "addTitle":"Add members",
+    "tipWarn":"Please enter the phone number for the member registration",
+    "edit":"Modify",
+    "delete":"Delete the prompt",
+    "deleteTip":"Once deleted, the member can no longer login to the management background for operation",
+    "cancerWarn":"Data not saved, sure to cancel?",
+    "tip":"Tip",
+    "addEdit":"Edit"
+  },
+  "placeholder":{
+    "phoneInout":"Please enter phone number"
+  },
+  "form":{
+    "avatar":"Avatar",
+    "name":"Name",
+    "tel":"Tel.",
+    "email":"Email",
+    "introduction":"Introduction",
+    "phone":"Phone number"
+  },
+  "rules":{
+    "fileSize":"File memory < 2M ",
+    "fileType":"Support JPG, GIF, PNG, or BMP  images",
+    "fileLimite":"Course teacher is required to use real clear frontal avatar",
+    "phoneNull":"Phone number cannot be empty",
+    "phonetype":"Format of phone number entered incorrect",
+    "nameNull":"Name cannot be empty",
+    "emailNull":"Mailbox cannot be empty",
+    "emailType":"Incorrect mailbox format",
+    "nameNullError":"Enter name",
+    "uploadSize":"Please enter no more than 10 words",
+    "avatorNull":"Please upload avatar",
+    "insNull":"Please enter an introduction",
+    "insSize":"Please enter no more than 200 words"
+  },
+  "tip":{
+    "deleteSuccess":"Deleted",
+    "alreadyCancel":"Canceled to delete",
+    "saveSuccess":"Save successfully",
+    "saveError":"Save failed"
+  },
+  "addform":{
+    "accountNumber":"Account No.",
+    "nickName":"Nickname:",
+    "textInfo":"After confirming adding the member, please fill in the following information.",
+    "clickUpload":"Click to upload image"
+  }
+}
+

@@ -1,0 +1,38 @@
+<div class="bind-phone-modal-wrap modal-wrap">
+    <div class="m-header">
+        <div class="title">
+            <i class="icon-bind-phone"></i>
+            <br/>
+            为了你的账户安全请及时绑定手机号
+        </div>
+        <a class="close-btn"></a>
+    </div>
+    <div class="m-body">
+        <form>
+            <div class="error-tip"></div>
+            <div class="row">
+                <input type="text" class="form-input phone" placeholder="请输入您的手机号"
+                       data-validator='[{"type": "empty", "text": "请输入手机号"}, "phone"]'
+                >
+            </div>
+            <div class="row row-pic-code">
+                <input type="text" class="pic-code-input" placeholder="请输入验证码" maxlength="4"
+                       data-validator='[{"type": "empty", "text": "请输入验证码"}]'
+                >
+                <img class="pic-code" width="128" alt="图片验证码" height="44" style="vertical-align: middle"/>
+            </div>
+            <div class="row row-mobile-code hide">
+                <input type="text" class="mobile-code-input" placeholder="动态码"
+                       data-validator='[{"type": "empty", "text": "请输入动态码"}]'
+                >
+                <a class="mobile-code">获取动态码</a>
+            </div>
+            <div>
+                <button type="submit" class="btn register-btn">立即绑定</button>
+            </div>
+        </form>
+    </div>
+    <div class="m-footer">
+       已有账号? 去<a class="go-to-login link_register" href="javascript:;">登录</a>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+{
+    "title":"个人信息",
+    "number":"账号",
+    "nickname":"昵称",
+    "role":"角色",
+    "bind":"绑定机构",
+    "unbind":"解除绑定",
+    "confirm":{
+        "title":"解绑提示",
+        "cont":["确定要与机构   ","  解绑吗?"]
+    },
+    "dialog":{
+        "title":"提示",
+        "no_privilege":"没有权限访问该页面"
+    }
+}

@@ -1,0 +1,71 @@
+@import '../../config.styl'
+.about
+    a
+        color $color_primary !important
+
+.help-about
+    padding 30px 0 60px 0
+    font-size $font_large
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary !important
+    .left
+        width 180px
+        background #fff
+        margin-right 30px
+        ul
+            li
+                padding 10px 0 10px 20px
+                margin-bottom 0
+                a
+                    color #333
+                    font-size 16px
+                dl
+                    margin 0
+                    dt
+                        color #333
+                        font-weight normal
+                    dd
+                        margin-top 10px
+                        padding-left 16px
+                        a
+                            color #666
+                            font-size 14px
+            li ~ li
+                border-top 1px solid #eee
+    .right
+        &
+            width 970px
+            background #fff
+            padding-top 30px
+            padding-bottom 90px
+            min-height $min_height_normal
+        .about_title
+            padding-top 20px
+            padding-bottom 20px
+            font-size 24px
+            color #268fff
+        .padding-left
+            padding-left 30px
+            padding-right 30px
+        .title
+            font-weight bold
+            padding-bottom 27px
+            border-bottom 1px solid #dedede
+        .about_min_title
+            font-weight bold
+            padding-bottom 10px
+        .class_area
+            display flex
+            div
+                flex 1
+        .class_area:nth-child(2n)
+            margin-bottom 10px            
+        p
+            text-indent 32px
+        a
+            text-decoration underline
+        .img_top
+            margin-top 30px
+            img
+                width 100%

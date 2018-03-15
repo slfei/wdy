@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <input type="file" id="file" multiple>
+      <button type="submit">开始上传</button>
+      <script src="lib/jquery.min.js"></script>
+      <script type="text/javascript" src="lib/bce-bos-uploader-lite.min.js"></script>
+      <script>
+      var uploader;
+      fetch('/api/universal/getststoken').then(res => res.json())
+        .then(res => {
+            if (res.status == 200) {
+                uploader = new baidubce.bos.Uploader({
+                   browse_button: $('#file')[0],
+                   bos_bucket: 'vod-bj-dev',
+                   bos_endpoint: 'http://bj.bcebos.com',
+                   bos_ak: res.data.accessKeyId,
+                   bos_sk: res.data.secretAccessKey,
+                   uptoken_url: '/api/universal/getststoken',
+                   uptoken: res.data.sessionToken,
+                   max_file_size: '1Gb',
+                   init: {
+                       FilesAdded: function(_, file){
+                           console.log(file)
+                       },
+                       Key: function (_, file) {
+                             var date = new Date();
+                             var year = date.getFullYear();
+
+                             var month = date.getMonth() + 1;
+                             if (month < 10) {
+                               month = '0' + month;
+                             }
+                             var day = date.getDate();
+                             if (day < 10) {
+                               day = '0' + day;
+                             }
+
+                             var deferred = baidubce.sdk.Q.defer();
+                             var delay = ~~(2 + Math.random() * 5);    // (2, 7);
+                             setTimeout(function () {
+                                 var key = year + '/' + month + '/' + day + '/' + file.name;
+                                 deferred.resolve(key);
+                             }, delay * 100);
+                             return deferred.promise;
+                       },
+                         FileUploaded: function (_, file, info) {
+                             console.log(info);
+                           var bucket = info.body.bucket;
+                           var object = info.body.object;
+                           var url = '<your host>' + bucket + '/' + object;
+                           $(document.body).append($('<div><a href="' + url + '">' + url + '</a></div>'));
+                         },
+                         UploadComplete: function() {
+                           $(document.body).append('<div>上传结束！</div>');
+                       },
+                       Error: function(_, error, file) {
+                           console.log(error);
+                       }
+                   }
+               });
+            }
+        })
+
+    document.querySelector('button[type=submit]').addEventListener('click', function () {
+     uploader.start();
+     return false;
+   });
+   </script>
+  </body>
+</html>

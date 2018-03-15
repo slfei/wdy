@@ -1,0 +1,40 @@
+{
+    "text":{
+      "refund-title":"Refund process instructions",
+      "refund-description-step1":"Refunds to be confirmed: After students submit a refund application, the organization needs to confirm the refund, or tries to persuade the students to cancel the refund within three days.",
+      "refund-description-step2":"Refund processing: The order is being refunded ",
+      "refund-description-step3":"Refund completion: Orders completing the refund"
+    },
+    "tabs":{
+      "el-noconfirm":"Refund to be confirmed",
+      "el-processing":"Refund being processed",
+      "el-completed":"Refund succeeded"
+    },
+    "table":{
+      "title":{
+        "refund-number":"Refund ID",
+        "course-name":"Course Name",
+        "memberID":"Student ID",
+        "refund-amount":"Refund amount (yuan)",
+        "transaction-amount":"Transaction Amount (yuan)",
+        "apply-time":"Application time",
+        "confirm-time":"Confirmation time",
+        "reason":"Reason for refund",
+        "description":"Refund instructions",
+        "operation":"Operation"
+      }
+    },
+    "tips":{
+      "no-data":"No data"
+    },
+    "reasonList":{
+      "name1":"Buy the wrong course",
+      "name2":"Have no time to study",
+      "name3":"Want to change a different course",
+      "name4":"Others"
+    },
+    "btn":{
+      "confirm-refund":"Confirm the refund"
+    }
+}
+

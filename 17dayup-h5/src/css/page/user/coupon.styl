@@ -1,0 +1,75 @@
+@import "../components/loading.styl"
+
+.coupon_area
+    margin-top 50px
+    ul
+       padding 10px 15px 0
+       li
+          position relative
+          margin-bottom 10px
+          .coupon
+              position relative
+              box-shadow 0 5px 5px rgba(0, 0, 0, 0.2)
+              border-radius 4px
+              .coupon_top
+                   position relative
+                   height 95px
+                   background #1ea8ff
+                   border-radius 4px
+                   &:after
+                        transform rotate(50deg)
+                        position absolute
+                        content ''
+                        height 16px
+                        width 16px
+                        bottom -8px
+                        background linear-gradient(to right,#c5c5c5 5%, #fff 20% ,#fff); 
+                        z-index 60
+                        right -8px
+                        border-radius 50%
+                   &:before
+                        transform rotate(-50deg)
+                        position absolute
+                        content ''
+                        height 16px
+                        width 16px
+                        z-index 60
+                        border-radius 50%
+                        left -8px
+                        bottom -8px
+                        background linear-gradient(to left,#c5c5c5 5%, #fff 20% ,#fff);
+                   .coupon_price
+                       position relative
+                       float left
+                       margin-left 26px
+                       padding-right 28px
+                       height 95px
+                       line-height 95px
+                       color #fff
+                       font-size 26px
+                       &:after
+                           content ''
+                           width 1px
+                           height 50px
+                           background #fff
+                           position absolute
+                           right 0
+                           top 22.5px
+                       .coupon_icon
+                           font-size 20px
+                   .coupon_info
+                       margin-left 28px
+                       float left
+                       height 95px
+                       color #ffffff
+                       font-size 14px
+                       .coupon_name
+                            padding-top 27px
+              .coupon_bottom
+                   height 35px
+                   background #268fff
+                   border-radius 4px
+                   line-height 35px
+                   font-size 14px
+                   color #fff
+                   padding-left 28px

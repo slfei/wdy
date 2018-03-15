@@ -1,0 +1,57 @@
+.el-pagination.w-pagination .btn-prev, .el-pagination.w-pagination .btn-quickprev {
+    width: 76px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    color: #000;
+    line-height: 40px !important;
+}
+
+.locale-en .el-pagination.w-pagination .btn-prev:before {
+    content: 'Prev';
+}
+
+.locale-zh_CN .el-pagination.w-pagination .btn-prev:before {
+    content: '上一页';
+}
+
+.el-pagination.w-pagination .btn-prev .el-icon-arrow-left:before {
+    content: '';
+}
+
+.el-pagination.w-pagination .btn-next, .el-pagination.w-pagination .btn-quicknext {
+    width: 76px;
+    height: 40px;
+    line-height: 40px !important;
+    margin: 0 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    color: #000;
+}
+
+.locale-en .el-pagination.w-pagination .btn-next:before {
+    content: 'Next';
+}
+
+.locale-zh_CN .el-pagination.w-pagination .btn-next:before {
+    content: '下一页';
+}
+
+.el-pagination.w-pagination .btn-next .el-icon-arrow-right:before {
+    content: "";
+}
+
+.el-pagination.w-pagination .number {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 4px;
+}
+
+.el-pagination.w-pagination>.el-pager li.active {
+    border-color: #268fff !important;
+}

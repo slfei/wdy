@@ -1,0 +1,27 @@
+transitionTime = .8s
+
+.slide-down-enter-active
+    transition all transitionTime ease-in-out
+    opacity 1
+    transform scaleY(1)
+
+.slide-down-leave-active
+    transform scaleY(0)
+    opacity 0
+
+.slide-down-enter, .slide-down-leave-to
+    transform scaleY(0)
+    opacity 0
+
+.fade-enter-active, .fade-leave-active
+    transition opacity transitionTime ease-in-out
+
+.fade-enter, .fade-leave-to
+    opacity 0
+
+
+.search-pop-enter-active, .search-pop-leave-active
+    transition transform .3s ease-out
+
+.search-pop-leave-to
+    transform translateY(100%)

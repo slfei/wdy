@@ -1,0 +1,44 @@
+@import '../../config.styl'
+
+.institute, .course
+    .institute-no-data, .course-no-data
+        display inline-block
+        width 180px
+        height 180px
+        /*background-size 220px 124px*/
+    .institute-no-data
+        background url(/build/img/search/institute-1.png) no-repeat
+        background-size 180px
+        imerge no_data
+    .course-no-data
+        background url(/build/img/search/course-1.png) no-repeat
+        background-size 180px
+        imerge no_data
+    .section-undefined
+        &
+            text-align center
+            padding 60px 0
+
+        a, span
+            color $color_primary
+        p
+            margin-top 20px
+    .section-recommend
+        padding-bottom 60px
+        .title
+            font-weight 900
+            font-size $font_large
+            margin-bottom 20px
+        .content
+            margin-left -10px
+            margin-right -10px
+            font-size 0
+            .col-5
+                display inline-block
+                width 220px
+                margin 0 10px
+            img
+                width 220px
+                height 124px!important
+            .other .lecturer
+                padding-right 10px

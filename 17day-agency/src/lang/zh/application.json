@@ -1,0 +1,7 @@
+{
+    "error_tips":["该账号已经是机构下的成员，不能再入驻","请勾选同意入驻协议","您已经申请{type}入驻，不能再申请{currentType}入驻"],
+    "type":{
+        "institute":"机构",
+        "personal":"个人"
+    }
+}

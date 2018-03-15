@@ -1,0 +1,687 @@
+@import '../../config.styl'
+@import '../../components/course/share.styl'
+.header-active-course
+    border-bottom 4px solid $color_primary
+    color $color_primary !important
+.detail
+    font-size 20px
+    .color-dimgray
+        color $color_primary
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .content-block
+        padding 15px 0 30px 0
+    /*¹²ÓÃ*/
+
+    #tab
+        li
+            font-size $font_large
+            padding 20px
+            &:hover
+                cursor pointer
+
+        #tab2
+            margin 0 165px
+        .active
+            border-bottom 2px solid $color_primary
+    .action
+        &
+            padding 30px 0 25px 15px;
+            margin-bottom: 15px;
+        a
+            font-size $font_large
+            border 1px solid $color_primary
+            border-radius 4px
+            padding 15px 35px
+            display inline-block
+        .apply
+            background $color_primary
+            color #fff
+            margin-right 30px
+        .success
+            background $color_primary
+            color #fff
+            margin-right 30px
+        .consult
+            color $color_primary
+        /*ÔÚÏß×ÉÑ¯ÔÝÊ±²»¿ªÍ¨Òþ²Ø*/
+        /*display none*/
+        .consult-disabled
+            color #ccc
+            border-color #ccc
+            pointer-events none
+        div
+            text-align center
+            display inline-block
+            font-size $font_large
+            margin-right 30px
+            width 136px
+            color $color_gray
+    .section-nav
+        &
+            font-size $font_large
+            margin-top 30px
+            margin-bottom 30px
+        .lt:last-child
+            span.ico
+                display none
+        li
+            span.ico
+                font-size 14px
+                padding-left 10px
+    .section-course
+        &
+            padding 15px
+            background #fff
+        .left
+            &
+                width 600px
+                height 338px
+                position relative
+                background-repeat no-repeat
+                background-size 100%
+            .audition
+                position absolute
+                left 0
+                width 100%
+                height 100%
+                text-align center
+                background rgba(65 65 65 .6)
+                a
+                    color #fff
+                    display inline-block
+                    margin-top 120px
+                    width: 100px;
+                    height: 100px;
+                    background url(/build/img/course/play.png) no-repeat
+                    imerge i_white
+                    background-size 100px
+                img
+                    width 100px
+                .live
+                    height 60px
+                    line-height 60px
+                    background rgba(65 65 65 .4)
+                    color #fff
+                    margin-top 50px
+                    font-size $font_normal
+                    .title
+                        max-width 380px
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        padding-left 20px
+                    .time
+                        padding-right 20px
+
+        .right
+            &
+                position relative
+                width 530px
+                padding 20px 15px 0 30px
+            .share_collertcion
+                cursor pointer
+                position absolute
+                width 70px
+                height 28px
+                right 10px
+                top 25px
+                border 1px solid #dedede
+                span
+                    display block
+                    width 34px
+                    float left
+                    height 100%
+                .share
+                    position relative
+                    background url('/build/img/icon/share.png') no-repeat
+                    background-position center
+                .collection
+                    border-left 1px solid #dedede
+                    background url('/build/img/icon/add.png') no-repeat
+                    background-position center
+                    &:hover
+                        background url('/build/img/icon/collection.png') no-repeat
+                        background-position center
+                .collectionActive
+                    background url('/build/img/icon/collection.png') no-repeat
+                    background-position center
+            .title
+                font-size 20px
+                font-weight 600
+                width 19em
+                text-align justify
+            .description
+                font-size 16px
+                color $color_gray
+                margin 10px 0 17px 0
+                width 100%
+                max-height 41px
+                text-overflow ellipsis
+                overflow hidden
+                -webkit-box-orient vertical
+                display -webkit-box
+                -webkit-line-clamp 2
+
+            .price-wrapper
+                &
+                    padding 10px 15px 12px 15px
+                    background $color_lightgray
+                    border-radius 2px
+
+                .price
+                    color $color_red
+                    font-size 20px
+                    display inline-block
+                    padding-right 10px
+                .original-price
+                    font-size 14px
+                    color $color_gray
+                    text-decoration line-through
+                .tag
+                    &
+                        font-size $font_small
+                        margin-top 7px
+                        margin-bottom 0
+                    .tag-text
+                        background $color_red
+                        color #fff
+                        -webkit-transform-origin-x: 0;
+                        transform: scale(0.90);
+                        display: inline-block;
+                        padding: 0 1px;
+            .action-top
+                &
+                    border-bottom: 1px solid #ddd
+                    padding-left 0
+            .promise
+                &
+                    font-size $font_small
+                    color $color_gray
+                    height 18px
+                    line-height 18px
+                .refund
+                    display inline-block
+                .refund-icon
+
+                    background $color_primary
+                    color #fff
+                    -webkit-transform-origin-x: 0;
+                    transform: scale(0.90);
+                    display: inline-block;
+                    padding: 0 3px;
+
+    .section-presentation
+        margin-top 15px
+        .left
+            &
+                background #fff
+                padding 0 20px 15px
+                width 817px
+            #tab
+                border-bottom 1px solid #dedede
+                li
+                    font-size 16px
+                    padding 20px
+                    font-weight 500
+                    position relative
+                    top 1px
+                    &:hover
+                        cursor pointer
+
+                #tab2
+                    margin 0 165px
+                .active
+                    color $color_primary
+                    border-bottom 2px solid $color_primary
+            #container
+                margin-top 15px
+                max-width 790px
+                overflow hidden
+                #content1
+                    display block
+                    *
+                        color #666
+                        font-size 14px
+                        line-height 1.5
+                        letter-spacing 1px
+                    .material-tilte
+                        font-size $font_large
+                        display flex
+                        margin 60px 0 19px 0
+                        align-items center
+                        .material-tilte-bg
+                            width 5px
+                            height 16px
+                            background $color_primary
+                            margin-right 10px
+                        .material-tilte-tip
+                            color #999
+                    .material-content
+                        margin-left -21px
+                        margin-right -21px
+                        display flex
+                        flex-wrap wrap
+                        li
+                            width 33%
+                            padding 0 21px
+                            font-size $font_normal
+                            display flex
+                            align-items: center;
+                            margin-bottom: 15px;
+                            .material-name
+                                width 11em
+                                margin-right 15px
+                                overflow: hidden;
+                                text-overflow:ellipsis;
+                                white-space: nowrap;
+                            .material-download
+                                border 1px solid $color_primary
+                                border-radius 2px
+                                padding 1px 9px
+                                color $color_primary
+                img
+                    width 100%
+                .intro
+                    font-size 14px
+                    line-height 1.5
+                    letter-spacing 1px
+                #content2
+                    &
+                        display none
+                    .chapter
+                        &
+                            padding-top 10px
+                            margin-bottom 20px
+                        .ico
+                            color $color_primary
+                        .title
+                            font-size $font_large
+                            padding-bottom  20px
+                            span
+                                font-size 16px
+                                font-weight 500
+                        .section:hover
+                            background $color_primary
+                            color #fff
+                            .listen_icon
+                                border 1px solid #fff
+                                display inline-block
+                                margin-left 5px
+                                font-size 12px
+                                color #fff
+                                border-radius 2px
+                                width 45px
+                                height 20px
+                                line-height 18px
+                        .section
+                            &
+                                font-size 14px
+                                padding 14px 0 14px 20px
+                                background-color #f5f5f5
+                                border-radius 2px
+                            a
+                                color #333
+                                display flex
+                                align-items center
+                            .playimg
+                                width 15px
+                                height 15px
+                                background url('/build/img/course/playimg.png') no-repeat center
+                                background-size 18px 11px
+                                /*background-position center*/
+                            .listen_icon
+                                text-align center
+                                border 1px solid #268fff
+                                display inline-block
+                                margin-left 5px
+                                font-size 12px
+                                color #268fff
+                                border-radius 2px
+                                width 45px
+                                height 20px
+                                line-height 18px
+                            .time
+                                /*color $color_gray*/
+                                letter-spacing 1px
+                            .play-status
+                                padding-left 5px
+                        .section ~ .section
+                            margin-top 20px
+                        .section:hover
+                            a
+                                color #fff
+                                .time
+                                    color #fff
+                            .playimg
+                                background url('/build/img/course/playimg-hover.png') no-repeat center
+                                background-size 18px 11px
+                                /*background-position center*/
+                        /*直播*/
+
+                        .will-play
+                            .playimg
+                                background url(/build/img/course/playing.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                        .playing
+                            .playimg
+                                background url(/build/img/course/playing.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                            .play-status
+                                color $color_primary
+                        .played-playback
+                            .playimg
+                                background url(/build/img/course/played-playback.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                            .play-status
+                                color $color_gray
+                        .played-playback-no
+                            &
+                                pointer-events: none;
+                            a
+                                color $color_gray
+                            .playimg
+                                background url(/build/img/course/played-playback-no.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                        .will-play:hover
+                            .playimg
+                                background url(/build/img/course/playing-hover.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                        .playing:hover
+                            .playimg
+                                background url(/build/img/course/playing-hover.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                            .play-status
+                                color #fff
+                        .played-playback:hover
+                            .playimg
+                                background url(/build/img/course/played-playback-hover.png) no-repeat
+                                imerge i_blue
+                                background-size 15px 15px
+                                /*background-position center*/
+                            .play-status
+                                color #fff
+                    .chapter ~ .chapter
+                        border-top 1px solid #eaeaea
+                        padding-top 20px
+
+                #content3
+                    &
+                        display none
+                    .tab
+                        &
+                            height 56px
+                            display flex
+                            align-items center
+                            background-color #f5f5f5
+                            border-radius 8px
+                        li
+                            &
+                                text-align center
+                            .active
+                                color $color_primary
+                        .praise
+                            position relative
+                            margin 0 60px 0 30px
+                            height 56px
+                            &:after
+                                content ''
+                                position absolute
+                                width 1px
+                                height 36px
+                                background-color #dedede
+                                right -30px
+                                top 10px
+                            .value
+                                font-size 24px
+                                color $color_red
+                                height 30px
+                            .character
+                                font-size 14px
+                                margin 0
+                        .witchComment
+                            margin-right 20px
+                            font-size 14px
+                            cursor pointer
+                            .ion-circle-outline,.ion-circle-filled
+                                width 18px
+                                height 18px
+                                float left
+                                margin-top 1px
+                                margin-right 10px
+                            .ion-circle-outline
+                                background url('/build/img/icon/noactive.png') no-repeat
+                                imerge i_blue
+                            .ion-circle-filled
+                                background url('/build/img/icon/active.png') no-repeat
+                                imerge i_blue
+                    .nocomment
+                            position relative
+                            width 100%
+                            height 300px
+                            background url('/build/img/icon/comment.png') no-repeat
+                            background-position center
+                            span
+                                position absolute
+                                width 100%
+                                height 30px
+                                line-height 30px
+                                text-align center
+                                top 238px
+                                color #999
+                    .tab-content
+                        .border-bottom
+                            &
+                                padding 20px 20px 15px 20px
+                            .media-left
+                                &
+                                    text-align center
+                                    padding-right 20px
+                                img
+                                    width 40px
+                                    height 40px
+                                div
+                                    font-size 14px
+                                    margin-top 10px
+                                    width 50px
+                                    word-wrap break-word
+                            .media-body
+                                .modal-title
+                                    .active
+                                        color #FFB040
+                                    .star
+                                        margin-bottom 6px
+                                        width 94px
+                                        background url('/build/img/icon/star.png') no-repeat
+                                        height 14px
+                                    .star0
+                                        background-position -100px
+                                    .star1
+                                        background-position -80px
+                                    .star2
+                                        background-position -60px
+                                    .star3
+                                        background-position -40px
+                                    .star4
+                                        background-position -20px
+                                    .star5
+                                        background-position 0
+                                    p
+                                        font-size 14px
+                            .time
+                                font-size 14px
+                                color #ccc
+                            .revert
+                                padding-left 0
+                                li
+                                    &
+                                        font-size 14px
+                                        border-top 1px dashed #ccc
+                                        margin-top 20px
+                                        padding-top 20px
+                                    .user
+                                        a
+                                            cursor pointer
+                                            color $color_primary
+                                    .revert-time
+                                        color #ccc
+                                        font-size 14px
+                                        margin-top 10px
+                        .border-bottom ~ .border-bottom
+                            border-top 1px solid #dedede
+                        .pagination
+                            .active
+                                background  $color_primary
+                                a
+                                    width 42px
+                                    border-radius 4px
+                                    background-color $color_primary
+                                    border-color $color_primary
+
+        .right
+            &
+                margin-left 30px
+                width 333px
+            .title
+                font-size 16px
+                padding 20px 0
+                border-bottom 1px solid #ddd
+                font-weight 500
+            .media
+                margin-top 20px
+            .media-hover:hover
+                cursor pointer
+            .media-hover
+                margin-bottom 20px
+                border-bottom 1px solid #ddd
+                padding-bottom 20px
+            .teacher, .institute, .relevant
+                background #fff
+                padding 0 18px 20px
+                margin-bottom 20px
+            .teacher
+                .media-body
+                    .modal-title
+                        margin-top 14px
+            .teacher, .institute
+                .media-left
+                    img
+                        width 70px
+                        height 70px
+                        cursor pointer
+                .media-body
+                    .modal-title
+                        display -webkit-box
+                        width 100%
+                        height 20px
+                        line-height 20px
+                        overflow hidden
+                        text-overflow ellipsis
+                        -webkit-box-orient vertical
+                        -webkit-line-clamp 1
+                        font-size $font_large
+                        margin-bottom 3px
+                        cursor pointer
+                        &:hover
+                            color #268fff
+                    p
+                        font-size 14px
+                        color #666
+            .teacher
+                :last-child
+                    margin-bottom 0px
+                    border-bottom none
+                    padding-bottom 0
+            .institute
+                .data
+                    &
+                        margin-top 20px
+                        border-top 1px solid #ddd
+                        padding-top 20px
+                    .institute-data
+                        &
+                            text-align center
+                            border-right 1px solid #ddd
+                            line-height 1em
+                        :first-child
+                            font-size $font_large
+                            margin-bottom 10px
+                        :last-child
+                            color $color_gray
+            .relevant
+                .title
+                    border-bottom 1px solid #ddd
+                .media
+                    border none
+                    margin 20px 0 0
+                    padding 0
+                img
+                    width 140px
+                    height 72px
+                .media-body
+                    .modal-title
+                        font-size 14px
+                        color #333
+                        height 40px
+                        overflow hidden
+                        text-overflow ellipsis
+                        display -webkit-box
+                        -webkit-box-orient vertical
+                        -webkit-line-clamp 2
+                    p
+                        margin 12px 0 0
+                        font-size 14px
+                        color $color_red
+                        .free
+                            color $color_primary
+
+    .section-fix
+        display none
+        position fixed
+        top 0
+        background #fff
+        width 1180px
+        z-index 100
+        height 64px
+        overflow hidden
+        align-items: center;
+
+        /*line-height 64px*/
+        .section-fix-main
+            width 1180px
+            margin 0 auto
+            height 64px
+            #tab
+                padding 0 15px
+                display inline-block
+                height 64px
+            .action-bottom
+                float right
+                margin-right 30px
+                padding 8px 0 0
+                a
+                    padding 10px 30px
+    .section-pagination
+        .w-pagination
+            margin-top 40px
+.locale-en .detail
+    #tab2
+        margin 0 75px !important
+
+    .listen_icon
+        width 90px !important

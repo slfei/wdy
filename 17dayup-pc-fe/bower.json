@@ -1,0 +1,23 @@
+{
+  "name": "17dayup-pc-fe",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "huangzhongjian <huangzj08@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "unslider": "^2.0.3",
+    "jquery": "^3.2.1",
+    "distpicker": "^2.0.1"
+  }
+}

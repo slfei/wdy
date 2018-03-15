@@ -1,0 +1,80 @@
+{
+  "business":{
+    "title":"Business information",
+    "field":{
+      "businessName":"Business name:",
+      "shortDes":"One-sentence introduction:",
+      "logo":"logo:",
+      "mainBusiness":"Main categories:",
+      "Introduction":"Introduction:",
+      "contact":"Contact:",
+      "phone":"Phone number:",
+      "email":"Email:"
+    }
+  },
+  "mechanism":{
+    "title":"Organization information",
+    "field":{
+      "mechanismName":"Organization name:",
+      "codeCertificate":"Organization code certificate:",
+      "code":"Organization code:",
+      "businessLicense":"Business license:",
+      "registrationNumber":"Business license No.:",
+      "certificate":"Education qualification certificate:",
+      "certificateId":"Certificate No:"
+    }
+  },
+  "Identity":{
+    "title":"Identity Information",
+    "field":{
+      "realName":"Actual name:",
+      "idCardA":"ID card frontal photo:",
+      "idCardB":"ID card backside photo:",
+      "passportA":"Passport frontal photo:",
+      "passportB":"Passport backside photo:",
+      "identificationNumber":"ID card No.:",
+      "eduId":"Education qualification certificate:",
+      "eduName":"Certificate name:"
+    }
+  },
+  "btn":{
+    "edit":"Modify",
+    "sendVerificationCode":"Send a verification code",
+    "confirm":"Confirm",
+    "editphone":"Change a phone number",
+    "save":"Save",
+    "cancel":"Cancel"
+  },
+  "props":{
+    "verificationPhone":"Verify the phone number",
+    "ts":"Tip"
+  },
+  "tips":{
+    "safeMsg":"For the account safety, it needs to verify the phone to change information.",
+    "verificationSuccess":"Verified",
+    "alreadyCancel":"Canceled",
+    "timeDown":"to be obtained after   second(s)",
+    "cancelWarn":"Data not saved, continue?"
+  },
+  "placeholder":{
+    "vcodeInput":"Please enter verification code"
+  },
+  "rules":{
+    "codeNull":"Verification code cannot be empty",
+    "codeError":"Enter the correct verification code",
+    "phoneNull":"Please enter phone number",
+    "nameNull":"Please enter the business name",
+    "sizeError":"Please enter no more than 20 words",
+    "introductionNull":"Please enter the introduction text",
+    "introductionSize":"Please enter no more than 50 words",
+    "imgNull":"Please upload avatar",
+    "mainNull":"Please select the main categories",
+    "contactNull":"Please enter the contact",
+    "desNull":"Please enter an introduction",
+    "desSize":"Please enter no more than 200 words",
+    "phoneError":"Please fill in the correct phone number",
+    "emailError":"Please fill in the correct email"
+  },
+  "noPermissions":"Temporarily not have permission to view the page"
+}
+

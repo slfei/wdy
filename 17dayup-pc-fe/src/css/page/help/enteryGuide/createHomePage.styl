@@ -1,0 +1,55 @@
+@import '../../../config.styl'
+.home a, .help
+    color $color_primary !important
+
+.enterGuide
+    padding 30px 0 60px 0
+    font-size $font_large
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary !important
+    .left
+        width 180px
+        background #fff
+        margin-right 30px
+        ul
+            li
+                padding 10px 0 10px 20px
+                margin-bottom 0
+                a
+                    color #333
+                    font-size 16px
+                dl
+                    margin 0
+                    dt
+                        color #333
+                        font-weight normal
+                    dd
+                        margin-top 10px
+                        padding-left 16px
+                        a
+                            color #666
+                            font-size 14px
+            li ~ li
+                border-top 1px solid #eee
+    .right
+        &
+            width 970px
+            background #fff
+            padding-top 30px
+            padding-bottom 30px
+            min-height $min_height_normal
+        .title
+            font-weight bold
+            border-bottom 1px solid #dedede
+            padding 0 32px 27px 32px
+        .content
+            padding 20px 32px 0 32px
+            .introduce
+                padding 29px 0 27px 0
+            .div-block-max
+                padding-bottom 27px
+            .div-block-normal
+                padding 27px 0
+                img
+                    width 100%

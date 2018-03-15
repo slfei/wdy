@@ -1,0 +1,179 @@
+@import '../../config.styl'
+.header-active-course
+    border-bottom 4px solid $color_primary
+    color $color_primary !important
+body
+    background #fff
+.discovery
+    font-size $font_normal
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .triangle
+        float right
+        margin 3px 0 0 4px
+    .triangle-to-top{
+        width 12px
+        height 8px
+        background url('/build/img/icon/triangletop.png') no-repeat
+        background-size 100%
+        margin-bottom 0px
+    }
+    .triangle-to-bottom
+        width 12px
+        height 8px
+        background url('/build/img/icon/triangleBottom.png') no-repeat
+        background-size 100%
+    .content-block
+        padding 15px 0
+
+    .section-nav
+        &
+            font-size $font_large
+            margin-top 30px
+            margin-bottom 30px
+        .lt:last-child
+            span.ico
+                display none
+        li
+            span.ico
+                font-size 14px
+                padding-left 10px
+        .lt
+            ul
+                li.active
+                    a
+                        background transparent
+                        color $color_gray
+
+
+    .section-category
+        &
+            border-radius 4px
+            padding 20px 34px 0
+            background $color_lightgray
+            margin-bottom 20px
+            /*margin-left 0*/
+            display flex
+        .title
+            font-weight 900
+            /*flex-basis  65px*/
+            white-space: nowrap;
+            padding-right 10px
+        ul
+            margin-left -20px
+            margin-right -20px
+            li
+                padding 0 25px 20px
+            padding-left 10px
+        .active
+            a
+                color $color_primary
+    .section-filter
+        &
+            border 1px solid #ddd
+            border-radius 4px
+            padding-left 34px
+            padding-right 20px
+        .left
+            color #666
+            padding-top 2px
+            font-size 0
+            li
+                padding 0 20px
+                font-size $font_normal
+                float left
+                .ico
+                    padding-right 2px
+                .ion-checkbox-outline-blank
+                    float left
+                    width 16px
+                    height 16px
+                    background url('/build/img/icon/check.png') no-repeat
+                    background-size 100%
+                    margin 2px 5px 0 0
+                .ion-checkbox-outline
+                    float left
+                    width 16px
+                    height 16px
+                    background url('/build/img/icon/checked.png') no-repeat
+                    background-size 100%
+                    margin 2px 5px 0 0
+                .active
+                    color $color_primary
+            :first-child
+                padding-left 0
+        .right
+            li
+                border-right 1px solid #ccc
+                padding 0 20px
+                a:hover
+                    span
+                        background url('/build/img/icon/downactive.png') no-repeat
+                        width 8px
+                        height 13px
+                        float right
+                        background-size 100%
+                        margin-top 4px
+                .ion-arrow-down
+                     background url('/build/img/icon/down.png') no-repeat
+                     width 8px
+                     height 13px
+                     float right
+                     background-size 100%
+                     margin-top 4px
+                .ion-arrow-downactive
+                     background url('/build/img/icon/downactive.png') no-repeat
+                     width 8px
+                     height 13px
+                     float right
+                     background-size 100%
+                     margin-top 4px
+            li:last-child
+                border none
+            .price-range
+                padding-right 10px
+                input
+                    width 47px
+                    border 1px solid #dedede
+                    padding 4px 2px
+                .sure-goto
+                    background $color_primary
+                    color: #fff
+                    margin-left 15px
+                    width 50px
+            .price
+                a>div
+                    display inline-block
+        .activeTop
+            width 12px
+            height 8px
+            background url('/build/img/icon/triangleTopActive.png') no-repeat
+            background-size 100%
+            margin-bottom: 0px
+        .activeBottom
+            width 12px
+            height 8px
+            background url('/build/img/icon/triangleBottomActive.png') no-repeat
+            background-size 100%
+        .active
+            color $color_primary
+            border-top-color $color_primary
+            border-bottom-color $color_primary
+    .section-list
+        margin-left -6px
+        margin-right -6px
+        padding-bottom 0
+        .col-padding
+            padding-left 6px
+            padding-right 6px
+        .empty-state
+            padding-top 100px
+            p
+                margin-top 30px
+    .section-pagination
+        text-align center
+
+

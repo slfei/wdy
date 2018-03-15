@@ -1,0 +1,50 @@
+{
+    "placeholder":{
+      "select-coursename":"Course Name",
+      "select-ifreplay":"Reply or not",
+      "replay-content":"Please speak your feelings about learning the courses!"
+    },
+    "checkbox":{
+      "evaluation":{
+        "all":"All",
+        "good":"Positive",
+        "medium":"Average",
+        "poor":"Negative"
+      }
+    },
+    "select":{
+      "ifreplay":{
+        "all":"All",
+        "no-replay":"Un-replied",
+        "already-replay":"Replied"
+      }
+    },
+    "label":{
+      "all-course":{
+        "label":"All courses",
+        "name":"All courses"
+      }
+    },
+    "text":{
+      "evaluation-degree":"Positives",
+      "evaluation-from":"Comments from",
+      "replay-content":"Replied contents:",
+      "no-data":"No data",
+      "no-match-text":"No matching data"
+    },
+    "btn":{
+      "replay":"Reply",
+      "cancel":"Cancel",
+      "post-replay":"Post reply",
+      "edit-replay":"Modify reply"
+    },
+    "rules":{
+      "tip-null":"Replied contents can not be empty!",
+      "tip-size":"Replied contents must be limited to 200 characters!"
+    },
+    "tips":{
+      "success-reply":"Comments reply succeeded"
+    }
+
+}
+

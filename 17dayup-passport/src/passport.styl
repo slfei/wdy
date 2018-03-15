@@ -1,0 +1,105 @@
+$color_primary = #268fff
+
+.passport-modal
+    .hide
+    &.hide
+        display none
+    .m-v-15
+        margin-top 15px
+        margin-bottom 15px
+    .m-b-15
+        margin-bottom 15px
+    .fr
+        float right
+    .fl
+        float left
+    .clearfix::after
+        display block
+        clear both
+        content ""
+    .link
+    .error-tip
+        color #ff1818
+    .go-to-resetPwd
+        color #999
+        &:hover
+            color $color_primary
+    .link_register
+        color #268fff
+    a, a:hover
+        text-decoration none
+    button
+    button:active
+        outline none
+    input[type=text]
+    input[type=password]
+        outline none
+        height 44px
+        border-radius 5px
+        border 1px solid #dedede
+        font-size 16px
+        padding-left 15px
+        box-sizing border-box
+    .btn
+        height 44px
+        width 100%
+        background $color_primary
+        color #fff !important
+        text-align center
+        font-size 18px
+        border-radius 5px
+        border none
+        cursor pointer
+        letter-spacing 2px
+        &:hover
+            color #fff !important
+    form
+        padding-top 20px
+    .row
+        margin 0 0 20px
+    .form-input
+        width 100%
+    .mobile-code-input
+    .pic-code-input
+        width 222px
+        margin-right 5px
+    .mobile-code
+        display inline-block
+        cursor pointer
+        width 128px
+        height 44px
+        line-height 44px
+        text-align center
+        color #fff
+        background $color_primary
+        font-size 18px
+        border-radius 5px
+        box-sizing border-box
+        &.count-down
+            background #dedede
+            cursor not-allowed
+    input.error
+        border-color #ff1818
+    span.field-error
+        color #ff1818
+        display block
+        font-size 12px
+        margin-top 6px
+    .close-btn
+        position absolute
+        opacity 1
+        top 15px
+        right 15px
+        background #ccc url(./img/close.png) 7px 7px no-repeat
+        width 30px
+        height 30px
+        border-radius 50%
+        cursor pointer
+    ::-webkit-input-placeholder
+        color #999
+    :-moz-placeholder
+        color #999
+    ::-moz-placeholder
+        color #999
+    :-ms-input-placeholder
+        color #999

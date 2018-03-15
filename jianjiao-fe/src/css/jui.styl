@@ -1,0 +1,58 @@
+@import "_config.styl"
+
+// overwrite for mint-ui
+.jui-navbar.mint-navbar
+    height 90px
+    line-height 90px
+    color $info
+
+    .mint-tab-item
+        border-bottom 1px solid #ccc
+        .mint-tab-item-label
+            font-size 28px
+
+        &.is-selected
+            color $primary
+            border-bottom 0.053333rem solid $primary
+            margin-bottom 0
+
+
+
+#app
+    .mint-header-title
+        font-size 36px
+
+    .is-right
+        font-size 28px
+
+
+    .mint-cell-swipe-buttongroup
+        display table
+
+        .mint-cell-swipe-button
+            vertical-align middle
+            display table-cell
+
+    .mint-cell:last-child
+        background-image none
+
+    .mint-tab-container-item
+        border-bottom 1px solid #F0F0F0
+
+        &.no-bb
+            border none
+
+    .mint-cell-wrapper
+        background-image none
+        //border-bottom 2px solid #f0f0f0
+
+
+body
+    .mint-toast
+        font-size 28px
+        padding 20px 50px !important
+        display inline-block
+
+
+.mint-msgbox-btn
+    font-size .4rem

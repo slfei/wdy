@@ -1,0 +1,7 @@
+{
+    "error_tips":["The account is already a member of the institutey and cannot be relocated","Please check the agreement for admission","You have already applied for {type}，so you cannot apply for{currentType}"],
+    "type":{
+        "institute":"institute",
+        "personal":"personal"
+    }
+}

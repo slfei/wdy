@@ -1,0 +1,171 @@
+{
+    "globle":{
+        "move":["Up","Down","Delete"],
+        "unit":{
+            "yuan":"yuan",
+            "person":"People"
+        },
+        "confirm":{
+            "title":"Tip",
+            "cont":{
+                "cancel":"Sure to cancel it?",
+                "delete":"Sure to delete this message?"
+            }
+        },
+        "tips":{
+            "success":"Released",
+            "delete":"Deleted",
+            "setting":"Set successfully",
+            "update":"After confirming the submission, the home page will be updated"
+        },
+        "layer":{
+            "placeholder":"Please enter key words",
+            "add_btn":"Add",
+            "delete_btn":"Delete",
+            "props":{
+                "title":"Title",
+                "left":"Left side",
+                "right":"Right side"
+            }
+        }
+    },
+    "layout":{
+        "organization":{
+            "title":"Homepage",
+            "index":"Home Settings",
+            "about":"About Us",
+            "online":"consultation"
+        },
+        "discounts":{
+            "title":"Special Offer",
+            "activity":"Activity registration",
+            "query":"Student Inquiry"
+        },
+        "person":{
+            "title":"Homepage",
+            "index":"Home Settings"
+        }
+    },
+    "index":{
+        "advertising_map":{
+            "title":"Advertising carousels",
+            "tips":"Set up carousels, courses and events of advertising organizations",
+            "picture":"Images",
+            "transition":{
+                "text":"Jump object",
+                "option":["Check out the course details","No need to jump"]
+            },
+            "operation":{
+                "text":"Operation"
+            },
+            "add":"Add an advertising image",
+            "size":"Size 1180 X 300 of less than 2M",
+            "courses_list":"Select curriculum"
+        },
+        "course":{
+            "title":"Course package",
+            "tips":"Up to 3 course packages may be added",
+            "name":{
+                "title":"Package name",
+                "filter":["2-8 words","The compilation name is of 2-8 words"]
+            },
+            "course_list":{
+                "title":"Add a course",
+                "tips":"Drag the course to adjust the order. Add up to 8 courses",
+                "select":"Select curriculum"
+            },
+            "add":"Add course collection",
+            "layer":{
+                "title":"Select curriculum",
+                "leftName":"Optional curriculum",
+                "rightName":"Selected curriculum",
+                "maxtips":"Support choosing 8 courses"
+            }
+        },
+        "lecturer":{
+            "title":"Star lecturer",
+            "tips":"Up to 4 star lecturers may be added",
+            "name":"Course lecturer",
+            "layer":{
+                "title":"Connect a teacher",
+                "leftName":"Optional lecturers",
+                "rightName":"Selected lecturers",
+                "maxtips":"Support choosing 4 lecturers"
+            }
+        }
+
+    },
+    "about":{
+        "intro":{
+            "title":"Organization Profile",
+            "tips":"Support texts, pictures and other formats"
+        },
+        "history":{
+            "title":"Development history",
+            "add":"Add development history",
+            "dete":"Date",
+            "dete_placeholder":"Select a date",
+            "des":"Descriptions",
+            "filter":["less than 50 words"]
+        }
+    },
+    "consultant":{
+        "title":"Online consultation",
+        "name":"Set online consultation number",
+        "example":"e.g. https://www.wdyedu.com",
+        "tips":"Service account supports MeChat, Baidu Bridge, Business QQ and other third-party customer service. Link addresses of the third-party customer service are acceptable. For example: https://static.meiqia.com/dist/standalone.html?_=t&eid=83965",
+        "filter":"Account link format: starting with http://, https:// or ftps://, containing letters or numbers in the middle, and ending with the format of .com, .cn, .net, and so on"
+    },
+
+    "discount":{
+        "btn":"Release new offers",
+        "data_list_title":["Special ID","Applicable course","Course price","Price after discount","Number of people applicable","Number of people occupied","Start and end time","Status","Operation"],
+        "data_num_status":"Unlimited",
+        "new_discount_title":["Release new offers","Modify","Title"],
+        "new_list_title":["Applicable course(s)","Course price","Price after discount","Number of people applicable","Start Time","End Time"],
+        "tips":["Enter a digit (limited to two digits after the decimal point)","Given unlimited choices, the number of people applicable is the maximum of the enrollment number","The same course can only add one offer at a time","The start time cannot be less than the current time"],
+        "placeholder":["Please select applicable course(s)","Need to fill in the amount of> = 0.02","An integer of > = 1","Please select your start time","Please select your end time","Please select a time"],
+        "filter":{
+            "course":"Course name cannot be empty",
+            "price":["Price cannot be empty","Please enter a digit of >=0.02","Price after discount shall be lower than the original price","Limited to two digits after the decimal point"],
+            "num":["Number of people applicable cannot be empty","Enter an integer of > = 1"],
+            "dete":["Select a date","Please select a time"]
+        },
+        "person_num":"Unlimited",
+        "status":["Processing","Not started","Finished","Sold out"]
+    },
+    "student":{
+        "filter":{
+            "student_information":{
+                "title":"Nickname",
+                "placeholder":"Enter a student nickname"
+            },
+            "student_id":{
+                "title":"Student ID",
+                "placeholder":"Enter a student ID"
+            },
+            "course_name":{
+                "title":"Name",
+                "placeholder":"Please enter key words"
+            }
+        },
+        "details":{
+            "details_list":["All students","Paid students/ proportion","Paid amount (yuan)"],
+            "tips":"Note: Statistics of class duration, number of classes, number of learning courses and the amount paid are all on a cumulative basis."
+        },
+        "list":{
+            "pay_type":"Show only paid students",
+            "list_title":["Student ID","Student Info","Length of class (minutes)","Number of classes","Courses learned","Recent class time","In-agency payment (yuan)"]
+        }
+    },
+    "teacher":{
+        "title":"Lecturer information",
+        "subject":"Teaching subjects",
+        "school_age":"Actual teaching year",
+        "desc":"Teaching characteristics",
+        "placeholder":["Please separate multiple choices with commas.","Please select","Briefly introduce your advantages or teaching characteristics (within 200 words)"],
+        "filter":"No more than 200 words",
+        "age_options":["1 year or less","1-3 years","3-5 years","5-10 years","10 year or more"]
+    }
+}
+

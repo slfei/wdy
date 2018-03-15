@@ -1,0 +1,38 @@
+{
+    "filter":{
+        "order_num":"Order number",
+        "course":"Course Name",
+        "order_status":{
+            "title":"Order Status",
+            "options":["All","Pending payment","Transaction closed","Transaction succeeded","Refund being confirmed","Refund being processed","Refund succeeded"]
+        },
+        "create_time":"Creating time",
+        "time_to":"---to---",
+        "placeholder":{
+            "order_id":"Please enter the order number",
+            "course_name":"Enter the course name",
+            "time":"Select a date",
+            "select":"Please select"
+        }
+    },
+    "btn":{
+        "export":"Export order details",
+        "info":"Refund details"
+    },
+    "Method":{
+        "Wechat":"WeChat payment",
+        "Alipay":"Alipay",
+        "iOS":"iOS purchased order"
+    },
+    "data_list":{
+        "list_title":["Order number","Student ID","Course Name","Amount (yuan)","Payment access","Order Status","Creating time","Operation"],
+        "order_status":["Pending payment","Transaction closed","Transaction succeeded","Transaction succeeded--Refund being confirmed","Transaction succeeded--Refund being processed","Transaction succeeded--Refund succeeded"],
+        "info":{
+            "title":["Refund ID","Refund amount (yuan)","Reason for refund","Refund instructions","Refund status","Application time"],
+            "reason":["Buy the wrong course","Have no time to study","Want to change a different course","Others"],
+            "status":["To be confirmed","Processing","Cancel the refund","Refund successfully","Refund failed"]
+        }
+    },
+    "nodata":"No data"
+}
+

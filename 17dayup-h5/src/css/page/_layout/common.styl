@@ -1,0 +1,71 @@
+*
+    outline 0
+    -webkit-tap-highlight-color rgba(0,0,0,0)
+    -webkit-text-size-adjust none
+
+.pull-left
+    float: left
+
+.pull-right
+    float: right
+
+.clearfix
+    zoom 1
+    &:after
+    &:before
+        content ""
+        display table
+    &:after
+        clear both
+
+.has-header
+    margin-top: 50px
+
+
+.ellipsis
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+
+
+.sp
+    .sp-hd
+        height: 60px
+        line-height: 60px
+        border-bottom: 1px solid #DEDEDE    
+        padding-left: 15px
+
+    .sp-bd
+        padding: 20px 15px
+
+
+.no-result
+    padding-top: 120px    
+    text-align: center
+    
+    &.pure
+        background: #fff
+
+    .empty-desc
+        font-size: 14px
+        color #ccc
+        margin-top: 15px
+
+
+.rich-text
+    word-break break-all
+
+    *
+        font-size: inherit
+        font-weight: inherit
+
+    img
+        width: 100%
+
+.wdy-scroll-wrapper
+    position absolute
+    top 50px
+    bottom 50px
+    width 100%
+    overflow-y auto
+    -webkit-overflow-scrolling touch

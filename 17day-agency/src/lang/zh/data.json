@@ -1,0 +1,45 @@
+{
+    "title":{
+      "dialog":"资料上传"
+    },
+    "btn": {
+      "upload-data":"资料上传",
+      "search":"搜素",
+      "select-file":"选择文件",
+      "upload-confirm":"确认上传",
+      "cancel":"取消",
+      "file-delete":"删除"
+    },
+    "upload-tip":"上传文档可以为小于2G 的Word、PPT、PDF、EXCEL等类型文档。 上传内容请确保原创，若遇版权投诉，平台将直接删除文档。",
+    "checkbox":{
+      "myupload":"我上传的资料"
+    },
+    "placeholder":{
+      "input-search":"请输入关键词"
+    },
+    "table":{
+      "tilte-file-info":"文件信息",
+      "tilte-file-size":"大小",
+      "tilte-file-author":"上传人",
+      "tilte-file-operation":"操作",
+      "tip-nodata":"暂无数据"
+    },
+    "layer":{
+      "toggle":"是否删除此条上传资料?",
+      "tips":"提示",
+      "btn":{
+        "ok":"确定",
+        "cancel":"取消"
+      }
+    },
+    "tips":{
+      "success-delete":"删除成功！",
+      "prompt-filename-null":"文件名不能为空!",
+      "prompt-filesize-overflow":"文件过大，无法上传！",
+      "success-upload":"上传成功!",
+      "prompt-filetype-error":"文件格式错误！",
+      "error-upload":"文件上传失败！"
+    }
+
+
+}

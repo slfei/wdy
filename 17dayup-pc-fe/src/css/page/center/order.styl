@@ -1,0 +1,131 @@
+@import "./center.styl"
+@import "../../components/pagination/pagination.styl"
+@import "./cancel-modal.styl"
+a
+    text-decoration none !important
+    color #666
+
+.w-user-center
+    margin-bottom 0
+    .my-pagination
+        padding-bottom 0
+        .w-pagination
+            margin-bottom 0
+.no-style-btn 
+    font-size 16px !important
+.order-table
+    background #f5f5f5
+    table
+        thead
+            font-size 14px
+            color #333
+            font-weight 400
+            th
+                text-align center
+                border none
+                padding 20px
+            .all-status
+                position relative
+                cursor pointer
+                .hide-status
+                    display none
+                .status-list
+                    position absolute
+                    background #fff
+                    top 57px
+                    left 19px
+                    padding 10px 0px
+                    box-shadow 0px 3px 11px #ddd
+                    li 
+                        text-align center
+                        padding 3px 15px
+                        a
+                            font-size 15px
+                            color #333
+                            font-weight 400
+                            line-height 25px
+                            white-space nowrap
+                    li:hover
+                        background #238fff
+                        a
+                            color #fff
+                .left-area
+                    left 74px
+        tbody
+            .order-no
+                background #f5f5f5
+                td
+                    font-size 14px
+                    border none
+                    padding 20px 0
+            .order-detail
+                td
+                    text-align center
+                    padding 20px 30px
+                    border none
+                    .course-img
+                        float left
+                        img
+                            width 160px
+                            height 90px
+                    .course-desc
+                        float left
+                        margin-left 12px
+                        text-align left
+                        max-width 240px
+                        p
+                            padding 6px 0
+                            margin 0px
+                            font-size 16px
+                            height 60px
+                            overflow hidden
+                            -webkit-line-camlp 2
+                            text-overflow ellipsis
+                            color #333
+                        .course-label
+                            display inline-block
+                            font-size 14px
+                            color #999
+                    a
+                        display inline-block
+                        text-align center
+                        margin-top 10px
+                        cursor pointer
+                    .desHref
+                        text-align left
+                        margin 0
+                        &:hover
+                            color #268fff
+                    .desInstitute
+                        &:hover
+                            text-decoration underline !important
+                    .need-comment
+                        display inline-block
+                        color #fe9700
+                        margin-top 10px
+                    .cancel-order
+                        font-size 14px
+                        color #999
+                        white-space nowrap
+                    .finish-money
+                        margin-top 24px
+                    .order_btn
+                        color #268fff
+                        background-color #fff
+                        width 100px
+                        height 40px
+                        line-height 38px
+                        border 1px solid #268fff
+                        padding 0
+                    .order_btnw
+                        padding 0
+                        line-height 40px
+                        width 100px
+                .center-position
+                    padding-top 55px
+                .order_option
+                    padding-right 30px !important
+    .my-pagination
+        background #f5f5f5
+        margin 0px
+        padding-bottom 30px

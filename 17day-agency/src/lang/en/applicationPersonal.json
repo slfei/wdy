@@ -1,0 +1,115 @@
+{
+    "step": {
+        "step1": "1 Signing an agreement",
+        "step2": "2 Submission of information",
+        "step3": "3 Checking in"
+    },
+    "infoBusiness": {
+        "title": "Business Information",
+        "shortDes": "The business information is displayed on the page for the students to read the information, please fill in carefully.",
+        "field": {
+            "businessName": "Brand Name",
+            "description": "Introduction in a word",
+            "avatar": "Logo",
+            "mainBusiness": "Main class",
+            "introduction": "Introduction"
+        }
+    },
+    "identityProve": {
+        "title": "Identification",
+        "field": {
+            "realName": "Applicanty name",
+            "country": "Country",
+            "email": "Email",
+            "identity": "身份证明",
+            "passport": "护照",
+            "identityFront": "身份证明正面照",
+            "identityBack": "身份证明背面照",
+            "identityNum": "身份证号码",
+            "qualificationCertificate": "资格证书",
+            "phone": "手机",
+            "commitment": "承诺书"
+        }
+    },
+    "placeholder": {
+        "businessName": "The name displayed for the students within 20 letters",
+        "shortDes": "The introduction displayed for the students within 80 letters",
+        "select": "Please selete",
+        "introduction": "Please fill in the introduction within 80 letters",
+        "idName": "Please fill in your name",
+        "idNumber": "请填写身份证号码",
+        "passportNumber": "请填写护照号码",
+        "emailInput": "Please fill in your email",
+        "emailCodeInput": "Please fill in the verification code",
+        "certificateInput": "请选择资格证书",
+        "certificateNameInput": "请输入证书名称",
+        "emailCode": "Please fill in the verification code"
+    },
+    "rules": {
+        "businessNameEmpty": "Please fill in brand name",
+        "introductionEmpty": "Please fill in the introduction in a word",
+        "imgEmpty": "Please upload your loge",
+        "mainBusinessEmpty": "Please selete",
+        "desEmpty": "Please fill in the introduction",
+        "realNameEmpty": "Please fill in your name",
+        "idProofEmpty": "请上传身份证正面照",
+        "idBackEmpty": "请上传身份证背面照",
+        "idNumberEmpty": "请输入身份证号码",
+        "passportImgEmpty": "请上传护照照片",
+        "passportNumberEmpty": "请输入护照号码",
+        "imgUploadEmpty": "请上传照片",
+        "nameEmpty": "请输入名称",
+        "certificateEmpty": "请选择资格证书",
+        "emailEmpty": "Please fill in your email",
+        "commitmentEmpty": "请上传承诺书图片"
+    },
+    "btn": {
+        "uploadImg": "Click to upload the image",
+        "reUpload": "re-upload",
+        "sendCode": "Send verification code",
+        "submitFile": "Submit",
+        "commitment": "承诺书",
+        "hrefGo": "go to teaching management",
+        "sendEmailCode": "Send verification code",
+        "reSend": "seconds re-sent",
+        "editEmail": "修改邮箱"
+
+    },
+    "status": {
+        "auditPassed": "Congratulations,!You have been audited by the platform。",
+        "auditing": "Hello, we have received your application for admission and will complete the audit within 1-2 working days.",
+        "auditNotPassed": "Sorry.You have not reached the standard of this platform"
+    },
+    "text": {
+        "checkboxLabel": "I have read and agree to the agreement",
+        "identity": "身份证",
+        "passport": "护照",
+        "limitSize": "File less than 2M",
+        "limitType": "Supports JPG, GIF, PNG, or BMP images",
+        "limitImg": "Please upload your own clear head image",
+        "limitIdentify": "请保证身份证姓名，身份证号码清晰可见",
+        "limitOrgin": "请保证签发机关、有效期限清晰可见",
+        "limitPassport": "请保证护照姓名，护照号码清晰可见",
+        "tipDownload": "请填写完本页信息后，点击下载",
+        "uploadScanning": "上传亲笔签名后的扫描件",
+        "teacherCertificateLimit": "请提交有效期内的教师资格证照片，需确保头像和文字清晰",
+        "academicLimit": "请提交大学本科以上学历水平证件照片，如学生证、毕业证等（需包含照片、姓名、专业、官方印章等有效信息）",
+        "professionCertificateLimit": "请提交教学能力或专业能力证明，如职称证书、考级证书等（需包含官方印章等有效信息）",
+        "otherCertificate": "请提交其他证明您教学水平的证明"
+    },
+
+    "certificate": {
+        "teacherCertificate": "教师资格证",
+        "highAcademicCertificate": "高学历证",
+        "professionCertificate": "专业证书",
+        "others": "其他"
+    },
+    "tip": {
+        "certificate": "如：音乐教师资格证。(10字以内，会标注在老师主页)",
+        "diploma": "如：绘画艺术硕士学位。（10字内，会标注在老师主页）",
+        "professionalCertificate": "如：民乐琵琶演奏十级。（10字内，会标注在老师主页）",
+        "others": "如：专职讲师聘书。（10字内，会标注在老师主页）",
+        "backEdit": "Back to last step to modify the information"
+    }
+
+}

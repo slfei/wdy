@@ -1,0 +1,57 @@
+
+@import "./styl/config"
+@import "./assets/ionicons/css/ionicons.min.css"
+*
+    box-sizing border-box
+a, a:hover
+    text-decoration none
+
+#app
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box
+    min-height 500px
+    .text-center
+        text-align: center
+
+.main-container
+    margin 0 auto
+    width 1180px
+
+.el-message__group
+    p
+        color $color_red
+
+.clearfix::after
+    display block
+    clear both
+    content ""
+.pull-left
+    float left
+.pull-right
+    float right
+.white-bg
+    background #fff
+.nowrap
+    overflow hidden
+    white-space nowrap
+    text-overflow ellipsis
+.bgOpacity
+    background-color: rgba(255, 255, 255, .5);
+.border-none
+    input
+        border:0 none;
+    select
+        border:0 none;
+.locale-en
+    .en-hide
+	    display: none!important
+
+
+
+
+
+

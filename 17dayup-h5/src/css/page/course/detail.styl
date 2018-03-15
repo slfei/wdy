@@ -1,0 +1,755 @@
+@import "../../config.styl"
+@import "../components/loading.styl"
+
+$font_large = 16px
+$font_normal = 14px
+$font_small = 12px
+$border-color = #dedede
+
+.clearfix:before, .clearfix:after
+    display table
+    content " "
+.clearfix:after
+    clear both
+.hide
+    display none !important
+.show
+    display block
+.text-center
+    text-align center
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+
+}
+
+.wt-media
+    word-break break-word /*自动换行*/
+
+.detail
+    &
+        margin-top 50px
+        margin-bottom 50px
+    &.cur
+        position absolute!important
+        z-index 99999999!important
+    .section-img
+        &
+            position relative
+            width 375px
+            height 211px
+            background-repeat no-repeat
+            background-size 375px 211px
+        .player
+            position absolute
+            width 100%
+            height 100%
+            z-index: 10
+            display none
+            video
+                width 100%
+                height 100%
+                background #000
+        .vcp-controls-panel
+            height 35px
+        .vcp-timelabel,.vcp-timeline
+            display none
+        .vcp-playtoggle
+            width 2em
+        .vcp-fullscreen-toggle
+            background url(/static/img/icon/fullscreen.png) no-repeat center / 19px
+            height 35px
+        .vcp-fullscreen 
+            .vcp-fullscreen-toggle
+                background url(/static/img/icon/fullscreen-exit.png) no-repeat center / 19px
+        .vcp-error-tips
+            color #fff
+            height 20px
+            margin-top -45px
+            display none!important
+        .vcp-error-tips-new
+            background-color #000
+            position absolute
+            top 0
+            bottom 0
+            left 0
+            right 0
+            z-index 999
+            p
+                position absolute
+                color #fff
+                left 0
+                right 0
+                text-align center
+                top 50%
+                height 20px
+                margin-top -45px 
+        .audition,.live-recent-cont
+            position absolute
+            top 0px
+            left 0
+            width 100%
+            height 100%
+            text-align center
+            background rgba(65 65 65 .4)
+    
+            a
+                color #fff
+                display inline-block
+                padding-top 74px
+            img
+                width 64px
+        .audition
+            z-index 1
+        .live-recent-cont
+            .live-recent-text
+                position absolute
+                left 0
+                right 0
+                background-color rgba(0,0,0,.6)
+                color #fff
+                font-size 12px
+                height 47px
+                bottom 0
+                padding 3px 0
+                text-align left
+                text-indent 12px
+                line-height 20px
+
+                
+        #id_test_video
+            position absolute
+            width 100%
+            height 100%
+            z-index: 10
+        .live-tips
+            position absolute
+            top 0
+            right 0
+            bottom 0
+            left 0
+            background-color #000
+            display none
+            p
+                position absolute
+                height 20px
+                top 50%;
+                margin-top -45px
+                left 0
+                right 0
+                text-align center
+                color #fff
+                
+    .action
+        &
+            position fixed
+            bottom 0
+            left 0
+            z-index 10
+            background $color-primary
+            width 100%
+            text-align center
+        a
+            font-size $font_large
+            display block
+            /*padding 14px 0*/
+            height 49px
+            line-height 49px
+            color #fff
+        .apply
+            background $color-primary
+        div
+            /*display inline-block*/
+            padding 14px 0
+            font-size $font_large
+            color $color-desc-primary
+            background $color-gray
+    .section-presentation
+        &
+            background #fff
+            padding 15px 0
+        #tab
+            &
+                display flex
+                justify-content: space-around
+                border-bottom 1px solid #ececec
+            li
+                font-size $font_large
+                font-weight normal
+                width 71px
+                padding 11px 0
+                text-align center
+                position relative
+                top 1px
+
+            .active
+                border-bottom 2px solid $color-primary
+                color #268fff
+        #tab2
+            margin 0 20px
+        #container
+            margin-top 15px
+
+            #content1
+                display block
+                background $color-gray
+                .course-title
+                    font-size 18px !important 
+                    line-height 19px
+                    font-weight bold
+                    color #333
+                    background: #ffffff;
+                    padding: 0px 12px;
+                .intro, .teacher, .institute, .relevant,.course-description
+                    background #fff
+                    padding 0 12px
+                    .title
+                        font-size $font_large
+                        font-weight bold
+                        padding 15px 0
+                        color: #333333   
+                
+                .course-description
+                    font-size 14px
+                    padding-top 10px 
+                    padding-bottom 10px
+                    color:#797979;
+                    line-height 17px
+                .course-price
+                    /*background:#f5f5f5;*/
+                    padding 14px 12px
+                    .cur-free
+                        color $color-primary
+                    .cur-price
+                        color #ff1818
+                        font-size 20px
+                        display inline-block
+                        padding-right 10px
+                    .original-price
+                        font-size 14px
+                        color #797979
+                        text-decoration line-through
+                    .tag, .promise
+                        font-size 12px
+                        margin-top 7px
+                        margin-bottom 0
+                    .tag
+                        .discounts
+                            color #666666
+                            /*padding-left 18px*/
+                            /*background url(/static/img/course/discounts.png) no-repeat*/
+
+                        .tag-text
+                            background $color-red
+                            color #fff
+                            -webkit-transform-origin-x: 0;
+                            transform: scale(0.90);
+                            display: inline-block;
+                            padding: 0 1px;
+                    .promise
+                        .refund
+                            display inline-block
+                            /*padding-left 18px*/
+                            /*background url(/static/img/course/refund.png) no-repeat*/
+                        .refund-t
+                            background $color-primary
+                            color #fff
+                            -webkit-transform-origin-x: 0;
+                            transform: scale(0.90);
+                            display: inline-block;
+                            padding: 0 1px;
+                .intro
+                    word-break break-word
+                    max-width 100%
+                    .intro-title
+                        font-size 16px
+                        line-height 1em
+                        padding-top 15px
+                        padding-bottom 21px
+                        color #333
+                        font-weight: bold
+                    table td,div p,p b{
+                        color: #797979 !important;
+                        font-size: 14px;
+                        font-weight:inherit;
+                    }
+                .intro p b font{
+                        color: #797979 !important;
+                }  
+                .teacher, .institute, .relevant
+                    margin-top 10px
+                .teacher, .institute
+                    .media-padding
+                        padding-bottom 20px
+                        .media-left
+                            margin-right 10px
+                            img
+                                width 50px
+                                height 50px
+                                border-radius 50%
+                        .media-body
+                            .modal-title
+                                font-size $font_normal
+                                font-weight bold
+                            .modal-description
+                                font-size $font_small
+                                color $color-gray
+                            .text-justify
+                                font-size 12px
+                                color #999
+                                line-height 16px
+                                width 280px    
+
+                .institute
+                    .modal-title
+                        margin-bottom 13px
+                    .media-body
+                        width 287px
+                    .data
+                        &
+                            margin-bottom 9px
+                            display flex
+                            justify-content space-around
+                            width 287px
+                        .institute-data
+                            &
+                                text-align center
+                                border-right 1px solid #ddd
+                                width 33%
+                            :first-child
+                                font-size $font_small
+                                margin-bottom 6px
+                                color $color-desc-primary
+                        :last-child
+                            border-right none
+                            
+                        .data-good
+                            width 75px
+                            text-align left
+                        .data-count
+                            width 137px
+                            text-align center
+                        .data-student
+                            width 75px
+                            text-align right
+                        .data-good>div, .data-count>div,.data-student>div
+                            display inline-block
+                        .percent
+                            color #333
+                            font-weight: 400   
+                    .short-des
+                        font-size $font_small
+                .relevant
+                    .media-padding
+                        padding-bottom 10px
+                    img
+                        width 120px
+                        height 80px
+                    .media-body
+                        margin-left 15px
+                        width 211px
+                        height 80px
+                        display flex
+                        flex-direction column
+                        justify-content space-between                      
+                        .modal-title 
+                            line-height: 19px
+                            width: 196px
+                            font-size: 14px
+                            color: #3c3c3c
+                        p
+                            color $color-red
+                            font-size $font_small
+                            line-height: 16px
+                            margin-bottom  10px
+                        .noprice
+                            color #268FFF !important    
+            #content2
+                &
+                    display none
+                .chapter
+                    &
+                        border-bottom 1px solid #ececec
+                        margin-bottom 20px
+                        padding 0 12px
+                    .ico
+                        color $color-primary
+                    .title
+                        font-size $font_normal
+                        padding-bottom  15px
+                        line-height 18px    
+                        position relative
+                        span
+                            color: #333
+                        .cont-text
+                            margin-right 20px
+                            float: inherit;
+                            display: block;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow hidden
+                            &+i
+                                position absolute 
+                                top 3px
+                                right 5px
+                        .ion-ios-arrow-down
+                            color #797979  
+                            font-size 16px
+                            font-weight bold
+                    .catalog
+                        display none
+                        overflow hidden
+                .expand
+                    .catalog
+                        display block
+                    .ion-ios-arrow-down
+                        transform rotate(180deg)
+                    .active
+                        height auto
+                    .section
+                        padding 10px 10px 6px 10px
+                        background $color-gray
+                        font-size $font_small
+                        margin-bottom 10px
+                        min-height 61px
+                        .section-title                            
+                            .second-title
+                                color:#3c3c3c
+                                margin-right 15px
+                                margin-left 5px
+                                display block
+                                overflow  hidden
+                                text-overflow ellipsis
+                                display -webkit-box
+                                -webkit-line-clamp 2
+                                -webkit-box-orient vertical   
+                                line-height 20px          
+                        .section-text
+                            padding 5px 0 0 5px
+                            color #3C3C3C
+                            .ico
+                                color $color-primary
+                                margin-right 5px
+                                width 17px
+                                height 10px
+                                display inline-block
+                                background-image url(/static/img/icon/playimg.png)
+                                background-repeat no-repeat
+                                background-size 100%
+                                background-position center 
+                                float left
+                                margin-top 5px
+                                &.live
+                                    background-image url(/static/img/icon/live.png)
+                                    background-size 15px 15px
+                                    height 15px
+                                    margin-top 0px
+                                &.live-end
+                                    background-image url(/static/img/icon/live-end.png)
+                                    background-size 15px 15px
+                                    height 15px
+                                    margin-top 0px
+                                &.lived
+                                    background-image url(/static/img/icon/lived.png)
+                                    background-size 16px 14px
+                                    height 15px
+                                    margin-top 2px
+                            .time
+                                padding-left 5px
+                            .pull-right
+                                .live-text
+                                    color $color-primary
+                                    padding-right 47px
+                                .live-end-text
+                                    padding-right 47px
+                                    color #797979
+                                .live-start-text
+                                    padding-right 47px
+                            .live-end-cont
+                                &.dis
+                                    color #797979
+                        &.active
+                            .second-title
+                                color #268FFF !important
+            #content3
+                &
+                    display none
+                .praise
+                    text-align center
+                    width 210px
+                    margin 0 auto
+                    background url(/static/img/course/comment-bg.png) no-repeat 0px 20px
+                    background-size 210px
+                    .value
+                        font-size 22px
+                        color $color-red
+                    .character 
+                        font-size: 14px
+                        color: #3c3c3c 
+                .tab-container
+                    background $color-gray
+                    padding-top 10px
+                .tab
+                    &
+                        display flex
+                        align-items center
+                        justify-content space-between
+                        padding-bottom 10px
+                        background #fff
+                        padding-top 10px
+                        border-bottom 1px solid #ececec
+                    li
+                        &
+                            text-align center
+                        span
+                            display block
+                    .witchComment
+                        cursor pointer
+                        font-size 12px
+                        flex 1
+                        
+                    .active
+                        color $color-primary
+                        font-size 13px
+                .comment-content
+                    .border-bottom
+                        &
+                            padding 13px 14px 0
+                        .wt-media
+                            word-break break-word /*自动换行*/
+                            .media-left
+                                &
+                                    text-align center
+                                    padding-right 20px
+                                    font-size 12px
+                                    color #797979
+                                img
+                                    width 40px
+                                    height 40px
+                                    border-radius 50%
+                                div
+                                    margin-top 10px
+                                    width 50px
+                                    word-wrap break-word
+                            .media-body
+                                &
+                                    width 241px
+                                    border-bottom 1px solid #ececec
+                                    padding-bottom 14px
+
+                                .modal-title
+                                    .active
+                                        color #FFB040
+                                    .gray
+                                        color #cccccc
+                                    p
+                                        min-height 30px
+                                .time
+                                    color #cccccc
+                        .revert
+                            padding-left 0
+                            li
+                                &
+                                    border-top 1px solid #eee
+                                    margin-top 20px
+                                    padding-top 20px
+                                .user
+                                    color $color-primary
+                                .revert-time
+                                    margin-top 20px
+                    .list-comment .border-bottom:last-child .media-body
+                        border-bottom none
+                    .pagination
+                        .active
+                            background  $color-primary
+                            a
+                                background-color $color-primary
+                                border-color $color-primary
+.rich-text
+    img
+        max-width 100%
+
+
+ .nav-icon-right
+    text-align:center !important;
+      
+.share
+    display:inline-block; 
+    cursor:pointer;
+       
+    p
+        height:2px;
+        width:18px;
+        background:#3c3c3c;
+        border-radius:1px;
+
+        &:nth-child(2)
+            width:15px
+            margin:3px 0
+
+        &:nth-child(3)
+            width:13px
+
+
+.pull-down
+    width:89px
+    height:140px
+    background:#fff
+    position:fixed
+    top:51px
+    right:13px
+    border: 1px solid #dedede
+    border-top:none
+    border-radius: 0 0 2px 2px
+    font-size:14px
+    color:#797979    
+    text-align:center
+ 	  
+    &.playNone
+        
+        display none
+        z-index 10
+
+    &.active
+        display block
+        z-index 9999
+        
+        li
+            text-align: center
+            height:17px !important
+            width: 100%
+            font-size: 14px
+            color #797979
+            display: flex
+            justify-content: center
+            align-items: center
+            margin 19px 0 26px 0
+        .home span
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            background: #fff  url(/static/img/icon/home.png) no-repeat center;
+            background-size:15px 15px;
+        .collect span
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            background: #fff  url(/static/img/course/collect.png) no-repeat center;
+            background-size:15px 15px;
+     
+        .collect .active
+            background: #fff url(/static/img/course/yellowstar.png) no-repeat center;
+            background-size:15px 15px;
+     
+     
+        .Share span
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            background: #fff  url(/static/img/course/share.png) no-repeat center;
+            background-size:15px 15px;
+       
+
+
+.pull-right .icon-try-listen{
+    display: inline-block;
+    width:40px;
+    height:16px;
+    background: url(/static/img/icon/try-listen.png);
+    background-size:40px 16px;
+    }
+  
+
+.shareWraper
+    display:none;
+    width:375px;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.60);
+    z-index:9999 !important;
+
+    .shareBox
+        position:absolute;
+        bottom:0px;
+        background:#fff;
+        width:375px;
+        height:180px;
+        text-align: center;
+       
+        .content
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            height:133px;
+            font-size:13px;
+            color:#797979;
+            .box
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            & 
+                .bg
+                    width 55px
+                    height 55px
+                    margin-bottom 10px
+                    background-size 55px 55px
+            .sina
+                margin-right:60px;   
+                div
+                    background:url(/static/img/course/sina.png) no-repeat;
+                    background-size:55px 55px;
+            
+            .qq 
+                div
+                    background:url(/static/img/course/qqkone.png) no-repeat;
+                    background-size:55px 55px;
+            
+        .cancel
+            text-align:center;
+            font-size:14px;
+            color:#333333;
+            font-weight: 500;
+               
+            
+.api-socical{
+     display:none; 
+ }
+ 
+#content3
+    .no-result
+        padding-top: 20px
+
+.video-js
+.video-dimensions
+    width 100%
+    height 100%
+.vjs-wdy-skin
+    &.video-dimensions
+        width 100%
+        height 100%
+    .vjs-big-play-button
+        position absolute
+        height 50px
+        width 50px
+        margin -25px 0 0 -25px
+        top 50%
+        left 50%
+        border-radius 50%
+    &.vjs-paused
+        .vjs-big-play-button
+            display block

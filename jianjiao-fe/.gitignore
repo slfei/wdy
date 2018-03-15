@@ -1,0 +1,10 @@
+node_modules
+.idea
+build
+rev
+template
+dist
+*.out
+*.log
+.DS_store
+_windows

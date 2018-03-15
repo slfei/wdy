@@ -1,0 +1,32 @@
+.share_area
+    position absolute
+    width 144px
+    left -53px
+    display none
+    margin-top 24px
+    .share_bg
+        background url('/build/img/share/share_bg.png') no-repeat
+        background-size  100%
+        background-position center
+        background-color #fff
+        height 40px
+        padding-top 1px
+        .social-share
+            text-align center
+            a
+                font-size 22px
+                border none
+                .wechat-qrcode
+                    z-index 999
+            a ~ a
+                margin-left 10px
+
+.share
+    position relative
+    cursor pointer
+    &:hover
+        .share_area
+            display block
+    .share_space
+        height 5px
+        width 88px

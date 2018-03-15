@@ -1,0 +1,54 @@
+.section-header-title,
+.section-header-qrcode,
+.section-col-text,
+.section-symbol1,
+.section-symbol2,
+.section-symbol3,
+.section-middle-title,
+.panel{
+  transition: opacity .8s, transform 1s;
+}
+.section-header-qrcode{
+  transition-delay: .3s;
+}
+.section-col-text{
+  transition-delay: .6s;
+}
+.section-symbol2{
+  transition-delay: .9s;
+}
+.section-symbol1{
+  transition-delay: 1.2s;
+}
+.section-symbol3{
+  transition-delay: 1.5s;
+}
+.panel{
+  transition-delay: .2s;
+}
+.section-header-title.lazyload,
+.section-header-qrcode.lazyload,
+.section-middle-title.lazyload{
+  opacity:0;
+  transform:translateY(5rem);
+}
+/*
+.panel.lazyload{
+  opacity:0;
+  transform:scale(.8);
+}*/
+.section-symbol1.lazyload{
+  opacity:0;
+  transform:translateY(5rem);
+}
+.section-symbol2.lazyload{
+  opacity:0;
+  transform:scale(.2);
+}
+.section-symbol3.lazyload{
+  opacity:0;
+  transform:scale(.7);
+}
+.section-col-text.lazyload{
+  opacity:0;
+}

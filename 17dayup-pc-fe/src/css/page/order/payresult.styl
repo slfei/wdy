@@ -1,0 +1,85 @@
+@import '../../config.styl'
+
+.pay-result
+    &
+        font-size $font_normal
+        background #fff
+        margin-top 28px
+        margin-bottom 28px
+        padding-top 46px
+    a
+        color $color_dimgray
+    a:hover,a:focus
+        text-decoration none
+        color $color_primary
+    .div-padding
+        margin-bottom 26px
+        .text
+            font-size 24px
+    .result_loading
+        padding 180px 0
+        display block
+    .loading
+        width 200px
+        margin 0 auto
+    .result_success,.result_err
+        display none
+    .result_success
+        padding-top 60px
+        padding-bottom 220px !important
+    .result_err
+        padding-top 60px
+        padding-bottom 160px !important
+    .section-order
+        &
+            padding-bottom  70px
+            width 445px
+            margin 0 auto
+        .success
+            text-align center
+            margin-bottom 40px
+            div
+                display inline-block
+                span.ico
+                    font-size 100px
+                    color #00C801
+                .text
+                    margin-top 60px
+                    margin-left 20px
+                    font-size 24px
+        .error
+            text-align center
+            margin-bottom 40px
+            div
+                display inline-block
+                span.ico
+                    font-size 100px
+                    color #ff1818
+                .text
+                    margin-top 60px
+                    margin-left 20px
+                    font-size 24px
+        .form-group
+            span.gray
+                color $color_gray
+        .description
+            text-align center
+            a
+               color #268fff
+        .back
+            a
+                color #fff
+                background $color_primary
+                border-radius 4px
+                padding 20px 0px
+                display inline-block
+                font-size $font_large
+                margin-top 20px
+                width 150px
+            a ~ a
+                margin-left 20px
+
+
+
+
+

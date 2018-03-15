@@ -1,0 +1,152 @@
+@import './footer.styl'
+@import "./icon.styl"
+@import "./btn.styl"
+@import "./jui.styl"
+@import "./transition.styl"
+@import "./reset.styl"
+
+html,body
+    font-family sans-serif
+    -webkit-touch-callout: none;
+    -webkit-user-select: none
+
+input[type=date] {
+    display:block;
+    -webkit-appearance:button;
+    -moz-appearance:button;
+    appearance:button;
+}
+
+*
+    -webkit-tap-highlight-color rgba(0,0,0,0)
+//    -webkit-user-select none
+:not(input, textarea), body
+    -webkit-touch-callout: none;
+    -webkit-user-select: none
+
+
+a
+    text-decoration none
+    color inherit
+//
+body
+    padding 0
+    margin 0
+    background #f0f0f0
+    color #333
+
+.modal-open
+    overflow hidden
+
+
+ul, li
+    margin 0
+    padding 0
+    list-style none
+#app
+    .mint-header, .header
+        text-align center
+        height 1.2rem
+        line-height 1.2rem
+        background #e9324b
+        color #fff
+        z-index 1500
+        top 0
+
+        .ion-chevron-left
+            font-size 42px
+            padding 5px 20px
+
+    .fixed
+        position fixed
+        &.header
+            width 100%
+
+    .flex
+        width 100%
+        display flex
+
+        .flex-item
+            flex 1
+
+        .flex-1
+            flex 1
+        .flex-2
+            flex 2
+
+
+    .pull-left
+        float left
+    .pull-right
+        float right
+
+.header
+    a
+        color #fff
+        padding 0 .373333rem
+
+
+.has-header
+    padding-top 1.17rem !important
+
+.has-footer
+    padding-bottom 99px !important
+
+.is-react-native
+    #app .header
+        display none
+    .has-header
+        padding-top 0 !important
+    .rn-hidden
+        display none !important
+.is-open-web
+    #app .header
+    #app .footer-tab
+        display none
+    .has-header
+        padding-top 0 !important
+    .has-footer
+        padding-bottom 0 !important
+
+.no-result
+    font-size 24px
+    color #999
+    text-align center
+    border-top 2px solid #f0f0f0
+    padding 30px 0
+
+    .text
+        margin-top 24px
+.middle-ud
+    display flex
+    align-items center
+.noScorll
+    overflow hidden
+.load-more-loading
+    height 100px
+    font-size 32px
+    text-align center
+    line-height 100px
+
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.liked .icon-thumb:before,
+.active .icon-thumb:before,
+.liked .icon-thumb-down:before,
+.active .icon-thumb-down:before,
+ {
+    background: #e9314a
+}
+
+
+@viewport
+{
+    viewport-fit: cover;
+}

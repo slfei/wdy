@@ -1,0 +1,17 @@
+{
+    "title":"Personal data",
+    "number":"Account",
+    "nickname":"Nickname",
+    "role":"Roles",
+    "bind":"Institution",
+    "unbind":"Unbind",
+    "confirm":{
+        "title":"Unbundling Tips",
+        "cont":["Sure to unbundle...","...with the agency?"]
+    },
+    "dialog":{
+        "title":"Tip",
+        "no_privilege":"No permission to access this page"
+    }
+}
+
